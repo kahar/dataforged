@@ -424,53 +424,53 @@
         "Table": [
           { "Chance": 2, "Description": "Agent" },
           { "Chance": 4, "Description": "AI" },
-          { "Chance": 6, "Description": "Artisan" },
-          { "Chance": 8, "Description": "Assassin" },
-          { "Chance": 10, "Description": "Bounty Hunter" },
-          { "Chance": 12, "Description": "Courier" },
-          { "Chance": 14, "Description": "Crew" },
-          { "Chance": 16, "Description": "Criminal" },
-          { "Chance": 18, "Description": "Cultist" },
-          { "Chance": 20, "Description": "Diplomat" },
-          { "Chance": 22, "Description": "Engineer" },
-          { "Chance": 24, "Description": "Entertainer" },
-          { "Chance": 26, "Description": "Explorer" },
-          { "Chance": 28, "Description": "Farmer" },
-          { "Chance": 30, "Description": "Fugitive" },
-          { "Chance": 32, "Description": "Guard" },
-          { "Chance": 34, "Description": "Guide" },
-          { "Chance": 36, "Description": "Healer" },
-          { "Chance": 38, "Description": "Historian" },
-          { "Chance": 40, "Description": "Hunter" },
-          { "Chance": 42, "Description": "Investigator" },
-          { "Chance": 44, "Description": "Laborer" },
-          { "Chance": 46, "Description": "Lawkeeper" },
-          { "Chance": 48, "Description": "Leader" },
-          { "Chance": 50, "Description": "Mercenary" },
-          { "Chance": 52, "Description": "Merchant" },
-          { "Chance": 54, "Description": "Miner" },
-          { "Chance": 56, "Description": "Mystic" },
-          { "Chance": 58, "Description": "Navigator" },
-          { "Chance": 60, "Description": "Outcast" },
-          { "Chance": 62, "Description": "Pilgrim" },
+          { "Chance": 6, "Description": "Rzemieślnik/Artysta" },
+          { "Chance": 8, "Description": "Morderca" },
+          { "Chance": 10, "Description": "Łowca nagród" },
+          { "Chance": 12, "Description": "Kurier" },
+          { "Chance": 14, "Description": "Załoga statku" },
+          { "Chance": 16, "Description": "Kryminalista" },
+          { "Chance": 18, "Description": "Kultysta" },
+          { "Chance": 20, "Description": "Dyplomata" },
+          { "Chance": 22, "Description": "Inżynier" },
+          { "Chance": 24, "Description": "Komik/gwiazda" },
+          { "Chance": 26, "Description": "Poszukiwacz" },
+          { "Chance": 28, "Description": "Rolnik" },
+          { "Chance": 30, "Description": "Zbieg" },
+          { "Chance": 32, "Description": "Strażnik" },
+          { "Chance": 34, "Description": "Przewodnik" },
+          { "Chance": 36, "Description": "Uzdrowiciel" },
+          { "Chance": 38, "Description": "Historyk" },
+          { "Chance": 40, "Description": "Łowca" },
+          { "Chance": 42, "Description": "Badacz" },
+          { "Chance": 44, "Description": "Robotnik" },
+          { "Chance": 46, "Description": "Stróż prawa" },
+          { "Chance": 48, "Description": "Lider" },
+          { "Chance": 50, "Description": "Najemnik" },
+          { "Chance": 52, "Description": "Kupiec" },
+          { "Chance": 54, "Description": "Górnik" },
+          { "Chance": 56, "Description": "Mistyk" },
+          { "Chance": 58, "Description": "Nawigator" },
+          { "Chance": 60, "Description": "Wyrzutek" },
+          { "Chance": 62, "Description": "Pielgrzym" },
           { "Chance": 64, "Description": "Pilot" },
-          { "Chance": 66, "Description": "Pirate" },
-          { "Chance": 68, "Description": "Preacher" },
-          { "Chance": 70, "Description": "Prophet" },
-          { "Chance": 72, "Description": "Raider" },
-          { "Chance": 74, "Description": "Researcher" },
-          { "Chance": 76, "Description": "Scavenger" },
-          { "Chance": 78, "Description": "Scholar" },
-          { "Chance": 80, "Description": "Scout" },
-          { "Chance": 82, "Description": "Shipwright" },
-          { "Chance": 84, "Description": "Smuggler" },
-          { "Chance": 86, "Description": "Soldier" },
-          { "Chance": 88, "Description": "Spacer" },
-          { "Chance": 90, "Description": "Technician" },
-          { "Chance": 92, "Description": "Thief" },
+          { "Chance": 66, "Description": "Pirat" },
+          { "Chance": 68, "Description": "Kaznodzieja" },
+          { "Chance": 70, "Description": "Prorok" },
+          { "Chance": 72, "Description": "Bombowiec" },
+          { "Chance": 74, "Description": "Badacz" },
+          { "Chance": 76, "Description": "Padlinożerca" },
+          { "Chance": 78, "Description": "Uczony" },
+          { "Chance": 80, "Description": "Zwiadowca" },
+          { "Chance": 82, "Description": "Cieśla okrętowy" },
+          { "Chance": 84, "Description": "Przemytnik" },
+          { "Chance": 86, "Description": "Żołnierz" },
+          { "Chance": 88, "Description": "Spacer/Kosmiczny podróżnik" },
+          { "Chance": 90, "Description": "Technik" },
+          { "Chance": 92, "Description": "Złodziej" },
           {
             "Chance": 95,
-            "Description": "▶️Action + Theme",
+            "Description": "▶️Akcja + Motyw",
             "Oracles": [
               { "Category": "Core", "Name": "Action" },
               { "Category": "Core", "Name": "Theme" }
@@ -478,7 +478,7 @@
           },
           {
             "Chance": 100,
-            "Description": "Roll twice",
+            "Description": "Rzuć dwa razy",
             "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
           }
         ]
@@ -490,7 +490,7 @@
         "Table": [
           {
             "Chance": 2,
-            "Description": "Avenge a wrong",
+            "Description": "Pomścić zło/krzywdę",
             "Suggest": [
               {
                 "Oracles": [
@@ -500,15 +500,15 @@
               }
             ]
           },
-          { "Chance": 4, "Description": "Build a home" },
+          { "Chance": 4, "Description": "Zbudować dom" },
           {
             "Chance": 7,
-            "Description": "Build a relationship",
+            "Description": "Zbudować relację",
             "Suggest": [{ "Game object": { "Object type": "Character" } }]
           },
           {
             "Chance": 10,
-            "Description": "Claim a resource",
+            "Description": "Zdobyć zasób",
             "Suggest": [
               {
                 "Oracles": [
@@ -518,10 +518,10 @@
               }
             ]
           },
-          { "Chance": 12, "Description": "Collect a debt" },
+          { "Chance": 12, "Description": "Odbebrać dług" },
           {
             "Chance": 14,
-            "Description": "Craft an object",
+            "Description": "Stworzyć przedmiot",
             "Suggest": [
               {
                 "Oracles": [
@@ -531,27 +531,27 @@
               }
             ]
           },
-          { "Chance": 16, "Description": "Cure an ill" },
+          { "Chance": 16, "Description": "Wyleczyć chorobę/zarazę" },
           {
             "Chance": 18,
-            "Description": "Defeat a rival",
+            "Description": "Pokonać rywala",
             "Suggest": [{ "Game object": { "Object type": "Character" } }]
           },
           {
             "Chance": 20,
-            "Description": "Defend a person",
+            "Description": "Obronić osobę",
             "Suggest": [{ "Game object": { "Object type": "Character" } }]
           },
           {
             "Chance": 23,
-            "Description": "Defend a place",
+            "Description": "Obronić miejsce",
             "Suggest": [
               { "Oracles": [{ "Category": "Space", "Name": "Space Sighting" }] }
             ]
           },
           {
             "Chance": 25,
-            "Description": "Discover a truth",
+            "Description": "Odkryć prawdę",
             "Suggest": [
               {
                 "Oracles": [
@@ -563,7 +563,7 @@
           },
           {
             "Chance": 27,
-            "Description": "End a conflict",
+            "Description": "Zakończyć konflikt",
             "Suggest": [
               {
                 "Oracles": [
@@ -573,17 +573,17 @@
               }
             ]
           },
-          { "Chance": 29, "Description": "Escape a captor" },
-          { "Chance": 31, "Description": "Fight injustice" },
+          { "Chance": 29, "Description": "Uciec przed oprawcą" },
+          { "Chance": 31, "Description": "Walczyć z niesprawiedliwością" },
           {
             "Chance": 33,
-            "Description": "Find a person",
+            "Description": "Znaleźć osobę",
             "Suggest": [{ "Game object": { "Object type": "Character" } }]
           },
-          { "Chance": 35, "Description": "Forge an alliance" },
+          { "Chance": 35, "Description": "Zawrzeć sojusz" },
           {
             "Chance": 37,
-            "Description": "Gain knowledge",
+            "Description": "Zdobyć wiedzę",
             "Suggest": [
               {
                 "Oracles": [
@@ -593,11 +593,11 @@
               }
             ]
           },
-          { "Chance": 39, "Description": "Gain riches" },
-          { "Chance": 41, "Description": "Maintain order" },
+          { "Chance": 39, "Description": "Zdobyć bogactwa" },
+          { "Chance": 41, "Description": "Zachować porządek" },
           {
             "Chance": 43,
-            "Description": "Make an agreement",
+            "Description": "Zawrzeć umowę",
             "Suggest": [
               {
                 "Oracles": [
@@ -609,7 +609,7 @@
           },
           {
             "Chance": 45,
-            "Description": "Obtain an object",
+            "Description": "Zdobyć przedmiot",
             "Suggest": [
               {
                 "Oracles": [
@@ -619,15 +619,15 @@
               }
             ]
           },
-          { "Chance": 47, "Description": "Pay a debt" },
+          { "Chance": 47, "Description": "Spłacić dług" },
           {
             "Chance": 49,
-            "Description": "Protect a lifeform",
+            "Description": "Chronić formę życia",
             "Suggest": [{ "Game object": { "Object type": "Creature" } }]
           },
           {
             "Chance": 51,
-            "Description": "Protect a secret",
+            "Description": "Chronić sekret",
             "Suggest": [
               {
                 "Oracles": [
@@ -639,7 +639,7 @@
           },
           {
             "Chance": 53,
-            "Description": "Prove worthiness",
+            "Description": "Udowodnić swoją wartość",
             "Suggest": [
               {
                 "Oracles": [
@@ -649,11 +649,11 @@
               }
             ]
           },
-          { "Chance": 55, "Description": "Rebel against power" },
-          { "Chance": 57, "Description": "Refute a falsehood" },
+          { "Chance": 55, "Description": "Zbuntować/buntować się przeciwko władzy" },
+          { "Chance": 57, "Description": "Odrzucić fałsz" },
           {
             "Chance": 59,
-            "Description": "Repair a technology",
+            "Description": "Naprawić technologię",
             "Suggest": [
               {
                 "Oracles": [
@@ -665,7 +665,7 @@
           },
           {
             "Chance": 61,
-            "Description": "Resolve a dispute",
+            "Description": "Rozwiązać spór",
             "Suggest": [
               {
                 "Oracles": [
@@ -677,12 +677,12 @@
           },
           {
             "Chance": 63,
-            "Description": "Restore a relationship",
+            "Description": "Przywrócić relację",
             "Suggest": [{ "Game object": { "Object type": "Character" } }]
           },
           {
             "Chance": 65,
-            "Description": "Sabotage a technology",
+            "Description": "Sabotować technologię",
             "Suggest": [
               {
                 "Oracles": [
@@ -694,7 +694,7 @@
           },
           {
             "Chance": 68,
-            "Description": "Secure a resource",
+            "Description": "Zabezpieczyć zasób",
             "Suggest": [
               {
                 "Oracles": [
@@ -706,7 +706,7 @@
           },
           {
             "Chance": 70,
-            "Description": "Seek redemption",
+            "Description": "Znaleźć odkupienie",
             "Suggest": [
               {
                 "Oracles": [
@@ -718,7 +718,7 @@
           },
           {
             "Chance": 72,
-            "Description": "Seize power",
+            "Description": "Przejąć władzę",
             "Suggest": [
               {
                 "Oracles": [
@@ -730,7 +730,7 @@
           },
           {
             "Chance": 74,
-            "Description": "Solve a mystery",
+            "Description": "Rozwiąż zagadkę",
             "Suggest": [
               {
                 "Oracles": [
@@ -740,22 +740,22 @@
               }
             ]
           },
-          { "Chance": 76, "Description": "Spread faith" },
+          { "Chance": 76, "Description": "Szerzyć wiarę " },
           {
             "Chance": 78,
-            "Description": "Travel to a place",
+            "Description": "Podróżować do miejsca",
             "Suggest": [
               { "Oracles": [{ "Category": "Space", "Name": "Space Sighting" }] }
             ]
           },
           {
             "Chance": 80,
-            "Description": "Undermine a relationship",
+            "Description": "Podkopać relację",
             "Suggest": [{ "Game object": { "Object type": "Character" } }]
           },
           {
             "Chance": 90,
-            "Description": "▶️Action + Theme",
+            "Description": "▶️Akcja + Motyw",
             "Oracles": [
               { "Category": "Core", "Name": "Action" },
               { "Category": "Core", "Name": "Theme" }
@@ -763,7 +763,7 @@
           },
           {
             "Chance": 100,
-            "Description": "Roll twice",
+            "Description": "Rzuć dwa razy",
             "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
           }
         ]
@@ -774,106 +774,106 @@
         "Semantics": { "Part of speech": ["adjective"] },
         "Max rolls": 3,
         "Table": [
-          { "Chance": 1, "Description": "Addicted" },
-          { "Chance": 2, "Description": "Adventurous" },
-          { "Chance": 3, "Description": "Afflicted" },
-          { "Chance": 4, "Description": "Aggressive" },
-          { "Chance": 5, "Description": "Ambitious" },
-          { "Chance": 6, "Description": "Angry" },
-          { "Chance": 7, "Description": "Anxious" },
-          { "Chance": 8, "Description": "Apathetic" },
-          { "Chance": 9, "Description": "Bitter" },
-          { "Chance": 10, "Description": "Boastful" },
-          { "Chance": 11, "Description": "Boisterous" },
-          { "Chance": 12, "Description": "Bold" },
-          { "Chance": 13, "Description": "Brave" },
-          { "Chance": 14, "Description": "Careless" },
-          { "Chance": 15, "Description": "Cautious" },
-          { "Chance": 16, "Description": "Charismatic" },
-          { "Chance": 17, "Description": "Clever" },
-          { "Chance": 18, "Description": "Conceited" },
-          { "Chance": 19, "Description": "Confident" },
-          { "Chance": 20, "Description": "Confused" },
-          { "Chance": 21, "Description": "Connected" },
-          { "Chance": 22, "Description": "Corrupted" },
-          { "Chance": 23, "Description": "Cowardly" },
-          { "Chance": 24, "Description": "Creative" },
-          { "Chance": 25, "Description": "Critical" },
-          { "Chance": 26, "Description": "Cruel" },
-          { "Chance": 27, "Description": "Cunning" },
-          { "Chance": 28, "Description": "Dangerous" },
-          { "Chance": 29, "Description": "Deceitful" },
-          { "Chance": 30, "Description": "Defiant" },
-          { "Chance": 31, "Description": "Determined" },
-          { "Chance": 32, "Description": "Disabled" },
-          { "Chance": 33, "Description": "Doomed" },
-          { "Chance": 34, "Description": "Driven" },
-          { "Chance": 35, "Description": "Dying" },
-          { "Chance": 36, "Description": "Envious" },
-          { "Chance": 37, "Description": "Experienced" },
-          { "Chance": 38, "Description": "Faithful" },
-          { "Chance": 39, "Description": "Generous" },
-          { "Chance": 40, "Description": "Gifted" },
-          { "Chance": 41, "Description": "Greedy" },
-          { "Chance": 42, "Description": "Grief-stricken" },
-          { "Chance": 43, "Description": "Handy" },
-          { "Chance": 44, "Description": "Hardhearted" },
-          { "Chance": 45, "Description": "Haunted" },
-          { "Chance": 46, "Description": "Honorable" },
-          { "Chance": 47, "Description": "Hot-tempered" },
-          { "Chance": 48, "Description": "Impulsive" },
-          { "Chance": 49, "Description": "Incompetent" },
-          { "Chance": 50, "Description": "Independent" },
-          { "Chance": 51, "Description": "Infamous" },
-          { "Chance": 52, "Description": "Influential" },
-          { "Chance": 53, "Description": "Insensitive" },
-          { "Chance": 54, "Description": "Insightful" },
-          { "Chance": 55, "Description": "Intelligent" },
-          { "Chance": 56, "Description": "Intolerant" },
-          { "Chance": 57, "Description": "Ironsworn" },
-          { "Chance": 58, "Description": "Kind" },
-          { "Chance": 59, "Description": "Law-abiding" },
-          { "Chance": 60, "Description": "Lonely" },
-          { "Chance": 61, "Description": "Loving" },
-          { "Chance": 62, "Description": "Loyal" },
-          { "Chance": 63, "Description": "Manipulative" },
-          { "Chance": 64, "Description": "Oblivious" },
-          { "Chance": 65, "Description": "Obsessed" },
-          { "Chance": 66, "Description": "Oppressed" },
-          { "Chance": 67, "Description": "Passive" },
-          { "Chance": 68, "Description": "Powerful" },
-          { "Chance": 69, "Description": "Proud" },
-          { "Chance": 70, "Description": "Quiet" },
-          { "Chance": 71, "Description": "Quirky" },
-          { "Chance": 72, "Description": "Rebellious" },
-          { "Chance": 73, "Description": "Reclusive" },
-          { "Chance": 74, "Description": "Relaxed" },
-          { "Chance": 75, "Description": "Remorseful" },
-          { "Chance": 76, "Description": "Resourceful" },
-          { "Chance": 77, "Description": "Secretive" },
-          { "Chance": 78, "Description": "Selfish" },
-          { "Chance": 79, "Description": "Sociable" },
-          { "Chance": 80, "Description": "Stealthy" },
-          { "Chance": 81, "Description": "Stern" },
-          { "Chance": 82, "Description": "Stingy" },
-          { "Chance": 83, "Description": "Stoic" },
-          { "Chance": 84, "Description": "Strong" },
-          { "Chance": 85, "Description": "Stubborn" },
-          { "Chance": 86, "Description": "Successful" },
-          { "Chance": 87, "Description": "Suspicious" },
-          { "Chance": 88, "Description": "Talented" },
-          { "Chance": 89, "Description": "Technical" },
-          { "Chance": 90, "Description": "Timid" },
-          { "Chance": 91, "Description": "Tolerant" },
-          { "Chance": 92, "Description": "Tough" },
-          { "Chance": 93, "Description": "Vengeful" },
-          { "Chance": 94, "Description": "Violent" },
-          { "Chance": 95, "Description": "Wary" },
-          { "Chance": 96, "Description": "Watchful" },
-          { "Chance": 97, "Description": "Weak" },
-          { "Chance": 98, "Description": "Weary" },
-          { "Chance": 99, "Description": "Wild" },
-          { "Chance": 100, "Description": "Wise" }
+          { "Chance": 1, "Description": "Uzależniony" },
+          { "Chance": 2, "Description": "Awanturniczy" },
+          { "Chance": 3, "Description": "Cierpiący/Dotknięty czymś" },
+          { "Chance": 4, "Description": "Agresywny" },
+          { "Chance": 5, "Description": "Ambitny" },
+          { "Chance": 6, "Description": "Zły/Wściekły" },
+          { "Chance": 7, "Description": "Niespokojny/Zatroskany" },
+          { "Chance": 8, "Description": "Apatyczny" },
+          { "Chance": 9, "Description": "Gorzki/Ostry/Zajadły" },
+          { "Chance": 10, "Description": "Chełpliwy" },
+          { "Chance": 11, "Description": "Porywisty" },
+          { "Chance": 12, "Description": "Śmiały" },
+          { "Chance": 13, "Description": "Odważny" },
+          { "Chance": 14, "Description": "Nieostrożny" },
+          { "Chance": 15, "Description": "Ostrożny" },
+          { "Chance": 16, "Description": "Charyzmatyczny" },
+          { "Chance": 17, "Description": "Sprytny" },
+          { "Chance": 18, "Description": "Zarozumiały" },
+          { "Chance": 19, "Description": "Pewny siebie" },
+          { "Chance": 20, "Description": "Zdezorientowany" },
+          { "Chance": 21, "Description": "Połączony" },
+          { "Chance": 22, "Description": "Skorumpowany" },
+          { "Chance": 23, "Description": "Tchórzliwy" },
+          { "Chance": 24, "Description": "Twórczy" },
+          { "Chance": 25, "Description": "Krytyczny" },
+          { "Chance": 26, "Description": "Okrutny" },
+          { "Chance": 27, "Description": "Podstępny" },
+          { "Chance": 28, "Description": "Niebezpieczny" },
+          { "Chance": 29, "Description": "Podstępny" },
+          { "Chance": 30, "Description": "Wyzywający/Prowokujący" },
+          { "Chance": 31, "Description": "Zdeterminowany" },
+          { "Chance": 32, "Description": "Niepełnosprawny" },
+          { "Chance": 33, "Description": "Stracony" },
+          { "Chance": 34, "Description": "Napędzany" },
+          { "Chance": 35, "Description": "Umierający" },
+          { "Chance": 36, "Description": "Zazdrosny" },
+          { "Chance": 37, "Description": "Doświadczony" },
+          { "Chance": 38, "Description": "Wierny/Wierzący" },
+          { "Chance": 39, "Description": "Hojny" },
+          { "Chance": 40, "Description": "Utalentowany" },
+          { "Chance": 41, "Description": "Chciwy" },
+          { "Chance": 42, "Description": "Pogrążony w  żalu" },
+          { "Chance": 43, "Description": "Poręczny/Zręczny" },
+          { "Chance": 44, "Description": "Nieczuły" },
+          { "Chance": 45, "Description": "Nawiedzany" },
+          { "Chance": 46, "Description": "Honorowy" },
+          { "Chance": 47, "Description": "W gorącej wodzie kompany" },
+          { "Chance": 48, "Description": "Impulsywny" },
+          { "Chance": 49, "Description": "Niekompetentny" },
+          { "Chance": 50, "Description": "Niezależny" },
+          { "Chance": 51, "Description": "Niesławny" },
+          { "Chance": 52, "Description": "Wpływowy" },
+          { "Chance": 53, "Description": "Niewrażliwy" },
+          { "Chance": 54, "Description": "Wnikliwe" },
+          { "Chance": 55, "Description": "Inteligentny" },
+          { "Chance": 56, "Description": "Nietolerancyjny" },
+          { "Chance": 57, "Description": "Zaprzysiężony żelazu" },
+          { "Chance": 58, "Description": "Uprzejmy" },
+          { "Chance": 59, "Description": "Praworządny" },
+          { "Chance": 60, "Description": "Samotny" },
+          { "Chance": 61, "Description": "Kochający" },
+          { "Chance": 62, "Description": "Wierny" },
+          { "Chance": 63, "Description": "Manipulacyjny" },
+          { "Chance": 64, "Description": "Nieświadomy" },
+          { "Chance": 65, "Description": "Obsesyjny" },
+          { "Chance": 66, "Description": "Uciskany" },
+          { "Chance": 67, "Description": "Bierny" },
+          { "Chance": 68, "Description": "Potężny" },
+          { "Chance": 69, "Description": "Dumny" },
+          { "Chance": 70, "Description": "Cichy" },
+          { "Chance": 71, "Description": "Dziwaczny" },
+          { "Chance": 72, "Description": "Buntowniczy" },
+          { "Chance": 73, "Description": "Samotniczy" },
+          { "Chance": 74, "Description": "Zrelaksowany" },
+          { "Chance": 75, "Description": "Skruszony" },
+          { "Chance": 76, "Description": "Pomysłowy" },
+          { "Chance": 77, "Description": "Skryty" },
+          { "Chance": 78, "Description": "Samolubny" },
+          { "Chance": 79, "Description": "Towarzyski" },
+          { "Chance": 80, "Description": "Ukradkowy" },
+          { "Chance": 81, "Description": "Srogi" },
+          { "Chance": 82, "Description": "Skąpy" },
+          { "Chance": 83, "Description": "Stoicki" },
+          { "Chance": 84, "Description": "Silny" },
+          { "Chance": 85, "Description": "Uparty" },
+          { "Chance": 86, "Description": "Udany" },
+          { "Chance": 87, "Description": "Podejrzany" },
+          { "Chance": 88, "Description": "Utalentowany" },
+          { "Chance": 89, "Description": "Techniczny" },
+          { "Chance": 90, "Description": "Bojaźliwy" },
+          { "Chance": 91, "Description": "Tolerancyjny" },
+          { "Chance": 92, "Description": "Trudny" },
+          { "Chance": 93, "Description": "Mściwy" },
+          { "Chance": 94, "Description": "Brutalny" },
+          { "Chance": 95, "Description": "Przezorny" },
+          { "Chance": 96, "Description": "Czujny" },
+          { "Chance": 97, "Description": "Słaby" },
+          { "Chance": 98, "Description": "Zmęczony" },
+          { "Chance": 99, "Description": "Dziki" },
+          { "Chance": 100, "Description": "Mądry" }
         ]
       }
     ]
@@ -895,97 +895,97 @@
           },
           {
             "Chance": 10,
-            "Description": "Battlefield Medic",
+            "Description": "Battlefield Medic/Medyk polowy",
             "Assets": ["Healer", "Veteran"]
           },
           {
             "Chance": 15,
-            "Description": "Bodyguard*",
+            "Description": "Bodyguard*/Ochroniarz",
             "Assets": ["Brawler", "Loyalist"]
           },
           {
             "Chance": 20,
-            "Description": "Delegate",
+            "Description": "Delegate/Dyplomata",
             "Assets": ["Bannersworn", "Diplomat"]
           },
           {
             "Chance": 25,
-            "Description": "Exobiologist",
+            "Description": "Exobiologist/Exobiolog",
             "Assets": ["Explorer", "Naturalist"]
           },
           {
             "Chance": 30,
-            "Description": "Far Trader",
+            "Description": "Far Trader/Międzyplanetarny handlarz",
             "Assets": ["Navigator", "Trader"]
           },
           {
             "Chance": 35,
-            "Description": "Fugitive Hunter",
+            "Description": "Fugitive Hunter/Łowca głów",
             "Assets": ["Armored", "Bounty Hunter"]
           },
           {
             "Chance": 40,
-            "Description": "Hacker",
+            "Description": "Hacker/Haker",
             "Assets": ["Agent", "Tech"]
           },
           {
             "Chance": 45,
-            "Description": "Hotshot Pilot",
+            "Description": "Hotshot Pilot/As przestworzy",
             "Assets": ["Ace", "Gunslinger"]
           },
           {
             "Chance": 50,
-            "Description": "Monster Hunter",
+            "Description": "Monster Hunter/Łowca potworów",
             "Assets": ["Archer", "Slayer"]
           },
           {
             "Chance": 55,
-            "Description": "Occultist",
+            "Description": "Occultist/Okultysta",
             "Assets": ["Outcast", "Shade"]
           },
           {
             "Chance": 60,
-            "Description": "Operative",
+            "Description": "Operative/Agent operacyjny",
             "Assets": ["Agent", "Blademaster"]
           },
           {
             "Chance": 65,
-            "Description": "Pilgrim",
+            "Description": "Pilgrim/Pielgrzym",
             "Assets": ["Devotant", "Explorer"]
           },
           {
             "Chance": 70,
-            "Description": "Prophet",
+            "Description": "Prophet/Prorok",
             "Assets": ["Devotant", "Seer"]
           },
           {
             "Chance": 75,
-            "Description": "Smuggler",
+            "Description": "Smuggler/Przemytnik",
             "Assets": ["Courier", "Scoundrel"]
           },
           {
             "Chance": 80,
-            "Description": "Spiritualist",
+            "Description": "Spiritualist/Spiritualista",
             "Assets": ["Haunted", "Empath"]
           },
           {
             "Chance": 85,
-            "Description": "Starship Captain*",
+            "Description": "Starship Captain*/Kapitan statku",
             "Assets": ["Commander", "Explorer"]
           },
           {
             "Chance": 90,
-            "Description": "Starship Mechanic",
+            "Description": "Starship Mechanic/Mechanik statków kosmicznych",
             "Assets": ["Gearhead", "Voidborn"]
           },
           {
             "Chance": 95,
-            "Description": "Supersoldier",
+            "Description": "Supersoldier/Superżołnierz",
             "Assets": ["Augmented", "Mercenary"]
           },
           {
             "Chance": 100,
-            "Description": "Tomb Raider",
+              "Description": "Tomb Raider/Łowca skarbów",
             "Assets": ["Lore Hunter", "Scavenger"]
           }
         ]
@@ -995,56 +995,20 @@
         "Description": "For some backstory inspiration, roll or pick from the table below. Then, take a moment to elaborate on the suggestion. Or just leave it a bit vague and mysterious for now; you can flesh it out in play.",
         "Semantics": { "Part of speech": ["fragment"] },
         "Table": [
-          {
-            "Chance": 7,
-            "Description": "You abandoned your kin after learning a troubling truth"
-          },
-          {
-            "Chance": 14,
-            "Description": "You are guided by a vision or prophesy"
-          },
-          {
-            "Chance": 21,
-            "Description": "You are haunted by past actions or failures"
-          },
-          {
-            "Chance": 28,
-            "Description": "You are running from a criminal past"
-          },
-          {
-            "Chance": 36,
-            "Description": "You are the sole survivor of an attack or calamity"
-          },
-          {
-            "Chance": 43,
-            "Description": "You escaped an abusive or unjust situation"
-          },
-          {
-            "Chance": 50,
-            "Description": "You have no memory of your former life"
-          },
-          { "Chance": 57, "Description": "You rejected a duty or destiny" },
-          {
-            "Chance": 65,
-            "Description": "You were cast out of your former home"
-          },
-          { "Chance": 72, "Description": "You were denied a birthright" },
-          {
-            "Chance": 79,
-            "Description": "You were on your own for as long as you can remember"
-          },
-          {
-            "Chance": 86,
-            "Description": "You were taken or lured away by someone"
-          },
-          {
-            "Chance": 93,
-            "Description": "Your ambitions outgrew your humble origins"
-          },
-          {
-            "Chance": 100,
-            "Description": "Your wanderlust carried you far away"
-          }
+          { "Chance": 7, "Description": "Porzuciłeś swoją rodzinę po poznaniu niepokojącej prawdy" },
+          { "Chance": 14, "Description": "Prowadzi cię wizja lub proroctwo" },
+          { "Chance": 21, "Description": "Prześladują cię przeszłość lub niepowodzenia" },
+          { "Chance": 28, "Description": "Uciekasz przed kryminalną przeszłością" },
+          { "Chance": 36, "Description": "Jesteś jedyną osobą, która przeżyła atak lub nieszczęście" },
+          { "Chance": 43, "Description": "Uciekłeś z obraźliwej lub niesprawiedliwej sytuacji" },
+          { "Chance": 50, "Description": "Nie pamiętasz swojego poprzedniego życia" },
+          { "Chance": 57, "Description": "Odrzuciłeś obowiązek lub przeznaczenie" },
+          { "Chance": 65, "Description": "Zostałaś wyrzucona z poprzedniego domu" },
+          { "Chance": 72, "Description": "Odmówiono ci praw wynikających z urodzenia" },
+          { "Chance": 79, "Description": "Byłeś zdany na siebie odkąd pamiętasz" },
+          { "Chance": 86, "Description": "Zostałeś zabrany lub zwabiony przez kogoś" },
+          { "Chance": 93, "Description": "Twoje ambicje przerosły twoje skromne pochodzenie" },
+          { "Chance": 100, "Description": "Twoja żądza wędrówki zabrała cię daleko" }
         ]
       },
       {
@@ -1052,45 +1016,18 @@
         "Description": "Envision how you obtained or earned this ship. You can come up with your own origin, or roll or pick from the table below. If you use a result from the table, take a moment to consider and elaborate on the suggestion.",
         "Semantics": { "Part of speech": ["fragment"] },
         "Table": [
-          {
-            "Chance": 8,
-            "Description": "Acquired in trade for a precious family heirloom"
-          },
-          { "Chance": 17, "Description": "Built out of re-purposed scrap" },
-          { "Chance": 25, "Description": "Claimed as spoils of war" },
-          {
-            "Chance": 34,
-            "Description": "Discovered as a derelict, and patched back together"
-          },
-          {
-            "Chance": 42,
-            "Description": "Earned in exchange for a promise or vow"
-          },
-          {
-            "Chance": 50,
-            "Description": "Found abandoned in perfect condition"
-          },
-          {
-            "Chance": 58,
-            "Description": "Granted by an organization or community"
-          },
-          {
-            "Chance": 67,
-            "Description": "Inherited from a relative or mentor"
-          },
-          {
-            "Chance": 75,
-            "Description": "Purchased at a suspiciously cheap price"
-          },
-          {
-            "Chance": 84,
-            "Description": "Stolen from a notorious crime boss or criminal organization"
-          },
-          {
-            "Chance": 92,
-            "Description": "Taken while fleeing an attack or disaster"
-          },
-          { "Chance": 100, "Description": "Won in a bet" }
+          { "Chance": 8, "Description": "Nabyty w handlu za cenną pamiątkę rodzinną" },
+          { "Chance": 17, "Description": "Zbudowany z przerobionego złomu" },
+          { "Chance": 25, "Description": "Zdobyty jako łupy wojenne" },
+          { "Chance": 34, "Description": "Odkryty jako wrak i został naprawiony do kupy" },
+          { "Chance": 42, "Description": "Zarobiony w zamian za obietnicę lub przysięgę" },
+          { "Chance": 50, "Description": "Znaleziony porzucony w idealnym stanie" },
+          { "Chance": 58, "Description": "Przyznany przez organizację lub społeczność" },
+          { "Chance": 67, "Description": "Odziedziczony po krewnym lub mentorze" },
+          { "Chance": 75, "Description": "Kupiony po podejrzanie niskiej cenie" },
+          { "Chance": 84, "Description": "Skradziony od znanego szefa mafii lub organizacji przestępczej" },
+          { "Chance": 92, "Description": "Wzięty podczas ucieczki przed atakiem lub katastrofą" },
+          { "Chance": 100, "Description": "Został wygrany w zakładzie" }
         ]
       },
       {
@@ -1099,83 +1036,26 @@
         "Semantics": { "Part of speech": ["fragment"] },
         "Max rolls": 2,
         "Table": [
-          {
-            "Chance": 5,
-            "Description": "Engine room is scorched with old burn marks"
-          },
-          {
-            "Chance": 10,
-            "Description": "Exterior is marred by rust and grime"
-          },
-          {
-            "Chance": 15,
-            "Description": "Faint, phantom music sometimes echoes through the corridors"
-          },
-          {
-            "Chance": 20,
-            "Description": "Gravity generator is notoriously fickle"
-          },
-          { "Chance": 25, "Description": "Hull is fused with organic growths" },
-          {
-            "Chance": 30,
-            "Description": "Hull rattles and groans in atmospheric flight"
-          },
-          {
-            "Chance": 35,
-            "Description": "Interior spaces are crowded with exposed cables and conduits"
-          },
-          {
-            "Chance": 40,
-            "Description": "Looks defenseless, but exterior panels open to reveal weapons"
-          },
-          {
-            "Chance": 45,
-            "Description": "Navigation logs contain coordinates to locations that do not—or should not—exist"
-          },
-          {
-            "Chance": 50,
-            "Description": "Old bloodstain in the airlock reappears even when painted over"
-          },
-          {
-            "Chance": 55,
-            "Description": "Once a beautiful ship, now scarred by a devastating battle"
-          },
-          {
-            "Chance": 60,
-            "Description": "Patched hull covers a recent catastrophic breach"
-          },
-          {
-            "Chance": 65,
-            "Description": "Placards and control labels are in an uncommon language"
-          },
-          {
-            "Chance": 70,
-            "Description": "Removable plate decks provide access to hidden storage"
-          },
-          {
-            "Chance": 75,
-            "Description": "Segmented landing gear unfold like gangly spider legs"
-          },
-          {
-            "Chance": 80,
-            "Description": "Ship is powered by an ancient precursor device"
-          },
-          {
-            "Chance": 85,
-            "Description": "Someone marked the hull with graffiti during a recent layover"
-          },
-          {
-            "Chance": 90,
-            "Description": "Strange symbols are scrawled on the deck and bulkheads in the main corridor"
-          },
-          {
-            "Chance": 95,
-            "Description": "Things tend to go missing for no logical reason"
-          },
-          {
-            "Chance": 100,
-            "Description": "Timers and clocks are always just a bit off"
-          }
+          { "Chance": 5, "Description": "Maszynownia ma wypalone ślady pożaru" },
+          { "Chance": 10, "Description": "Na zewnątrz jest nadgryzione przez rdzę i pokryty brudem" },
+          { "Chance": 15, "Description": "Słaba, fantomowa muzyka czasami odbija się echem w korytarzach" },
+          { "Chance": 20, "Description": "Generator grawitacyjny jest notorycznie niestały" },
+          { "Chance": 25, "Description": "Kadłub jest zrośnięty z organicznymi naroślami" },
+          { "Chance": 30, "Description": "Kadłub grzechocze i jęczy w locie atmosferycznym" },
+          { "Chance": 35, "Description": "W każdym pomieszczeniu są odsłonięte kable i przewody" },
+          { "Chance": 40, "Description": "Wygląda na bezbronnego, ale zewnętrzne panele otwierają się, by odsłonić broń" },
+          { "Chance": 45, "Description": "Dzienniki nawigacyjne zawierają współrzędne lokalizacji, które nie istnieją lub nie powinny istnieć" },
+          { "Chance": 50, "Description": "Stare plamy krwi w śluzie pojawiają się ponownie, nawet po zamalowaniu/wyczyszczeniu" },
+          { "Chance": 55, "Description": "Niegdyś piękny statek, teraz nosi ślady niszczycielskiej bitwy" },
+          { "Chance": 60, "Description": "Połatany kadłub zakrywa niedawny katastrofalny wyłom" },
+          { "Chance": 65, "Description": "Afisze i etykiety kontrolne są w nietypowym języku" },
+          { "Chance": 70, "Description": "Zdejmowane płyty dają dostęp do ukrytych schowków" },
+          { "Chance": 75, "Description": "Segmentowe podwozie rozkłada się jak pajęcze nogi" },
+          { "Chance": 80, "Description": "Statek jest zasilany przez starożytne urządzenie prekursorów" },
+          { "Chance": 85, "Description": "Ktoś oznaczył kadłub graffiti podczas niedawnego postoju" },
+          { "Chance": 90, "Description": "Dziwne symbole są nabazgrane na pokładzie i grodziach w głównym korytarzu" },
+          { "Chance": 95, "Description": "Rzeczy znikają bez logicznego powodu" },
+          { "Chance": 100, "Description": "Minutniki i zegary są zawsze trochę niespokojne/niedokładne" }
         ]
       },
       {
@@ -1185,33 +1065,21 @@
         "Table": [
           {
             "Chance": 5,
-            "Description": "Blockade prevents trade with other sectors"
+            "Description": "Blokada uniemożliwia handel z innymi sektorami"
           },
           {
             "Chance": 10,
-            "Description": "Bounty hunters search for an infamous fugitive",
+            "Description": "Łowcy nagród szukają niesławnego zbiega",
             "Suggest": [{ "Game object": { "Object type": "Character" } }]
           },
-          {
-            "Chance": 15,
-            "Description": "Chaotic breaches in spacetime spread like wildfire"
-          },
-          {
-            "Chance": 20,
-            "Description": "Criminal faction corrupts local authorities"
-          },
-          {
-            "Chance": 25,
-            "Description": "Devastating superweapon has fallen into the wrong hands"
-          },
-          { "Chance": 30, "Description": "Energy storms are rampant" },
-          {
-            "Chance": 35,
-            "Description": "Magnetic disturbances disrupt communication"
-          },
+          { "Chance": 15, "Description": "Chaotyczne wyrwy w czasoprzestrzeni rozprzestrzeniają się jak pożar" },
+          { "Chance": 20, "Description": "Frakcja przestępcza korumpuje władze lokalne" },
+          { "Chance": 25, "Description": "Niszczycielska superbroń wpadła w niepowołane ręce" },
+          { "Chance": 30, "Description": "Burze energetyczne szaleją" },
+          { "Chance": 35, "Description": "Zakłócenia magnetyczne zakłócają komunikację" },
           {
             "Chance": 40,
-            "Description": "Newly found resource lures greedy fortune hunters to the sector",
+            "Description": "Nowo odkryte zasoby wabią chciwych poszukiwaczy skarbów do sektora",
             "Suggest": [
               {
                 "Oracles": [
@@ -1221,50 +1089,32 @@
               }
             ]
           },
-          {
-            "Chance": 45,
-            "Description": "Notorious pirate clan preys on starships"
-          },
+          { "Chance": 45, "Description": "Klan piratów żeruje na statkach kosmicznych" },
           {
             "Chance": 50,
-            "Description": "Parasitic lifeforms spread like a plague",
+            "Description": "Pasożytnicze formy życia rozprzestrzeniają się jak plaga",
             "Suggest": [{ "Game object": { "Object type": "Creature" } }]
           },
           {
             "Chance": 55,
-            "Description": "Precursor sites throughout the sector emit strange signals",
+            "Description": "Skarbce prekursorów w całym sektorze emitują dziwne sygnały",
             "Suggest": [{ "Game object": { "Object type": "Precursor Vault" } }]
           },
-          {
-            "Chance": 60,
-            "Description": "Prophecies foretell an imminent awakening of a dreadful power"
-          },
-          {
-            "Chance": 65,
-            "Description": "Raider clan emerges as a dominant threat under a new leader"
-          },
-          {
-            "Chance": 70,
-            "Description": "Religious zealots overrun the sector"
-          },
-          {
-            "Chance": 75,
-            "Description": "Rogue AI infiltrates systems throughout the sector"
-          },
+          { "Chance": 60, "Description": "Proroctwa przepowiadają rychłe przebudzenie straszliwej mocy" },
+          { "Chance": 65, "Description": "Klan najeźdźców wyłania się jako dominujące zagrożenie pod nowym przywódcą" },
+          { "Chance": 70, "Description": "Religijni fanatycy opanowują sektor" },
+          { "Chance": 75, "Description": "AI infiltruje systemy w całym sektorze" },
           {
             "Chance": 80,
-            "Description": "Settlements or factions are on the brink of war",
+            "Description": "Osady lub frakcje są na krawędzi wojny",
             "Suggest": [{ "Game object": { "Object type": "Settlement" } }]
           },
-          { "Chance": 85, "Description": "Ships regularly go missing" },
-          {
-            "Chance": 90,
-            "Description": "Sickness spreads among ships and settlements"
-          },
-          { "Chance": 95, "Description": "Supernova is imminent" },
+          { "Chance": 85, "Description": "Statki regularnie znikają" },
+          { "Chance": 90, "Description": "Choroba rozprzestrzenia się wśród statków i osad" },
+          { "Chance": 95, "Description": "Supernowa jest nieunikniona" },
           {
             "Chance": 100,
-            "Description": "Titanic spaceborne lifeform stalks the spaceways",
+            "Description": "Tytaniczna forma życia unosząca się w kosmosie przemierza drogi kosmiczne",
             "Suggest": [{ "Game object": { "Object type": "Creature" } }]
           }
         ]
@@ -1275,70 +1125,70 @@
         "Table": [
           {
             "Chance": 5,
-            "Description": "Aid a starship caught in a spacetime fracture",
+            "Description": "Pomóż statkowi uwięzionemu w pęknięciu czasoprzestrzeni",
             "Suggest": [{ "Game object": { "Object type": "Starship" } }]
           },
           {
             "Chance": 10,
-            "Description": "Broker peace between two feuding settlements",
+            "Description": "Pokój pomiędzy dwiema zwaśnionymi osadami zostaje zerwany",
             "Suggest": [{ "Game object": { "Object type": "Settlement" } }]
           },
           {
             "Chance": 15,
-            "Description": "Chart a new passage between isolated settlements",
+            "Description": "Wyznacz nowe przejście między odizolowanymi osadami",
             "Suggest": [{ "Game object": { "Object type": "Settlement" } }]
           },
           {
             "Chance": 20,
-            "Description": "Defend the people of a beleaguered settlement against raiders",
+            "Description": "Broń ludzi w oblężonej osadzie przed najeźdźcami",
             "Suggest": [{ "Game object": { "Object type": "Settlement" } }]
           },
           {
             "Chance": 25,
-            "Description": "Discover who sabotaged a settlement's air processors",
+            "Description": "Dowiedz się, kto sabotował procesory powietrza w osadzie",
             "Suggest": [{ "Game object": { "Object type": "Settlement" } }]
           },
           {
             "Chance": 30,
-            "Description": "Escort a tradeship carrying a prized cargo",
+            "Description": "Eskortuj statek handlowy przewożący cenny ładunek",
             "Suggest": [{ "Game object": { "Object type": "Starship" } }]
           },
           {
             "Chance": 35,
-            "Description": "Ferry a rescue team to a perilous disaster site",
+            "Description": "Przewieź ekipę ratunkową do niebezpiecznego miejsca katastrofy",
             "Suggest": [
               { "Oracles": [{ "Category": "Space", "Name": "Space Sighting" }] }
             ]
           },
           {
             "Chance": 40,
-            "Description": "Infiltrate a fortified base to steal crucial data"
+            "Description": "Zinfiltruj ufortyfikowaną bazę, aby ukraść kluczowe dane"
           },
           {
             "Chance": 45,
-            "Description": "Investigate terrifying manifestations at a remote settlement",
+            "Description": "Zbadaj przerażające manifestacje w odległej osadzie",
             "Suggest": [{ "Game object": { "Object type": "Settlement" } }]
           },
           {
             "Chance": 50,
-            "Description": "Liberate prisoners at a cruel labor camp",
+            "Description": "Uwolnij więźniów z okrutnego obozu pracy",
             "Suggest": [
               { "Oracles": [{ "Category": "Space", "Name": "Space Sighting" }] }
             ]
           },
           {
             "Chance": 55,
-            "Description": "Locate a downed spacer on an uninhabited planet",
+            "Description": "Zlokalizuj zestrzelonego spacera na niezamieszkanej planecie",
             "Suggest": [{ "Game object": { "Object type": "Planet" } }]
           },
           {
             "Chance": 60,
-            "Description": "Protect a fugitive from a relentless bounty hunter",
+            "Description": "Chroń zbiega przed nieustępliwym łowcą nagród",
             "Suggest": [{ "Game object": { "Object type": "Character" } }]
           },
           {
             "Chance": 65,
-            "Description": "Recover a cherished pre-exodus artifact from an enemy",
+            "Description": "Odzyskaj od wroga ceniony artefakt sprzed exodusu",
             "Suggest": [
               {
                 "Oracles": [
@@ -1350,33 +1200,33 @@
           },
           {
             "Chance": 70,
-            "Description": "Rescue a starship crew held captive by mutineers",
+            "Description": "Uratuj załogę statku kosmicznego uwięzioną przez buntowników",
             "Suggest": [{ "Game object": { "Object type": "Starship" } }]
           },
           {
             "Chance": 75,
-            "Description": "Retrieve a cache of stolen weapons from a pirate ship",
+            "Description": "Odzyskaj skradzione plany broni ze statku pirackiego",
             "Suggest": [{ "Game object": { "Object type": "Starship" } }]
           },
-          { "Chance": 80, "Description": "Sabotage an enemy installation" },
+          { "Chance": 80, "Description": "Sabotuj instalację wroga" },
           {
             "Chance": 85,
-            "Description": "Search for a missing expedition in the depths of a precursor vault",
+            "Description": "Poszukaj zaginionej ekspedycji w głębinach krypty prekursorów",
             "Suggest": [{ "Game object": { "Object type": "Precursor Vault" } }]
           },
           {
             "Chance": 90,
-            "Description": "Shield a wondrous lifeform from those who seek to destroy it",
+            "Description": "Chroń cudowną formę życia przed tymi, którzy chcą ją zniszczyć",
             "Suggest": [{ "Game object": { "Object type": "Creature" } }]
           },
           {
             "Chance": 95,
-            "Description": "Track and slay a marauding beast",
+            "Description": "Wyśledź i zabij grasującą bestię",
             "Suggest": [{ "Game object": { "Object type": "Creature" } }]
           },
           {
             "Chance": 100,
-            "Description": "Transport a displaced people to their new home",
+            "Description": "Przewieź wysiedleńców do ich nowego domu  ",
             "Suggest": [
               { "Oracles": [{ "Category": "Space", "Name": "Space Sighting" }] }
             ]
@@ -1396,106 +1246,106 @@
         "Semantics": { "Part of speech": ["verb"] },
         "Description": "Use these oracle tables to reveal details about a goal, situation, or event. They provide a word or phrase that can be taken literally or interpreted as an abstraction.\n\nAction and Theme can answer questions such as:\n\n  * “What does this character want?”\n  * “What is this faction’s mission?”\n  * “What caused the downfall of this settlement?”\n  * “What is this device’s purpose?”",
         "Table": [
-          { "Chance": 1, "Description": "Abandon" },
-          { "Chance": 2, "Description": "Acquire" },
-          { "Chance": 3, "Description": "Advance" },
-          { "Chance": 4, "Description": "Affect" },
-          { "Chance": 5, "Description": "Aid" },
-          { "Chance": 6, "Description": "Arrive" },
-          { "Chance": 7, "Description": "Assault" },
-          { "Chance": 8, "Description": "Attack" },
-          { "Chance": 9, "Description": "Avenge" },
-          { "Chance": 10, "Description": "Avoid" },
-          { "Chance": 11, "Description": "Await" },
-          { "Chance": 12, "Description": "Begin" },
-          { "Chance": 13, "Description": "Betray" },
-          { "Chance": 14, "Description": "Bolster" },
-          { "Chance": 15, "Description": "Breach" },
-          { "Chance": 16, "Description": "Break" },
-          { "Chance": 17, "Description": "Capture" },
-          { "Chance": 18, "Description": "Challenge" },
-          { "Chance": 19, "Description": "Change" },
-          { "Chance": 20, "Description": "Charge" },
-          { "Chance": 21, "Description": "Clash" },
-          { "Chance": 22, "Description": "Command" },
-          { "Chance": 23, "Description": "Communicate" },
-          { "Chance": 24, "Description": "Construct" },
-          { "Chance": 25, "Description": "Control" },
-          { "Chance": 26, "Description": "Coordinate" },
-          { "Chance": 27, "Description": "Create" },
-          { "Chance": 28, "Description": "Debate" },
-          { "Chance": 29, "Description": "Defeat" },
-          { "Chance": 30, "Description": "Defend" },
-          { "Chance": 31, "Description": "Deflect" },
-          { "Chance": 32, "Description": "Defy" },
-          { "Chance": 33, "Description": "Deliver" },
-          { "Chance": 34, "Description": "Demand" },
-          { "Chance": 35, "Description": "Depart" },
-          { "Chance": 36, "Description": "Destroy" },
-          { "Chance": 37, "Description": "Distract" },
-          { "Chance": 38, "Description": "Eliminate" },
-          { "Chance": 39, "Description": "Endure" },
-          { "Chance": 40, "Description": "Escalate" },
-          { "Chance": 41, "Description": "Escort" },
-          { "Chance": 42, "Description": "Evade" },
-          { "Chance": 43, "Description": "Explore" },
-          { "Chance": 44, "Description": "Falter" },
-          { "Chance": 45, "Description": "Find" },
-          { "Chance": 46, "Description": "Finish" },
-          { "Chance": 47, "Description": "Focus" },
-          { "Chance": 48, "Description": "Follow" },
-          { "Chance": 49, "Description": "Fortify" },
-          { "Chance": 50, "Description": "Gather" },
-          { "Chance": 51, "Description": "Guard" },
-          { "Chance": 52, "Description": "Hide" },
-          { "Chance": 53, "Description": "Hold" },
-          { "Chance": 54, "Description": "Hunt" },
-          { "Chance": 55, "Description": "Impress" },
-          { "Chance": 56, "Description": "Initiate" },
-          { "Chance": 57, "Description": "Inspect" },
-          { "Chance": 58, "Description": "Investigate" },
-          { "Chance": 59, "Description": "Journey" },
-          { "Chance": 60, "Description": "Learn" },
-          { "Chance": 61, "Description": "Leave" },
-          { "Chance": 62, "Description": "Locate" },
-          { "Chance": 63, "Description": "Lose" },
-          { "Chance": 64, "Description": "Manipulate" },
-          { "Chance": 65, "Description": "Mourn" },
-          { "Chance": 66, "Description": "Move" },
-          { "Chance": 67, "Description": "Oppose" },
-          { "Chance": 68, "Description": "Overwhelm" },
-          { "Chance": 69, "Description": "Persevere" },
-          { "Chance": 70, "Description": "Preserve" },
-          { "Chance": 71, "Description": "Protect" },
-          { "Chance": 72, "Description": "Raid" },
-          { "Chance": 73, "Description": "Reduce" },
-          { "Chance": 74, "Description": "Refuse" },
-          { "Chance": 75, "Description": "Reject" },
-          { "Chance": 76, "Description": "Release" },
-          { "Chance": 77, "Description": "Remove" },
-          { "Chance": 78, "Description": "Research" },
-          { "Chance": 79, "Description": "Resist" },
-          { "Chance": 80, "Description": "Restore" },
-          { "Chance": 81, "Description": "Reveal" },
-          { "Chance": 82, "Description": "Risk" },
-          { "Chance": 83, "Description": "Scheme" },
-          { "Chance": 84, "Description": "Search" },
-          { "Chance": 85, "Description": "Secure" },
-          { "Chance": 86, "Description": "Seize" },
-          { "Chance": 87, "Description": "Serve" },
-          { "Chance": 88, "Description": "Share" },
-          { "Chance": 89, "Description": "Strengthen" },
-          { "Chance": 90, "Description": "Summon" },
-          { "Chance": 91, "Description": "Support" },
-          { "Chance": 92, "Description": "Suppress" },
-          { "Chance": 93, "Description": "Surrender" },
-          { "Chance": 94, "Description": "Swear" },
-          { "Chance": 95, "Description": "Threaten" },
-          { "Chance": 96, "Description": "Transform" },
-          { "Chance": 97, "Description": "Uncover" },
-          { "Chance": 98, "Description": "Uphold" },
-          { "Chance": 99, "Description": "Weaken" },
-          { "Chance": 100, "Description": "Withdraw" }
+          { "Chance": 1, "Description": "Opuścić" },
+          { "Chance": 2, "Description": "Nabywać" },
+          { "Chance": 3, "Description": "Osiągniąć" },
+          { "Chance": 4, "Description": "Wpłynąć" },
+          { "Chance": 5, "Description": "Pomoc" },
+          { "Chance": 6, "Description": "Przybyć" },
+          { "Chance": 7, "Description": "Napaść" },
+          { "Chance": 8, "Description": "Atakować" },
+          { "Chance": 9, "Description": "Pomścić" },
+          { "Chance": 10, "Description": "Unikać" },
+          { "Chance": 11, "Description": "Czekać na" },
+          { "Chance": 12, "Description": "Rozpocząć" },
+          { "Chance": 13, "Description": "Zdradzać" },
+          { "Chance": 14, "Description": "Wzmocnić" },
+          { "Chance": 15, "Description": "Naruszyć" },
+          { "Chance": 16, "Description": "Przerwaać" },
+          { "Chance": 17, "Description": "Schwytać" },
+          { "Chance": 18, "Description": "Wyzwać" },
+          { "Chance": 19, "Description": "Zmienić" },
+          { "Chance": 20, "Description": "Oskarżyć" },
+          { "Chance": 21, "Description": "Natarcie" },
+          { "Chance": 22, "Description": "Dowodzić" },
+          { "Chance": 23, "Description": "Porozumieć się" },
+          { "Chance": 24, "Description": "Zbudować" },
+          { "Chance": 25, "Description": "Kontrolować" },
+          { "Chance": 26, "Description": "Koordynować" },
+          { "Chance": 27, "Description": "Tworzyć" },
+          { "Chance": 28, "Description": "Debatować" },
+          { "Chance": 29, "Description": "Pokonać" },
+          { "Chance": 30, "Description": "Bronić" },
+          { "Chance": 31, "Description": "Odwracać" },
+          { "Chance": 32, "Description": "Przeciwstawiać się" },
+          { "Chance": 33, "Description": "Dostarczyć" },
+          { "Chance": 34, "Description": "Żądać" },
+          { "Chance": 35, "Description": "Odjeżdżać" },
+          { "Chance": 36, "Description": "Zniszczyć" },
+          { "Chance": 37, "Description": "Rozpraszać" },
+          { "Chance": 38, "Description": "Wyeliminować" },
+          { "Chance": 39, "Description": "Wytrzymać" },
+          { "Chance": 40, "Description": "Zwiększać" },
+          { "Chance": 41, "Description": "Eskortować" },
+          { "Chance": 42, "Description": "Uchylać się" },
+          { "Chance": 43, "Description": "Eksplorować" },
+          { "Chance": 44, "Description": "Wahać się" },
+          { "Chance": 45, "Description": "Odnaleźć" },
+          { "Chance": 46, "Description": "Skończyć" },
+          { "Chance": 47, "Description": "Skupiać" },
+          { "Chance": 48, "Description": "Podążać" },
+          { "Chance": 49, "Description": "Ufortyfikować" },
+          { "Chance": 50, "Description": "Zbierać" },
+          { "Chance": 51, "Description": "Pilnować" },
+          { "Chance": 52, "Description": "Ukrywać" },
+          { "Chance": 53, "Description": "Trzymać" },
+          { "Chance": 54, "Description": "Polować" },
+          { "Chance": 55, "Description": "Imponować" },
+          { "Chance": 56, "Description": "Zainicjować" },
+          { "Chance": 57, "Description": "Sprawdzać" },
+          { "Chance": 58, "Description": "Zbadać" },
+          { "Chance": 59, "Description": "Podróż" },
+          { "Chance": 60, "Description": "Uczyć się" },
+          { "Chance": 61, "Description": "Opuszczać" },
+          { "Chance": 62, "Description": "Znaleźć" },
+          { "Chance": 63, "Description": "Stracić" },
+          { "Chance": 64, "Description": "Manipulować" },
+          { "Chance": 65, "Description": "Opłakiwać" },
+          { "Chance": 66, "Description": "Przemieszczać się" },
+          { "Chance": 67, "Description": "Sprzeciwiać się" },
+          { "Chance": 68, "Description": "Zasypać" },
+          { "Chance": 69, "Description": "Wytrwać" },
+          { "Chance": 70, "Description": "Utrzymywać" },
+          { "Chance": 71, "Description": "Ochraniać" },
+          { "Chance": 72, "Description": "Najechać" },
+          { "Chance": 73, "Description": "Zmniejszyć" },
+          { "Chance": 74, "Description": "Odrzucać" },
+          { "Chance": 75, "Description": "Odrzucić" },
+          { "Chance": 76, "Description": "Uwolnić" },
+          { "Chance": 77, "Description": "Usunąć" },
+          { "Chance": 78, "Description": "Badać" },
+          { "Chance": 79, "Description": "Oprzeć się" },
+          { "Chance": 80, "Description": "Przywrócić" },
+          { "Chance": 81, "Description": "Ujawnić" },
+          { "Chance": 82, "Description": "Ryzykować" },
+          { "Chance": 83, "Description": "Knuć" },
+          { "Chance": 84, "Description": "Szukać" },
+          { "Chance": 85, "Description": "Zabezpieczać" },
+          { "Chance": 86, "Description": "Chwycić" },
+          { "Chance": 87, "Description": "Służyć" },
+          { "Chance": 88, "Description": "Dzielić się" },
+          { "Chance": 89, "Description": "Wzmacniać" },
+          { "Chance": 90, "Description": "Wezwać" },
+          { "Chance": 91, "Description": "Wspierać" },
+          { "Chance": 92, "Description": "Stłumić" },
+          { "Chance": 93, "Description": "Poddać się" },
+          { "Chance": 94, "Description": "Przysięgać" },
+          { "Chance": 95, "Description": "Zagrozić" },
+          { "Chance": 96, "Description": "Przekształcać" },
+          { "Chance": 97, "Description": "Odkryć" },
+          { "Chance": 98, "Description": "Podtrzymywać" },
+          { "Chance": 99, "Description": "Osłabiać" },
+          { "Chance": 100, "Description": "Wycofać" }
         ]
       },
       {
@@ -1508,106 +1358,106 @@
         },
         "Description": "Use these oracle tables to reveal details about a goal, situation, or event. They provide a word or phrase that can be taken literally or interpreted as an abstraction.\n\nAction and Theme can answer questions such as:\n\n  * “What does this character want?”\n  * “What is this faction’s mission?”\n  * “What caused the downfall of this settlement?”\n  * “What is this device’s purpose?”",
         "Table": [
-          { "Chance": 1, "Description": "Ability" },
-          { "Chance": 2, "Description": "Advantage" },
-          { "Chance": 3, "Description": "Alliance" },
-          { "Chance": 4, "Description": "Authority" },
-          { "Chance": 5, "Description": "Balance" },
-          { "Chance": 6, "Description": "Barrier" },
-          { "Chance": 7, "Description": "Belief" },
-          { "Chance": 8, "Description": "Blood" },
-          { "Chance": 9, "Description": "Bond" },
-          { "Chance": 10, "Description": "Burden" },
-          { "Chance": 11, "Description": "Commerce" },
-          { "Chance": 12, "Description": "Community" },
-          { "Chance": 13, "Description": "Corruption" },
-          { "Chance": 14, "Description": "Creation" },
-          { "Chance": 15, "Description": "Crime" },
-          { "Chance": 16, "Description": "Culture" },
-          { "Chance": 17, "Description": "Cure" },
-          { "Chance": 18, "Description": "Danger" },
-          { "Chance": 19, "Description": "Death" },
-          { "Chance": 20, "Description": "Debt" },
-          { "Chance": 21, "Description": "Decay" },
-          { "Chance": 22, "Description": "Deception" },
-          { "Chance": 23, "Description": "Defense" },
-          { "Chance": 24, "Description": "Destiny" },
-          { "Chance": 25, "Description": "Disaster" },
-          { "Chance": 26, "Description": "Discovery" },
-          { "Chance": 27, "Description": "Disease" },
-          { "Chance": 28, "Description": "Dominion" },
-          { "Chance": 29, "Description": "Dream" },
-          { "Chance": 30, "Description": "Duty" },
-          { "Chance": 31, "Description": "Enemy" },
-          { "Chance": 32, "Description": "Expedition" },
-          { "Chance": 33, "Description": "Faction" },
-          { "Chance": 34, "Description": "Fame" },
-          { "Chance": 35, "Description": "Family" },
-          { "Chance": 36, "Description": "Fear" },
-          { "Chance": 37, "Description": "Fellowship" },
-          { "Chance": 38, "Description": "Freedom" },
-          { "Chance": 39, "Description": "Greed" },
-          { "Chance": 40, "Description": "Hardship" },
-          { "Chance": 41, "Description": "Hate" },
-          { "Chance": 42, "Description": "Health" },
-          { "Chance": 43, "Description": "History" },
-          { "Chance": 44, "Description": "Home" },
-          { "Chance": 45, "Description": "Honor" },
-          { "Chance": 46, "Description": "Hope" },
-          { "Chance": 47, "Description": "Humanity" },
-          { "Chance": 48, "Description": "Innocence" },
-          { "Chance": 49, "Description": "Knowledge" },
-          { "Chance": 50, "Description": "Labor" },
-          { "Chance": 51, "Description": "Language" },
-          { "Chance": 52, "Description": "Law" },
-          { "Chance": 53, "Description": "Legacy" },
-          { "Chance": 54, "Description": "Life" },
-          { "Chance": 55, "Description": "Love" },
-          { "Chance": 56, "Description": "Memory" },
-          { "Chance": 57, "Description": "Nature" },
-          { "Chance": 58, "Description": "Opportunity" },
-          { "Chance": 59, "Description": "Passage" },
-          { "Chance": 60, "Description": "Peace" },
-          { "Chance": 61, "Description": "Phenomenon" },
-          { "Chance": 62, "Description": "Possession" },
-          { "Chance": 63, "Description": "Power" },
-          { "Chance": 64, "Description": "Price" },
-          { "Chance": 65, "Description": "Pride" },
-          { "Chance": 66, "Description": "Prize" },
-          { "Chance": 67, "Description": "Prophesy" },
-          { "Chance": 68, "Description": "Protection" },
-          { "Chance": 69, "Description": "Quest" },
-          { "Chance": 70, "Description": "Relationship" },
-          { "Chance": 71, "Description": "Religion" },
-          { "Chance": 72, "Description": "Reputation" },
-          { "Chance": 73, "Description": "Resource" },
-          { "Chance": 74, "Description": "Revenge" },
-          { "Chance": 75, "Description": "Rival" },
-          { "Chance": 76, "Description": "Rumor" },
-          { "Chance": 77, "Description": "Safety" },
-          { "Chance": 78, "Description": "Sanctuary" },
-          { "Chance": 79, "Description": "Secret" },
-          { "Chance": 80, "Description": "Solution" },
-          { "Chance": 81, "Description": "Spirit" },
-          { "Chance": 82, "Description": "Stranger" },
-          { "Chance": 83, "Description": "Strategy" },
-          { "Chance": 84, "Description": "Strength" },
-          { "Chance": 85, "Description": "Superstition" },
-          { "Chance": 86, "Description": "Supply" },
-          { "Chance": 87, "Description": "Survival" },
-          { "Chance": 88, "Description": "Technology" },
-          { "Chance": 89, "Description": "Time" },
-          { "Chance": 90, "Description": "Tool" },
-          { "Chance": 91, "Description": "Trade" },
-          { "Chance": 92, "Description": "Truth" },
-          { "Chance": 93, "Description": "Vengeance" },
-          { "Chance": 94, "Description": "Vow" },
-          { "Chance": 95, "Description": "War" },
-          { "Chance": 96, "Description": "Warning" },
-          { "Chance": 97, "Description": "Weakness" },
-          { "Chance": 98, "Description": "Wealth" },
-          { "Chance": 99, "Description": "Weapon" },
-          { "Chance": 100, "Description": "World" }
+          { "Chance": 1, "Description": "Umiejętność" },
+          { "Chance": 2, "Description": "Przewaga" },
+          { "Chance": 3, "Description": "Sojusz" },
+          { "Chance": 4, "Description": "Autorytet" },
+          { "Chance": 5, "Description": "Równowaga" },
+          { "Chance": 6, "Description": "Bariera" },
+          { "Chance": 7, "Description": "Wiara" },
+          { "Chance": 8, "Description": "Krew" },
+          { "Chance": 9, "Description": "Więź" },
+          { "Chance": 10, "Description": "Ciężar" },
+          { "Chance": 11, "Description": "Handel" },
+          { "Chance": 12, "Description": "Społeczność" },
+          { "Chance": 13, "Description": "Korupcja" },
+          { "Chance": 14, "Description": "Kreacja" },
+          { "Chance": 15, "Description": "Przestępczość" },
+          { "Chance": 16, "Description": "Kultura" },
+          { "Chance": 17, "Description": "Leczenie" },
+          { "Chance": 18, "Description": "Zagrożenie" },
+          { "Chance": 19, "Description": "Śmierć" },
+          { "Chance": 20, "Description": "Dług" },
+          { "Chance": 21, "Description": "Rozkład" },
+          { "Chance": 22, "Description": "Oszustwo" },
+          { "Chance": 23, "Description": "Obrona" },
+          { "Chance": 24, "Description": "Przeznaczenie" },
+          { "Chance": 25, "Description": "Katastrofa" },
+          { "Chance": 26, "Description": "Odkrycie" },
+          { "Chance": 27, "Description": "Choroba" },
+          { "Chance": 28, "Description": "Panowanie" },
+          { "Chance": 29, "Description": "Sen" },
+          { "Chance": 30, "Description": "Obowiązek" },
+          { "Chance": 31, "Description": "Wróg" },
+          { "Chance": 32, "Description": "Wyprawa" },
+          { "Chance": 33, "Description": "Odłam" },
+          { "Chance": 34, "Description": "Sława" },
+          { "Chance": 35, "Description": "Rodzina" },
+          { "Chance": 36, "Description": "Strach" },
+          { "Chance": 37, "Description": "Wspólnota" },
+          { "Chance": 38, "Description": "Wolność" },
+          { "Chance": 39, "Description": "Chciwość" },
+          { "Chance": 40, "Description": "Trudność" },
+          { "Chance": 41, "Description": "Nienawidzić" },
+          { "Chance": 42, "Description": "Zdrowie" },
+          { "Chance": 43, "Description": "Historia" },
+          { "Chance": 44, "Description": "Dom" },
+          { "Chance": 45, "Description": "Zaszczyt" },
+          { "Chance": 46, "Description": "Nadzieja" },
+          { "Chance": 47, "Description": "Ludzkość" },
+          { "Chance": 48, "Description": "Niewinność" },
+          { "Chance": 49, "Description": "Wiedza" },
+          { "Chance": 50, "Description": "Praca" },
+          { "Chance": 51, "Description": "Język" },
+          { "Chance": 52, "Description": "Prawo" },
+          { "Chance": 53, "Description": "Spuścizna" },
+          { "Chance": 54, "Description": "Życie" },
+          { "Chance": 55, "Description": "Miłość" },
+          { "Chance": 56, "Description": "Pamięć" },
+          { "Chance": 57, "Description": "Natura" },
+          { "Chance": 58, "Description": "Możliwość" },
+          { "Chance": 59, "Description": "Przejście" },
+          { "Chance": 60, "Description": "Pokój" },
+          { "Chance": 61, "Description": "Zjawisko" },
+          { "Chance": 62, "Description": "Posiadanie" },
+          { "Chance": 63, "Description": "Moc" },
+          { "Chance": 64, "Description": "Cena" },
+          { "Chance": 65, "Description": "Duma" },
+          { "Chance": 66, "Description": "Nagroda" },
+          { "Chance": 67, "Description": "Proroctwo" },
+          { "Chance": 68, "Description": "Ochrona" },
+          { "Chance": 69, "Description": "Zadanie" },
+          { "Chance": 70, "Description": "Relacja" },
+          { "Chance": 71, "Description": "Religia" },
+          { "Chance": 72, "Description": "Reputacja" },
+          { "Chance": 73, "Description": "Ratunek" },
+          { "Chance": 74, "Description": "Zemsta" },
+          { "Chance": 75, "Description": "Rywalizować" },
+          { "Chance": 76, "Description": "Plotka" },
+          { "Chance": 77, "Description": "Bezpieczeństwo" },
+          { "Chance": 78, "Description": "Sanktuarium" },
+          { "Chance": 79, "Description": "Sekret" },
+          { "Chance": 80, "Description": "Rozwiązanie" },
+          { "Chance": 81, "Description": "Duch" },
+          { "Chance": 82, "Description": "Nieznajomy" },
+          { "Chance": 83, "Description": "Strategia" },
+          { "Chance": 84, "Description": "Wytrzymałość" },
+          { "Chance": 85, "Description": "Zabobon" },
+          { "Chance": 86, "Description": "Zaopatrzenie" },
+          { "Chance": 87, "Description": "Przetrwanie" },
+          { "Chance": 88, "Description": "Technologia" },
+          { "Chance": 89, "Description": "Czas" },
+          { "Chance": 90, "Description": "Narzędzie" },
+          { "Chance": 91, "Description": "Handel" },
+          { "Chance": 92, "Description": "Prawda" },
+          { "Chance": 93, "Description": "Zemsta" },
+          { "Chance": 94, "Description": "Przysięga" },
+          { "Chance": 95, "Description": "Wojna" },
+          { "Chance": 96, "Description": "Ostrzeżenie" },
+          { "Chance": 97, "Description": "Słabość" },
+          { "Chance": 98, "Description": "Bogactwo" },
+          { "Chance": 99, "Description": "Broń" },
+          { "Chance": 100, "Description": "Świat" }
         ]
       },
       {
@@ -1617,106 +1467,106 @@
         "Semantics": { "Part of speech": ["adjective"] },
         "Description": "Use these oracles to generate the details of a location, discovery, or encounter. The Descriptor oracle is particularly handy for quick generation of a location. For example, use it to describe the basic nature of a planet instead of rolling on the detailed planet oracles.\n\nDescriptor and Focus can answer questions such as:\n\n  * “What is this ship’s cargo?”\n  * “What is the nature of this planet?”\n  * “What is inside this station?”\n  * “What hazard do I encounter?”",
         "Table": [
-          { "Chance": 1, "Description": "Abandoned" },
-          { "Chance": 2, "Description": "Abundant" },
-          { "Chance": 3, "Description": "Active" },
-          { "Chance": 4, "Description": "Advanced" },
-          { "Chance": 5, "Description": "Alien" },
-          { "Chance": 6, "Description": "Ancient" },
-          { "Chance": 7, "Description": "Archaic" },
-          { "Chance": 8, "Description": "Automated" },
-          { "Chance": 9, "Description": "Barren" },
-          { "Chance": 10, "Description": "Biological" },
-          { "Chance": 11, "Description": "Blighted" },
-          { "Chance": 12, "Description": "Blocked" },
-          { "Chance": 13, "Description": "Breached" },
-          { "Chance": 14, "Description": "Broken" },
-          { "Chance": 15, "Description": "Captured" },
-          { "Chance": 16, "Description": "Chaotic" },
-          { "Chance": 17, "Description": "Civilized" },
-          { "Chance": 18, "Description": "Collapsed" },
-          { "Chance": 19, "Description": "Colossal" },
-          { "Chance": 20, "Description": "Confined" },
-          { "Chance": 21, "Description": "Conspicuous" },
-          { "Chance": 22, "Description": "Constructed" },
-          { "Chance": 23, "Description": "Contested" },
-          { "Chance": 24, "Description": "Corrupted" },
-          { "Chance": 25, "Description": "Created" },
-          { "Chance": 26, "Description": "Damaged" },
-          { "Chance": 27, "Description": "Dead" },
-          { "Chance": 28, "Description": "Deadly" },
-          { "Chance": 29, "Description": "Decaying" },
-          { "Chance": 30, "Description": "Defended" },
-          { "Chance": 31, "Description": "Depleted" },
-          { "Chance": 32, "Description": "Desolate" },
-          { "Chance": 33, "Description": "Destroyed" },
-          { "Chance": 34, "Description": "Diverse" },
-          { "Chance": 35, "Description": "Empty" },
-          { "Chance": 36, "Description": "Engulfed" },
-          { "Chance": 37, "Description": "Ensnaring" },
-          { "Chance": 38, "Description": "Expansive" },
-          { "Chance": 39, "Description": "Exposed" },
-          { "Chance": 40, "Description": "Fiery" },
-          { "Chance": 41, "Description": "Foreboding" },
-          { "Chance": 42, "Description": "Forgotten" },
-          { "Chance": 43, "Description": "Forsaken" },
-          { "Chance": 44, "Description": "Fortified" },
-          { "Chance": 45, "Description": "Foul" },
-          { "Chance": 46, "Description": "Fragile" },
-          { "Chance": 47, "Description": "Frozen" },
-          { "Chance": 48, "Description": "Functional" },
-          { "Chance": 49, "Description": "Grim" },
-          { "Chance": 50, "Description": "Guarded" },
-          { "Chance": 51, "Description": "Haunted" },
-          { "Chance": 52, "Description": "Hidden" },
-          { "Chance": 53, "Description": "High-Tech" },
-          { "Chance": 54, "Description": "Hoarded" },
-          { "Chance": 55, "Description": "Hostile" },
-          { "Chance": 56, "Description": "Immersed" },
-          { "Chance": 57, "Description": "Inaccessible" },
-          { "Chance": 58, "Description": "Infested" },
-          { "Chance": 59, "Description": "Inhabited" },
-          { "Chance": 60, "Description": "Isolated" },
-          { "Chance": 61, "Description": "Living" },
-          { "Chance": 62, "Description": "Lost" },
-          { "Chance": 63, "Description": "Lush" },
-          { "Chance": 64, "Description": "Makeshift" },
-          { "Chance": 65, "Description": "Mechanical" },
-          { "Chance": 66, "Description": "Misleading" },
-          { "Chance": 67, "Description": "Moving" },
-          { "Chance": 68, "Description": "Mysterious" },
-          { "Chance": 69, "Description": "Natural" },
-          { "Chance": 70, "Description": "New" },
-          { "Chance": 71, "Description": "Obscured" },
-          { "Chance": 72, "Description": "Open" },
-          { "Chance": 73, "Description": "Peaceful" },
-          { "Chance": 74, "Description": "Perilous" },
-          { "Chance": 75, "Description": "Pillaged" },
-          { "Chance": 76, "Description": "Powerful" },
-          { "Chance": 77, "Description": "Preserved" },
-          { "Chance": 78, "Description": "Prominent" },
-          { "Chance": 79, "Description": "Protected" },
-          { "Chance": 80, "Description": "Radiant" },
-          { "Chance": 81, "Description": "Rare" },
-          { "Chance": 82, "Description": "Remote" },
-          { "Chance": 83, "Description": "Rich" },
-          { "Chance": 84, "Description": "Ruined" },
-          { "Chance": 85, "Description": "Sacred" },
-          { "Chance": 86, "Description": "Safe" },
-          { "Chance": 87, "Description": "Sealed" },
-          { "Chance": 88, "Description": "Secret" },
-          { "Chance": 89, "Description": "Settled" },
-          { "Chance": 90, "Description": "Stolen" },
-          { "Chance": 91, "Description": "Strange" },
-          { "Chance": 92, "Description": "Subsurface" },
-          { "Chance": 93, "Description": "Toxic" },
-          { "Chance": 94, "Description": "Trapped" },
-          { "Chance": 95, "Description": "Undiscovered" },
-          { "Chance": 96, "Description": "Unnatural" },
-          { "Chance": 97, "Description": "Unstable" },
-          { "Chance": 98, "Description": "Untamed" },
-          { "Chance": 99, "Description": "Valuable" },
-          { "Chance": 100, "Description": "Violent" }
+          { "Chance": 1, "Description": "Opuszczony" },
+          { "Chance": 2, "Description": "Obfity" },
+          { "Chance": 3, "Description": "Aktywny" },
+          { "Chance": 4, "Description": "Zaawansowany" },
+          { "Chance": 5, "Description": "Obcy" },
+          { "Chance": 6, "Description": "Starożytny" },
+          { "Chance": 7, "Description": "Archaiczny" },
+          { "Chance": 8, "Description": "Zautomatyzowany" },
+          { "Chance": 9, "Description": "Jałowy" },
+          { "Chance": 10, "Description": "Biologiczny" },
+          { "Chance": 11, "Description": "Zarażony" },
+          { "Chance": 12, "Description": "Zablokowany" },
+          { "Chance": 13, "Description": "Naruszony" },
+          { "Chance": 14, "Description": "Złamany" },
+          { "Chance": 15, "Description": "Złapany" },
+          { "Chance": 16, "Description": "Chaotyczny" },
+          { "Chance": 17, "Description": "Cywilizowany" },
+          { "Chance": 18, "Description": "Zapadnięty" },
+          { "Chance": 19, "Description": "Kolosalny" },
+          { "Chance": 20, "Description": "Ograniczony" },
+          { "Chance": 21, "Description": "Rzucający się w oczy" },
+          { "Chance": 22, "Description": "Skonstruowany" },
+          { "Chance": 23, "Description": "Zakwestionowany" },
+          { "Chance": 24, "Description": "Skorumpowany" },
+          { "Chance": 25, "Description": "Utworzony" },
+          { "Chance": 26, "Description": "Uszkodzony" },
+          { "Chance": 27, "Description": "Martwy" },
+          { "Chance": 28, "Description": "Śmiertelny" },
+          { "Chance": 29, "Description": "Rozpadający" },
+          { "Chance": 30, "Description": "Broniony" },
+          { "Chance": 31, "Description": "Wyczerpany" },
+          { "Chance": 32, "Description": "Odosobniony" },
+          { "Chance": 33, "Description": "Zniszczony" },
+          { "Chance": 34, "Description": "Różnorodny" },
+          { "Chance": 35, "Description": "Pusty" },
+          { "Chance": 36, "Description": "Pochłonięty" },
+          { "Chance": 37, "Description": "Usidlony" },
+          { "Chance": 38, "Description": "Ekspansywny" },
+          { "Chance": 39, "Description": "Narażony" },
+          { "Chance": 40, "Description": "Ognisty" },
+          { "Chance": 41, "Description": "Złowieszczy" },
+          { "Chance": 42, "Description": "Zapomniany" },
+          { "Chance": 43, "Description": "Opuszczony" },
+          { "Chance": 44, "Description": "Warowny" },
+          { "Chance": 45, "Description": "Fałszywy" },
+          { "Chance": 46, "Description": "Kruchy" },
+          { "Chance": 47, "Description": "Zamrożony" },
+          { "Chance": 48, "Description": "Funkcjonalny" },
+          { "Chance": 49, "Description": "Ponury" },
+          { "Chance": 50, "Description": "Ostrożny" },
+          { "Chance": 51, "Description": "Nawiedzany" },
+          { "Chance": 52, "Description": "Ukryty" },
+          { "Chance": 53, "Description": "Wysoko-technologiczny" },
+          { "Chance": 54, "Description": "Zgromadzony" },
+          { "Chance": 55, "Description": "Wrogi" },
+          { "Chance": 56, "Description": "Zanurzony" },
+          { "Chance": 57, "Description": "Niedostępny" },
+          { "Chance": 58, "Description": "Zainfekowany" },
+          { "Chance": 59, "Description": "Zamieszkany" },
+          { "Chance": 60, "Description": "Odosobniony" },
+          { "Chance": 61, "Description": "Żyjący" },
+          { "Chance": 62, "Description": "Zaginiony" },
+          { "Chance": 63, "Description": "Bujny" },
+          { "Chance": 64, "Description": "Prowizoryczny" },
+          { "Chance": 65, "Description": "Mechaniczny" },
+          { "Chance": 66, "Description": "Zwodniczy" },
+          { "Chance": 67, "Description": "Poruszający" },
+          { "Chance": 68, "Description": "Tajemniczy" },
+          { "Chance": 69, "Description": "Naturalny" },
+          { "Chance": 70, "Description": "Nowy" },
+          { "Chance": 71, "Description": "Niejasny" },
+          { "Chance": 72, "Description": "Otwarty" },
+          { "Chance": 73, "Description": "Spokojny" },
+          { "Chance": 74, "Description": "Niebezpieczny" },
+          { "Chance": 75, "Description": "Splądrowany" },
+          { "Chance": 76, "Description": "Potężny" },
+          { "Chance": 77, "Description": "Zachowany" },
+          { "Chance": 78, "Description": "Znaczący" },
+          { "Chance": 79, "Description": "Chroniony" },
+          { "Chance": 80, "Description": "Promienny" },
+          { "Chance": 81, "Description": "Rzadki" },
+          { "Chance": 82, "Description": "Zdalny" },
+          { "Chance": 83, "Description": "Bogaty" },
+          { "Chance": 84, "Description": "Zrujnowany" },
+          { "Chance": 85, "Description": "Poświęcony" },
+          { "Chance": 86, "Description": "Bezpieczny" },
+          { "Chance": 87, "Description": "Zapieczętowany" },
+          { "Chance": 88, "Description": "Sekretny" },
+          { "Chance": 89, "Description": "Osiedlony" },
+          { "Chance": 90, "Description": "Skradziony" },
+          { "Chance": 91, "Description": "Dziwny" },
+          { "Chance": 92, "Description": "Podpowierzchowny" },
+          { "Chance": 93, "Description": "Toksyczny" },
+          { "Chance": 94, "Description": "Uwięziony" },
+          { "Chance": 95, "Description": "Nieodkryty" },
+          { "Chance": 96, "Description": "Nienaturalny" },
+          { "Chance": 97, "Description": "Nietrwały" },
+          { "Chance": 98, "Description": "Nieokiełznany" },
+          { "Chance": 99, "Description": "Cenny" },
+          { "Chance": 100, "Description": "Brutalny" }
         ]
       },
       {
@@ -1731,104 +1581,104 @@
         "Table": [
           { "Chance": 1, "Description": "AI" },
           { "Chance": 2, "Description": "Alarm" },
-          { "Chance": 3, "Description": "Anomaly" },
-          { "Chance": 4, "Description": "Apparition" },
-          { "Chance": 5, "Description": "Archive" },
-          { "Chance": 6, "Description": "Art" },
-          { "Chance": 7, "Description": "Artifact" },
-          { "Chance": 8, "Description": "Atmosphere" },
-          { "Chance": 9, "Description": "Battleground" },
-          { "Chance": 10, "Description": "Beacon" },
-          { "Chance": 11, "Description": "Being" },
-          { "Chance": 12, "Description": "Blockade" },
-          { "Chance": 13, "Description": "Boundary" },
-          { "Chance": 14, "Description": "Cache" },
-          { "Chance": 15, "Description": "Cargo" },
-          { "Chance": 16, "Description": "Commodity" },
-          { "Chance": 17, "Description": "Confinement" },
-          { "Chance": 18, "Description": "Container" },
-          { "Chance": 19, "Description": "Creature" },
-          { "Chance": 20, "Description": "Crossing" },
-          { "Chance": 21, "Description": "Data" },
-          { "Chance": 22, "Description": "Debris" },
-          { "Chance": 23, "Description": "Device" },
-          { "Chance": 24, "Description": "Dimension" },
-          { "Chance": 25, "Description": "Ecosystem" },
-          { "Chance": 26, "Description": "Enclosure" },
-          { "Chance": 27, "Description": "Energy" },
-          { "Chance": 28, "Description": "Environment" },
-          { "Chance": 29, "Description": "Equipment" },
-          { "Chance": 30, "Description": "Facility" },
-          { "Chance": 31, "Description": "Fleet" },
-          { "Chance": 32, "Description": "Force" },
-          { "Chance": 33, "Description": "Fortification" },
-          { "Chance": 34, "Description": "Fuel" },
-          { "Chance": 35, "Description": "Gas" },
-          { "Chance": 36, "Description": "Grave" },
-          { "Chance": 37, "Description": "Gravity" },
-          { "Chance": 38, "Description": "Habitat" },
+          { "Chance": 3, "Description": "Anomalia" },
+          { "Chance": 4, "Description": "Zjawa" },
+          { "Chance": 5, "Description": "Archiwum" },
+          { "Chance": 6, "Description": "Sztuka" },
+          { "Chance": 7, "Description": "Artefakt" },
+          { "Chance": 8, "Description": "Atmosfera" },
+          { "Chance": 9, "Description": "Pole bitwy" },
+          { "Chance": 10, "Description": "Przekaźnik" },
+          { "Chance": 11, "Description": "Istnienie" },
+          { "Chance": 12, "Description": "Blokada" },
+          { "Chance": 13, "Description": "Granica" },
+          { "Chance": 14, "Description": "Pamięć podręczna / schemat" },
+          { "Chance": 15, "Description": "Ładunek" },
+          { "Chance": 16, "Description": "Towar" },
+          { "Chance": 17, "Description": "Obłożna choroba" },
+          { "Chance": 18, "Description": "Pojemnik" },
+          { "Chance": 19, "Description": "Kreatura" },
+          { "Chance": 20, "Description": "Przejście" },
+          { "Chance": 21, "Description": "Dane" },
+          { "Chance": 22, "Description": "Gruz" },
+          { "Chance": 23, "Description": "Urządzenie" },
+          { "Chance": 24, "Description": "Wymiar" },
+          { "Chance": 25, "Description": "Ekosystem" },
+          { "Chance": 26, "Description": "Ogrodzenie" },
+          { "Chance": 27, "Description": "Energia" },
+          { "Chance": 28, "Description": "Środowisko" },
+          { "Chance": 29, "Description": "Ekwipunek" },
+          { "Chance": 30, "Description": "Placówka" },
+          { "Chance": 31, "Description": "Flota" },
+          { "Chance": 32, "Description": "Siła" },
+          { "Chance": 33, "Description": "Fortyfikacja" },
+          { "Chance": 34, "Description": "Paliwo" },
+          { "Chance": 35, "Description": "Gaz" },
+          { "Chance": 36, "Description": "Grób" },
+          { "Chance": 37, "Description": "Grawitacja" },
+          { "Chance": 38, "Description": "Siedlisko" },
           { "Chance": 39, "Description": "Hazard" },
-          { "Chance": 40, "Description": "Hideaway" },
-          { "Chance": 41, "Description": "Home" },
-          { "Chance": 42, "Description": "Illusion" },
-          { "Chance": 43, "Description": "Industry" },
-          { "Chance": 44, "Description": "Lair" },
-          { "Chance": 45, "Description": "Lifeform" },
-          { "Chance": 46, "Description": "Liquid" },
-          { "Chance": 47, "Description": "Machine" },
-          { "Chance": 48, "Description": "Material" },
-          { "Chance": 49, "Description": "Mechanism" },
-          { "Chance": 50, "Description": "Message" },
-          { "Chance": 51, "Description": "Mineral" },
-          { "Chance": 52, "Description": "Monument" },
-          { "Chance": 53, "Description": "Network" },
-          { "Chance": 54, "Description": "Obstacle" },
-          { "Chance": 55, "Description": "Orbit" },
-          { "Chance": 56, "Description": "Organism" },
-          { "Chance": 57, "Description": "Path" },
-          { "Chance": 58, "Description": "People" },
-          { "Chance": 59, "Description": "Person" },
-          { "Chance": 60, "Description": "Plant" },
+          { "Chance": 40, "Description": "Schronienie" },
+          { "Chance": 41, "Description": "Dom" },
+          { "Chance": 42, "Description": "Iluzja" },
+          { "Chance": 43, "Description": "Przemysł" },
+          { "Chance": 44, "Description": "Leże" },
+          { "Chance": 45, "Description": "Forma życia" },
+          { "Chance": 46, "Description": "Płyn" },
+          { "Chance": 47, "Description": "Maszyna" },
+          { "Chance": 48, "Description": "Materiał" },
+          { "Chance": 49, "Description": "Mechanizm" },
+          { "Chance": 50, "Description": "Wiadomość" },
+          { "Chance": 51, "Description": "Minerał" },
+          { "Chance": 52, "Description": "Pomnik" },
+          { "Chance": 53, "Description": "Sieć" },
+          { "Chance": 54, "Description": "Przeszkoda" },
+          { "Chance": 55, "Description": "Orbita" },
+          { "Chance": 56, "Description": "Organizm" },
+          { "Chance": 57, "Description": "Ścieżka" },
+          { "Chance": 58, "Description": "Ludzie" },
+          { "Chance": 59, "Description": "Osoba" },
+          { "Chance": 60, "Description": "Roślina" },
           { "Chance": 61, "Description": "Portal" },
-          { "Chance": 62, "Description": "Probe" },
-          { "Chance": 63, "Description": "Reality" },
-          { "Chance": 64, "Description": "Recording" },
-          { "Chance": 65, "Description": "Refuge" },
-          { "Chance": 66, "Description": "Relic" },
-          { "Chance": 67, "Description": "Remains" },
-          { "Chance": 68, "Description": "Rendezvous" },
-          { "Chance": 69, "Description": "Resource" },
-          { "Chance": 70, "Description": "Route" },
-          { "Chance": 71, "Description": "Ruins" },
-          { "Chance": 72, "Description": "Salvage" },
-          { "Chance": 73, "Description": "Sector" },
-          { "Chance": 74, "Description": "Settlement" },
-          { "Chance": 75, "Description": "Shelter" },
-          { "Chance": 76, "Description": "Shortcut" },
-          { "Chance": 77, "Description": "Signal" },
-          { "Chance": 78, "Description": "Sound" },
-          { "Chance": 79, "Description": "Spacetime" },
-          { "Chance": 80, "Description": "Starship" },
-          { "Chance": 81, "Description": "Station" },
-          { "Chance": 82, "Description": "Storage" },
-          { "Chance": 83, "Description": "Storm" },
-          { "Chance": 84, "Description": "Structure" },
-          { "Chance": 85, "Description": "Supply" },
+          { "Chance": 62, "Description": "Sonda" },
+          { "Chance": 63, "Description": "Rzeczywistość" },
+          { "Chance": 64, "Description": "Nagranie" },
+          { "Chance": 65, "Description": "Schronienie" },
+          { "Chance": 66, "Description": "Relikt" },
+          { "Chance": 67, "Description": "Szczątki" },
+          { "Chance": 68, "Description": "Randevu" },
+          { "Chance": 69, "Description": "Zasób" },
+          { "Chance": 70, "Description": "Trasa" },
+          { "Chance": 71, "Description": "Ruiny" },
+          { "Chance": 72, "Description": "Ratunek" },
+          { "Chance": 73, "Description": "Sektor" },
+          { "Chance": 74, "Description": "Osada" },
+          { "Chance": 75, "Description": "Schron" },
+          { "Chance": 76, "Description": "Skrót" },
+          { "Chance": 77, "Description": "Sygnał" },
+          { "Chance": 78, "Description": "Dźwięk" },
+          { "Chance": 79, "Description": "Czasoprzestrzeń" },
+          { "Chance": 80, "Description": "Statek kosmiczny" },
+          { "Chance": 81, "Description": "Stacja" },
+          { "Chance": 82, "Description": "Magazyn" },
+          { "Chance": 83, "Description": "Burza" },
+          { "Chance": 84, "Description": "Struktura" },
+          { "Chance": 85, "Description": "Zasoby" },
           { "Chance": 86, "Description": "Symbol" },
           { "Chance": 87, "Description": "System" },
-          { "Chance": 88, "Description": "Technology" },
-          { "Chance": 89, "Description": "Terrain" },
-          { "Chance": 90, "Description": "Territory" },
-          { "Chance": 91, "Description": "Transportation" },
-          { "Chance": 92, "Description": "Trap" },
-          { "Chance": 93, "Description": "Treasure" },
-          { "Chance": 94, "Description": "Vault" },
-          { "Chance": 95, "Description": "Vehicle" },
-          { "Chance": 96, "Description": "Viewpoint" },
-          { "Chance": 97, "Description": "Void" },
-          { "Chance": 98, "Description": "Weapon" },
-          { "Chance": 99, "Description": "World" },
-          { "Chance": 100, "Description": "Wreckage" }
+          { "Chance": 88, "Description": "Technologia" },
+          { "Chance": 89, "Description": "Teren" },
+          { "Chance": 90, "Description": "Terytorium" },
+          { "Chance": 91, "Description": "Transport" },
+          { "Chance": 92, "Description": "Pułapka" },
+          { "Chance": 93, "Description": "Skarb" },
+          { "Chance": 94, "Description": "Krypta" },
+          { "Chance": 95, "Description": "Pojazd" },
+          { "Chance": 96, "Description": "Punkt widzenia" },
+          { "Chance": 97, "Description": "Próżnia" },
+          { "Chance": 98, "Description": "Broń" },
+          { "Chance": 99, "Description": "Świat" },
+          { "Chance": 100, "Description": "Wrak" }
         ]
       }
     ]
@@ -1843,11 +1693,11 @@
         "Initial": true,
         "Description": "Choose the closest match for your location. Or roll to identify the primary habitat of a creature.",
         "Table": [
-          { "Chance": 5, "Description": "Space" },
-          { "Chance": 15, "Description": "Interior" },
-          { "Chance": 55, "Description": "Land" },
-          { "Chance": 80, "Description": "Liquid" },
-          { "Chance": 100, "Description": "Air" }
+          { "Chance": 5, "Description": "Kosmos" },
+          { "Chance": 15, "Description": "Pod ziemią / w obiekcie" },
+          { "Chance": 55, "Description": "Ląd" },
+          { "Chance": 80, "Description": "Płyn/woda" },
+          { "Chance": 100, "Description": "Powietrze" }
         ]
       },
       {
@@ -1856,12 +1706,12 @@
         "Initial": true,
         "Semantics": { "Part of speech": ["adjective"] },
         "Table": [
-          { "Chance": 3, "Description": "Minuscule", "Details": "bug-sized" },
-          { "Chance": 10, "Description": "Tiny", "Details": "rodent-sized" },
-          { "Chance": 25, "Description": "Small", "Details": "dog-sized" },
-          { "Chance": 60, "Description": "Medium", "Details": "person-sized" },
-          { "Chance": 90, "Description": "Large", "Details": "vehicle-sized" },
-          { "Chance": 99, "Description": "Huge", "Details": "whale-sized" },
+          { "Chance": 3, "Description": "tyci", "Details": "rozmiaru robaka" },
+          { "Chance": 10, "Description": "malutki", "Details": "rozmiaru gryzonia" },
+          { "Chance": 25, "Description": "mały", "Details": "rozmiaru psa" },
+          { "Chance": 60, "Description": "średni", "Details": "rozmiaru człowieka" },
+          { "Chance": 90, "Description": "duży", "Details": "rozmiaru pojazdu/samochodu" },
+          { "Chance": 99, "Description": "wielki", "Details": "rozmiaru wieloryba" },
           {
             "Chance": 100,
             "Description": "▶️Ultra-scale",
@@ -1876,13 +1726,13 @@
         "Semantics": { "Part of speech": ["adjective"] },
         "Requires": { "Scale": ["Ultra-scale"] },
         "Table": [
-          { "Chance": 89, "Description": "Titanic", "Details": "hill-sized" },
+          { "Chance": 89, "Description": "Tytaniczny", "Details": "rozmiaru wzgórza" },
           {
             "Chance": 99,
-            "Description": "Colossal",
-            "Details": "mountain-sized"
+            "Description": "Kolosalny",
+            "Details": "rozmiaru gór"
           },
-          { "Chance": 100, "Description": "Vast", "Details": "planet-sized" }
+          { "Chance": 100, "Description": "Rozległy", "Details": "rozmiaru planety" }
         ]
       },
       {
@@ -1897,26 +1747,26 @@
             "Name": "Space",
             "Requires": { "Environment": ["Space"] },
             "Table": [
-              { "Chance": 5, "Description": "Amoeba / pseudopods" },
-              { "Chance": 20, "Description": "Amorphous / elemental" },
-              { "Chance": 30, "Description": "Avian / winged" },
-              { "Chance": 32, "Description": "Beast / mammal" },
-              { "Chance": 34, "Description": "Crustacean / shelled" },
-              { "Chance": 37, "Description": "Fish / torpedo-shaped" },
-              { "Chance": 39, "Description": "Humanoid / bipedal" },
-              { "Chance": 41, "Description": "Insectoid / exoskeletal" },
-              { "Chance": 60, "Description": "Jellyfish / gasbag" },
-              { "Chance": 62, "Description": "Lizard / reptilian" },
-              { "Chance": 67, "Description": "Octopoid / tentacled" },
-              { "Chance": 72, "Description": "Plant / fungus" },
-              { "Chance": 82, "Description": "Ray / flat-bodied" },
-              { "Chance": 84, "Description": "Snake / eel" },
-              { "Chance": 86, "Description": "Spider / web-weaver" },
-              { "Chance": 88, "Description": "Starfish / symmetrical" },
-              { "Chance": 90, "Description": "Worm / slug / larva" },
+              { "Chance": 5, "Description": "Ameba / nibynóżki" },
+              { "Chance": 20, "Description": "amorficzny / elementarny" },
+              { "Chance": 30, "Description": "Ptasia / skrzydlata" },
+              { "Chance": 32, "Description": "Bestia / ssak" },
+              { "Chance": 34, "Description": "Skorupiak / ma skorupę" },
+              { "Chance": 37, "Description": "Ryba / w kształcie torpedy" },
+              { "Chance": 39, "Description": "Humanoidalne / dwunożne" },
+              { "Chance": 41, "Description": "Insektoid / egzoszkielet" },
+              { "Chance": 60, "Description": "Meduza / torba na gaz" },
+              { "Chance": 62, "Description": "Jaszczurka / gad" },
+              { "Chance": 67, "Description": "Ośmiornica / mackowaty" },
+              { "Chance": 72, "Description": "Roślina / grzyb" },
+              { "Chance": 82, "Description": "Płaszczka / płaskie ciało" },
+              { "Chance": 84, "Description": "Wąż / węgorz" },
+              { "Chance": 86, "Description": "Pająk / tkacz sieci" },
+              { "Chance": 88, "Description": "Rozgwiazda / symetryczna" },
+              { "Chance": 90, "Description": "Robak / ślimak / larwa" },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -1926,26 +1776,26 @@
             "Name": "Interior",
             "Requires": { "Environment": ["Interior"] },
             "Table": [
-              { "Chance": 3, "Description": "Amoeba / pseudopods" },
-              { "Chance": 6, "Description": "Amorphous / elemental" },
-              { "Chance": 12, "Description": "Avian / winged" },
-              { "Chance": 19, "Description": "Beast / mammal" },
-              { "Chance": 22, "Description": "Crustacean / shelled" },
-              { "Chance": 24, "Description": "Fish / torpedo-shaped" },
-              { "Chance": 37, "Description": "Humanoid / bipedal" },
-              { "Chance": 49, "Description": "Insectoid / exoskeletal" },
-              { "Chance": 51, "Description": "Jellyfish / gasbag" },
-              { "Chance": 56, "Description": "Lizard / reptilian" },
-              { "Chance": 58, "Description": "Octopoid / tentacled" },
-              { "Chance": 63, "Description": "Plant / fungus" },
-              { "Chance": 65, "Description": "Ray / flat-bodied" },
-              { "Chance": 68, "Description": "Snake / eel" },
-              { "Chance": 83, "Description": "Spider / web-weaver" },
-              { "Chance": 85, "Description": "Starfish / symmetrical" },
-              { "Chance": 90, "Description": "Worm / slug / larva" },
+              { "Chance": 3, "Description": "Ameba / nibynóżki" },
+              { "Chance": 6, "Description": "amorficzny / elementarny" },
+              { "Chance": 12, "Description": "Ptasia / skrzydlata" },
+              { "Chance": 19, "Description": "Bestia / ssak" },
+              { "Chance": 22, "Description": "Skorupiak / ma skorupę" },
+              { "Chance": 24, "Description": "Ryba / w kształcie torpedy" },
+              { "Chance": 37, "Description": "Humanoidalne / dwunożne" },
+              { "Chance": 49, "Description": "Insektoid / egzoszkielet" },
+              { "Chance": 51, "Description": "Meduza / torba na gaz" },
+              { "Chance": 56, "Description": "Jaszczurka / gad" },
+              { "Chance": 58, "Description": "Ośmiornica / mackowaty" },
+              { "Chance": 63, "Description": "Roślina / grzyb" },
+              { "Chance": 65, "Description": "Płaszczka / płaskie ciało" },
+              { "Chance": 68, "Description": "Wąż / węgorz" },
+              { "Chance": 83, "Description": "Pająk / tkacz sieci" },
+              { "Chance": 85, "Description": "Rozgwiazda / symetryczna" },
+              { "Chance": 90, "Description": "Robak / ślimak / larwa" },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -1955,26 +1805,26 @@
             "Name": "Land",
             "Requires": { "Environment": ["Land"] },
             "Table": [
-              { "Chance": 2, "Description": "Amoeba / pseudopods" },
-              { "Chance": 5, "Description": "Amorphous / elemental" },
-              { "Chance": 10, "Description": "Avian / winged" },
-              { "Chance": 25, "Description": "Beast / mammal" },
-              { "Chance": 32, "Description": "Crustacean / shelled" },
-              { "Chance": 34, "Description": "Fish / torpedo-shaped" },
-              { "Chance": 39, "Description": "Humanoid / bipedal" },
-              { "Chance": 49, "Description": "Insectoid / exoskeletal" },
-              { "Chance": 51, "Description": "Jellyfish / gasbag" },
-              { "Chance": 58, "Description": "Lizard / reptilian" },
-              { "Chance": 60, "Description": "Octopoid / tentacled" },
-              { "Chance": 65, "Description": "Plant / fungus" },
-              { "Chance": 67, "Description": "Ray / flat-bodied" },
-              { "Chance": 74, "Description": "Snake / eel" },
-              { "Chance": 81, "Description": "Spider / web-weaver" },
-              { "Chance": 83, "Description": "Starfish / symmetrical" },
-              { "Chance": 90, "Description": "Worm / slug / larva" },
+              { "Chance": 2, "Description": "Ameba / nibynóżki" },
+              { "Chance": 5, "Description": "amorficzny / elementarny" },
+              { "Chance": 10, "Description": "Ptasia / skrzydlata" },
+              { "Chance": 25, "Description": "Bestia / ssak" },
+              { "Chance": 32, "Description": "Skorupiak / ma skorupę" },
+              { "Chance": 34, "Description": "Ryba / w kształcie torpedy" },
+              { "Chance": 39, "Description": "Humanoidalne / dwunożne" },
+              { "Chance": 49, "Description": "Insektoid / egzoszkielet" },
+              { "Chance": 51, "Description": "Meduza / torba na gaz" },
+              { "Chance": 58, "Description": "Jaszczurka / gad" },
+              { "Chance": 60, "Description": "Ośmiornica / mackowaty" },
+              { "Chance": 65, "Description": "Roślina / grzyb" },
+              { "Chance": 67, "Description": "Płaszczka / płaskie ciało" },
+              { "Chance": 74, "Description": "Wąż / węgorz" },
+              { "Chance": 81, "Description": "Pająk / tkacz sieci" },
+              { "Chance": 83, "Description": "Rozgwiazda / symetryczna" },
+              { "Chance": 90, "Description": "Robak / ślimak / larwa" },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -1984,26 +1834,26 @@
             "Name": "Liquid",
             "Requires": { "Environment": ["Liquid"] },
             "Table": [
-              { "Chance": 5, "Description": "Amoeba / pseudopods" },
-              { "Chance": 8, "Description": "Amorphous / elemental" },
-              { "Chance": 11, "Description": "Avian / winged" },
-              { "Chance": 17, "Description": "Beast / mammal" },
-              { "Chance": 24, "Description": "Crustacean / shelled" },
-              { "Chance": 39, "Description": "Fish / torpedo-shaped" },
-              { "Chance": 42, "Description": "Humanoid / bipedal" },
-              { "Chance": 45, "Description": "Insectoid / exoskeletal" },
-              { "Chance": 53, "Description": "Jellyfish / gasbag" },
-              { "Chance": 56, "Description": "Lizard / reptilian" },
-              { "Chance": 63, "Description": "Octopoid / tentacled" },
-              { "Chance": 68, "Description": "Plant / fungus" },
-              { "Chance": 75, "Description": "Ray / flat-bodied" },
-              { "Chance": 80, "Description": "Snake / eel" },
-              { "Chance": 82, "Description": "Spider / web-weaver" },
-              { "Chance": 87, "Description": "Starfish / symmetrical" },
-              { "Chance": 90, "Description": "Worm / slug / larva" },
+              { "Chance": 5, "Description": "Ameba / nibynóżki" },
+              { "Chance": 8, "Description": "amorficzny / elementarny" },
+              { "Chance": 11, "Description": "Ptasia / skrzydlata" },
+              { "Chance": 17, "Description": "Bestia / ssak" },
+              { "Chance": 24, "Description": "Skorupiak / ma skorupę" },
+              { "Chance": 39, "Description": "Ryba / w kształcie torpedy" },
+              { "Chance": 42, "Description": "Humanoidalne / dwunożne" },
+              { "Chance": 45, "Description": "Insektoid / egzoszkielet" },
+              { "Chance": 53, "Description": "Meduza / torba na gaz" },
+              { "Chance": 56, "Description": "Jaszczurka / gad" },
+              { "Chance": 63, "Description": "Ośmiornica / mackowaty" },
+              { "Chance": 68, "Description": "Roślina / grzyb" },
+              { "Chance": 75, "Description": "Płaszczka / płaskie ciało" },
+              { "Chance": 80, "Description": "Wąż / węgorz" },
+              { "Chance": 82, "Description": "Pająk / tkacz sieci" },
+              { "Chance": 87, "Description": "Rozgwiazda / symetryczna" },
+              { "Chance": 90, "Description": "Robak / ślimak / larwa" },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -2013,26 +1863,26 @@
             "Name": "Air",
             "Requires": { "Environment": ["Air"] },
             "Table": [
-              { "Chance": 2, "Description": "Amoeba / pseudopods" },
-              { "Chance": 12, "Description": "Amorphous / elemental" },
-              { "Chance": 37, "Description": "Avian / winged" },
-              { "Chance": 40, "Description": "Beast / mammal" },
-              { "Chance": 42, "Description": "Crustacean / shelled" },
-              { "Chance": 47, "Description": "Fish / torpedo-shaped" },
-              { "Chance": 49, "Description": "Humanoid / bipedal" },
-              { "Chance": 51, "Description": "Insectoid / exoskeletal" },
-              { "Chance": 66, "Description": "Jellyfish / gasbag" },
-              { "Chance": 68, "Description": "Lizard / reptilian" },
-              { "Chance": 70, "Description": "Octopoid / tentacled" },
-              { "Chance": 72, "Description": "Plant / fungus" },
-              { "Chance": 82, "Description": "Ray / flat-bodied" },
-              { "Chance": 84, "Description": "Snake / eel" },
-              { "Chance": 86, "Description": "Spider / web-weaver" },
-              { "Chance": 88, "Description": "Starfish / symmetrical" },
-              { "Chance": 90, "Description": "Worm / slug / larva" },
+              { "Chance": 2, "Description": "Ameba / nibynóżki" },
+              { "Chance": 12, "Description": "amorficzny / elementarny" },
+              { "Chance": 37, "Description": "Ptasia / skrzydlata" },
+              { "Chance": 40, "Description": "Bestia / ssak" },
+              { "Chance": 42, "Description": "Skorupiak / ma skorupę" },
+              { "Chance": 47, "Description": "Ryba / w kształcie torpedy" },
+              { "Chance": 49, "Description": "Humanoidalne / dwunożne" },
+              { "Chance": 51, "Description": "Insektoid / egzoszkielet" },
+              { "Chance": 66, "Description": "Meduza / torba na gaz" },
+              { "Chance": 68, "Description": "Jaszczurka / gad" },
+              { "Chance": 70, "Description": "Ośmiornica / mackowaty" },
+              { "Chance": 72, "Description": "Roślina / grzyb" },
+              { "Chance": 82, "Description": "Płaszczka / płaskie ciało" },
+              { "Chance": 84, "Description": "Wąż / węgorz" },
+              { "Chance": 86, "Description": "Pająk / tkacz sieci" },
+              { "Chance": 88, "Description": "Rozgwiazda / symetryczna" },
+              { "Chance": 90, "Description": "Robak / ślimak / larwa" },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -2051,56 +1901,56 @@
         "Min rolls": 2,
         "Max rolls": 2,
         "Table": [
-          { "Chance": 2, "Description": "Antennae or sensory organs" },
-          { "Chance": 4, "Description": "Armored" },
-          { "Chance": 6, "Description": "Beautiful" },
-          { "Chance": 8, "Description": "Biotech" },
-          { "Chance": 10, "Description": "Bony or gaunt" },
-          { "Chance": 12, "Description": "Brutish or muscled" },
-          { "Chance": 14, "Description": "Camouflaged" },
-          { "Chance": 16, "Description": "Claws or talons" },
-          { "Chance": 18, "Description": "Compound eyes" },
-          { "Chance": 20, "Description": "Comprised of many creatures" },
-          { "Chance": 22, "Description": "Corrupted" },
-          { "Chance": 24, "Description": "Crystalline" },
-          { "Chance": 26, "Description": "Dead or undead" },
-          { "Chance": 28, "Description": "Distinctive markings" },
-          { "Chance": 30, "Description": "Distinctive smell" },
-          { "Chance": 32, "Description": "Distinctive sound" },
-          { "Chance": 34, "Description": "Dripping mucus" },
-          { "Chance": 36, "Description": "Elongated Neck" },
-          { "Chance": 38, "Description": "Energy emissions" },
-          { "Chance": 40, "Description": "Extra limbs" },
-          { "Chance": 42, "Description": "Faceless or inexpressive" },
-          { "Chance": 44, "Description": "Fangs or rows of teeth" },
-          { "Chance": 46, "Description": "Feathered" },
-          { "Chance": 48, "Description": "Fungal growth" },
-          { "Chance": 50, "Description": "Fur, hair, or filaments" },
-          { "Chance": 52, "Description": "Graceful" },
-          { "Chance": 54, "Description": "Hideous" },
-          { "Chance": 56, "Description": "Hooded or crested" },
-          { "Chance": 58, "Description": "Immobile or trapped" },
-          { "Chance": 60, "Description": "Injured or scarred" },
-          { "Chance": 62, "Description": "Iridescent" },
-          { "Chance": 64, "Description": "Long-limbed" },
-          { "Chance": 66, "Description": "Luminescent" },
-          { "Chance": 68, "Description": "Mandibles or pincers" },
-          { "Chance": 70, "Description": "Many-eyed" },
-          { "Chance": 72, "Description": "Mineral or metallic" },
-          { "Chance": 74, "Description": "Multi-jointed" },
-          { "Chance": 76, "Description": "Multi-segmented body" },
-          { "Chance": 78, "Description": "Ornamented or colorful" },
-          { "Chance": 80, "Description": "Oversized mouth" },
-          { "Chance": 82, "Description": "Prominent tail" },
-          { "Chance": 84, "Description": "Prominent wings or fins" },
-          { "Chance": 86, "Description": "Ridges or plates" },
-          { "Chance": 88, "Description": "Scaled" },
-          { "Chance": 90, "Description": "Single eye or oversized eyes" },
-          { "Chance": 92, "Description": "Spikes or spines" },
-          { "Chance": 94, "Description": "Stinger or barbs" },
-          { "Chance": 96, "Description": "Tentacles or tendrils" },
-          { "Chance": 98, "Description": "Translucent" },
-          { "Chance": 100, "Description": "Visible symbiote" }
+          { "Chance": 2, "Description": "Anteny lub narządy zmysłów" },
+          { "Chance": 4, "Description": "Opancerzony" },
+          { "Chance": 6, "Description": "Piękny" },
+          { "Chance": 8, "Description": "Biotechnologiczny" },
+          { "Chance": 10, "Description": "Kościsty lub chudy" },
+          { "Chance": 12, "Description": "Zwierzęcy lub umięśniony" },
+          { "Chance": 14, "Description": "Zakamuflowany" },
+          { "Chance": 16, "Description": "Pazury lub szpony" },
+          { "Chance": 18, "Description": "Złożone oczy" },
+          { "Chance": 20, "Description": "Składa się z wielu stworzeń" },
+          { "Chance": 22, "Description": "Skorumpowany" },
+          { "Chance": 24, "Description": "Krystaliczny" },
+          { "Chance": 26, "Description": "Martwy lub nieumarły" },
+          { "Chance": 28, "Description": "Charakterystyczne oznaczenia" },
+          { "Chance": 30, "Description": "Charakterystyczny zapach" },
+          { "Chance": 32, "Description": "Charakterystyczny dźwięk" },
+          { "Chance": 34, "Description": "Kapiący śluz" },
+          { "Chance": 36, "Description": "Wydłużona szyja" },
+          { "Chance": 38, "Description": "Emisje energii" },
+          { "Chance": 40, "Description": "Dodatkowe kończyny" },
+          { "Chance": 42, "Description": "Bez twarzy lub bez wyrazu" },
+          { "Chance": 44, "Description": "Kły lub rzędy zębów" },
+          { "Chance": 46, "Description": "Pierzasty" },
+          { "Chance": 48, "Description": "Porośnięty grzybami" },
+          { "Chance": 50, "Description": "Futro, włosy lub włókna" },
+          { "Chance": 52, "Description": "Pełny gracji" },
+          { "Chance": 54, "Description": "Ohydny" },
+          { "Chance": 56, "Description": "Z kapturem lub z grzywą" },
+          { "Chance": 58, "Description": "Unieruchomiony lub uwięziony" },
+          { "Chance": 60, "Description": "Ranny lub z bliznami" },
+          { "Chance": 62, "Description": "Opalizujący" },
+          { "Chance": 64, "Description": "Długie kończyny" },
+          { "Chance": 66, "Description": "Świecący" },
+          { "Chance": 68, "Description": "żuchwy lub szczypce" },
+          { "Chance": 70, "Description": "Wielooki" },
+          { "Chance": 72, "Description": "Mineralny lub metaliczny" },
+          { "Chance": 74, "Description": "Wieloprzegubowy" },
+          { "Chance": 76, "Description": "Wielosegmentowe ciało" },
+          { "Chance": 78, "Description": "Zdobione lub kolorowe" },
+          { "Chance": 80, "Description": "Powiększone usta" },
+          { "Chance": 82, "Description": "Wydatny ogon" },
+          { "Chance": 84, "Description": "Wydatne skrzydła lub płetwy" },
+          { "Chance": 86, "Description": "Wypustki lub płyty" },
+          { "Chance": 88, "Description": "Łuskowaty" },
+          { "Chance": 90, "Description": "Jedno oko lub duże oczy" },
+          { "Chance": 92, "Description": "Kolce" },
+          { "Chance": 94, "Description": "Żądło" },
+          { "Chance": 96, "Description": "Macki lub wici" },
+          { "Chance": 98, "Description": "Prześwitujący" },
+          { "Chance": 100, "Description": "Widoczny symbiont" }
         ]
       },
       {
@@ -2109,29 +1959,29 @@
         "Semantics": { "Part of speech": ["common noun"] },
         "Initial": true,
         "Table": [
-          { "Chance": 5, "Description": "Ambusher" },
-          { "Chance": 10, "Description": "Apex predator" },
-          { "Chance": 14, "Description": "Builder" },
-          { "Chance": 19, "Description": "Camouflager" },
-          { "Chance": 24, "Description": "Forager" },
-          { "Chance": 29, "Description": "Grazer" },
-          { "Chance": 33, "Description": "Herder" },
-          { "Chance": 37, "Description": "Hibernator" },
+          { "Chance": 5, "Description": "Napastnik" },
+          { "Chance": 10, "Description": "Drapieżnik Alfa" },
+          { "Chance": 14, "Description": "Budowniczy" },
+          { "Chance": 19, "Description": "Kamuflaż" },
+          { "Chance": 24, "Description": "zbieracz" },
+          { "Chance": 29, "Description": "Pasący się" },
+          { "Chance": 33, "Description": "Dogląda stada" },
+          { "Chance": 37, "Description": "Hibernujący" },
           { "Chance": 41, "Description": "Hoarder" },
-          { "Chance": 46, "Description": "Hunter" },
-          { "Chance": 51, "Description": "Lurer" },
-          { "Chance": 55, "Description": "Migratory" },
-          { "Chance": 60, "Description": "Mimic" },
-          { "Chance": 65, "Description": "Nester" },
-          { "Chance": 70, "Description": "Pack hunter" },
-          { "Chance": 75, "Description": "Prey" },
-          { "Chance": 80, "Description": "Protector" },
-          { "Chance": 85, "Description": "Scavenger" },
-          { "Chance": 90, "Description": "Tracker" },
-          { "Chance": 95, "Description": "Trapper" },
+          { "Chance": 46, "Description": "Łowca" },
+          { "Chance": 51, "Description": "Wabiący" },
+          { "Chance": 55, "Description": "Wędrowny" },
+          { "Chance": 60, "Description": "Imitujący" },
+          { "Chance": 65, "Description": "Gnieżdżący się" },
+          { "Chance": 70, "Description": "Polujący w stadzie" },
+          { "Chance": 75, "Description": "Ofiara" },
+          { "Chance": 80, "Description": "Ochraniacz" },
+          { "Chance": 85, "Description": "Padlinożerca" },
+          { "Chance": 90, "Description": "Śledzący" },
+          { "Chance": 95, "Description": "Traper" }
           {
             "Chance": 100,
-            "Description": "Roll twice",
+            "Description": "Rzuć dwa razy",
             "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
           }
         ]
@@ -2466,7 +2316,7 @@
               },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -2474,7 +2324,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -2581,7 +2431,7 @@
               },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -2589,7 +2439,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -2693,7 +2543,7 @@
               { "Chance": 90, "Description": "Unstable or failing power core" },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -2701,7 +2551,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -2805,7 +2655,7 @@
               { "Chance": 90, "Description": "Signs of broken quarantine" },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -2813,7 +2663,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -2923,7 +2773,7 @@
               { "Chance": 90, "Description": "Signs of broken quarantine" },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -2931,7 +2781,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -3038,7 +2888,7 @@
               },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -3046,7 +2896,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -3150,7 +3000,7 @@
               },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -3158,7 +3008,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -3259,7 +3109,7 @@
               { "Chance": 90, "Description": "Unstable technology" },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -3267,7 +3117,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -3431,7 +3281,7 @@
               },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -3439,7 +3289,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -3569,7 +3419,7 @@
               },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -3577,7 +3427,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -3707,7 +3557,7 @@
               },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -3715,7 +3565,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -3842,7 +3692,7 @@
               { "Chance": 90, "Description": "Toxic or sickening environment" },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -3850,7 +3700,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -3977,7 +3827,7 @@
               },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -3985,7 +3835,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -4121,7 +3971,7 @@
               { "Chance": 90, "Description": "Volatile device or artifact" },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -4129,7 +3979,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -4268,7 +4118,7 @@
               },
               {
                 "Chance": 98,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -4276,7 +4126,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -4461,7 +4311,7 @@
           },
           {
             "Chance": 100,
-            "Description": "Roll twice",
+            "Description": "Rzuć dwa razy",
             "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
           }
         ]
@@ -4527,7 +4377,7 @@
           { "Chance": 96, "Description": "Weaken defenses" },
           {
             "Chance": 100,
-            "Description": "Roll twice",
+            "Description": "Rzuć dwa razy",
             "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
           }
         ]
@@ -4621,7 +4471,7 @@
           },
           {
             "Chance": 100,
-            "Description": "Roll twice",
+            "Description": "Rzuć dwa razy",
             "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
           }
         ]
@@ -4974,7 +4824,7 @@
           },
           {
             "Chance": 100,
-            "Description": "Roll twice",
+            "Description": "Rzuć dwa razy",
             "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
           }
         ]
@@ -5258,7 +5108,7 @@
           },
           {
             "Chance": 100,
-            "Description": "Roll twice",
+            "Description": "Rzuć dwa razy",
             "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
           }
         ]
@@ -5457,7 +5307,7 @@
               },
               {
                 "Chance": 99,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -5465,7 +5315,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -5539,7 +5389,7 @@
               },
               {
                 "Chance": 99,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -5547,7 +5397,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -8940,7 +8790,7 @@
           { "Chance": 85, "Description": "Transforming" },
           {
             "Chance": 100,
-            "Description": "Roll twice",
+            "Description": "Rzuć dwa razy",
             "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
           }
         ]
@@ -8961,7 +8811,7 @@
           { "Chance": 90, "Description": "Liquid" },
           {
             "Chance": 100,
-            "Description": "Roll twice",
+            "Description": "Rzuć dwa razy",
             "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
           }
         ]
@@ -9151,7 +9001,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -9202,7 +9052,7 @@
               { "Chance": 95, "Description": "Unnerving sound or sensation" },
               {
                 "Chance": 99,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -9210,7 +9060,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -9345,7 +9195,7 @@
               { "Chance": 90, "Description": "Worship of a god or being" },
               {
                 "Chance": 95,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -9353,7 +9203,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -9452,7 +9302,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -9533,7 +9383,7 @@
               },
               {
                 "Chance": 99,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -9541,7 +9391,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -9783,7 +9633,7 @@
           { "Chance": 95, "Description": "Warfare" },
           {
             "Chance": 100,
-            "Description": "▶️Action + Theme",
+            "Description": "▶️Akcja + Motyw",
             "Oracles": [
               { "Category": "Core", "Name": "Action" },
               { "Category": "Core", "Name": "Theme" }
@@ -10002,7 +9852,7 @@
           },
           {
             "Chance": 90,
-            "Description": "▶️Action + Theme",
+            "Description": "▶️Akcja + Motyw",
             "Oracles": [
               { "Category": "Core", "Name": "Action" },
               { "Category": "Core", "Name": "Theme" }
@@ -10010,7 +9860,7 @@
           },
           {
             "Chance": 100,
-            "Description": "Roll twice",
+            "Description": "Rzuć dwa razy",
             "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
           }
         ]
@@ -10218,7 +10068,7 @@
               { "Chance": 93, "Description": "Dense nebula cloud" },
               {
                 "Chance": 98,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": true }
               },
               {
@@ -10307,7 +10157,7 @@
               { "Chance": 93, "Description": "Dense nebula cloud" },
               {
                 "Chance": 98,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": true }
               },
               {
@@ -10396,7 +10246,7 @@
               { "Chance": 93, "Description": "Dense nebula cloud" },
               {
                 "Chance": 98,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": true }
               },
               {
@@ -10706,7 +10556,7 @@
           { "Chance": 96, "Description": "Unsettling sounds or disturbances" },
           {
             "Chance": 99,
-            "Description": "▶️Action + Theme",
+            "Description": "▶️Akcja + Motyw",
             "Oracles": [
               { "Category": "Core", "Name": "Action" },
               { "Category": "Core", "Name": "Theme" }
@@ -10714,7 +10564,7 @@
           },
           {
             "Chance": 100,
-            "Description": "Roll twice",
+            "Description": "Rzuć dwa razy",
             "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
           }
         ]
@@ -11279,7 +11129,7 @@
               { "Chance": 85, "Description": "Transport passengers" },
               {
                 "Chance": 90,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -11287,7 +11137,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -11410,7 +11260,7 @@
               { "Chance": 85, "Description": "Transport passengers" },
               {
                 "Chance": 90,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -11418,7 +11268,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
@@ -11541,7 +11391,7 @@
               { "Chance": 85, "Description": "Transport passengers" },
               {
                 "Chance": 90,
-                "Description": "▶️Action + Theme",
+                "Description": "▶️Akcja + Motyw",
                 "Oracles": [
                   { "Category": "Core", "Name": "Action" },
                   { "Category": "Core", "Name": "Theme" }
@@ -11549,7 +11399,7 @@
               },
               {
                 "Chance": 100,
-                "Description": "Roll twice",
+                "Description": "Rzuć dwa razy",
                 "Multiple rolls": { "Amount": 2, "Allow duplicates": false }
               }
             ]
