@@ -2249,14 +2249,14 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 50, "Description": "Corridor" },
-              { "Chance": 60, "Description": "Stairs" },
-              { "Chance": 70, "Description": "Lift or elevator" },
-              { "Chance": 80, "Description": "Catwalk or bridge" },
-              { "Chance": 85, "Description": "Vertical shaft or ladder" },
-              { "Chance": 90, "Description": "Hub or intersection" },
-              { "Chance": 95, "Description": "Crawl space or duct" },
-              { "Chance": 100, "Description": "Airlock or external" }
+              { "Chance": 50, "Description": "Korytarz" },
+              { "Chance": 60, "Description": "Schody" },
+              { "Chance": 70, "Description": "Winda lub dźwig" },
+              { "Chance": 80, "Description": "Wybieg lub most" },
+              { "Chance": 85, "Description": "Pionowy szyb lub drabina" },
+              { "Chance": 90, "Description": "Węzeł lub skrzyżowanie" },
+              { "Chance": 95, "Description": "Przestrzeń techniczna lub kanał" },
+              { "Chance": 100, "Description": "Śluza powietrzna lub zewnętrzna śluza" }
             ]
           },
           {
@@ -2264,25 +2264,25 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 5, "Description": "Abandoned gear" },
-              { "Chance": 10, "Description": "Blood trail" },
-              { "Chance": 15, "Description": "Breached door or hatch" },
-              { "Chance": 20, "Description": "Control or terminal station" },
-              { "Chance": 25, "Description": "Corpse" },
-              { "Chance": 30, "Description": "Dismantled equipment" },
-              { "Chance": 35, "Description": "Flashing strobes" },
-              { "Chance": 40, "Description": "Leaking pipes" },
-              { "Chance": 45, "Description": "Makeshift barricade" },
-              { "Chance": 50, "Description": "Opened or missing panels" },
-              { "Chance": 55, "Description": "Organic growths" },
-              { "Chance": 60, "Description": "Ruined bot" },
-              { "Chance": 65, "Description": "Scrawled warning" },
-              { "Chance": 70, "Description": "Sealed breach" },
-              { "Chance": 75, "Description": "Sounds of movement" },
-              { "Chance": 80, "Description": "Steam or smoke" },
-              { "Chance": 85, "Description": "Wandering bot" },
-              { "Chance": 90, "Description": "Windows or viewports" },
-              { "Chance": 95, "Description": "Wrecked passage or debris" },
+              { "Chance": 5, "Description": "Porzucony sprzęt" },
+              { "Chance": 10, "Description": "Ślad krwi" },
+              { "Chance": 15, "Description": "Wyłamane drzwi lub właz" },
+              { "Chance": 20, "Description": "Stacja kontrolna lub terminalowa" },
+              { "Chance": 25, "Description": "Zwłoki" },
+              { "Chance": 30, "Description": "Zdemontowany sprzęt" },
+              { "Chance": 35, "Description": "Migające stroboskopy" },
+              { "Chance": 40, "Description": "Cieknące rury" },
+              { "Chance": 45, "Description": "Prowizoryczna barykada" },
+              { "Chance": 50, "Description": "Otwarte lub brakujące panele" },
+              { "Chance": 55, "Description": "Organiczna narośle" },
+              { "Chance": 60, "Description": "Zrujnowany bot" },
+              { "Chance": 65, "Description": "Nabazgrane ostrzeżenie" },
+              { "Chance": 70, "Description": "Zapieczętowane naruszenie" },
+              { "Chance": 75, "Description": "Dzięki ruchu" },
+              { "Chance": 80, "Description": "Para lub dym" },
+              { "Chance": 85, "Description": "Wędrujący bot" },
+              { "Chance": 90, "Description": "Okna lub wzierniki" },
+              { "Chance": 95, "Description": "Zniszczone przejście lub gruz" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
@@ -2299,21 +2299,15 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 10, "Description": "Alarm or failsafe is triggered" },
-              { "Chance": 20, "Description": "Automated defenses" },
-              { "Chance": 30, "Description": "Blocked or sealed path" },
-              {
-                "Chance": 40,
-                "Description": "Dreadful scene of death or violence"
-              },
-              { "Chance": 50, "Description": "Foe closes in" },
-              { "Chance": 60, "Description": "Gear is failing or broken" },
-              { "Chance": 70, "Description": "Hazardous environmental change" },
-              { "Chance": 80, "Description": "Path is trapped" },
-              {
-                "Chance": 90,
-                "Description": "Unsettling sound or disturbance"
-              },
+              { "Chance": 10, "Description": "Alarm zostaje uruchomiony" },
+              { "Chance": 20, "Description": "Zautomatyzowana obrona" },
+              { "Chance": 30, "Description": "Zablokowana lub zamknięta ścieżka" },
+              { "Chance": 40, "Description": "Straszna scena śmierci lub przemocy" },
+              { "Chance": 50, "Description": "Wróg zbliża się" },
+              { "Chance": 60, "Description": "Sprzęt nie działa lub jest uszkodzony" },
+              { "Chance": 70, "Description": "Niebezpieczna zmiana środowiska" },
+              { "Chance": 80, "Description": "Ścieżka ma pułapki/zabezpieczenia" },
+              { "Chance": 90, "Description": "Niepokojący dźwięk lub zakłócenia" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -2335,20 +2329,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 20,
-                "Description": "Directions, shortcut, or alternate path"
-              },
-              {
-                "Chance": 40,
-                "Description": "Encounter with a friendly survivor, explorer, or denizen"
-              },
-              { "Chance": 60, "Description": "Hopeful signs of life" },
-              {
-                "Chance": 80,
-                "Description": "Opening to outmaneuver or escape a threat or foe"
-              },
-              { "Chance": 100, "Description": "Useful equipment" }
+              { "Chance": 20, "Description": "Wskazówki, skrót lub ścieżka alternatywna" },
+              { "Chance": 40, "Description": "Spotkaj się z przyjaznym ocalałym, odkrywcą lub mieszkańcem" },
+              { "Chance": 60, "Description": "Pełne nadziei oznaki życia" },
+              { "Chance": 80, "Description": "Otwarcie się na wymanewrowanie lub ucieczkę przed zagrożeniem lub wrogiem" },
+              { "Chance": 100, "Description": "Przydatny sprzęt" }
             ]
           }
         ]
@@ -2365,18 +2350,18 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Bar or club" },
-              { "Chance": 16, "Description": "Temple or chapel" },
-              { "Chance": 24, "Description": "Classroom or education" },
-              { "Chance": 32, "Description": "Concourse or hub" },
-              { "Chance": 40, "Description": "Entertainment" },
-              { "Chance": 48, "Description": "Park or garden" },
-              { "Chance": 56, "Description": "Gym or fitness" },
-              { "Chance": 64, "Description": "Market or trade" },
-              { "Chance": 72, "Description": "Promenade or overlook" },
-              { "Chance": 80, "Description": "Restaurant or dining" },
-              { "Chance": 85, "Description": "New zone" },
-              { "Chance": 100, "Description": "New zone via ▶️Access" }
+              { "Chance": 8, "Description": "Bar lub klub" },
+              { "Chance": 16, "Description": "Świątynia lub kaplica" },
+              { "Chance": 24, "Description": "Klasa lub edukacja" },
+              { "Chance": 32, "Description": "Hala lub centrum" },
+              { "Chance": 40, "Description": "Miejsce zabawy" },
+              { "Chance": 48, "Description": "Park lub ogród" },
+              { "Chance": 56, "Description": "Siłownia lub fitness" },
+              { "Chance": 64, "Description": "Rynek lub miejsce handlu" },
+              { "Chance": 72, "Description": "Promenada lub punkt widokowy" },
+              { "Chance": 80, "Description": "Restauracja lub jadłodalnia" },
+              { "Chance": 85, "Description": "Nowa strefa" },
+              { "Chance": 100, "Description": "Nowa strefa poprzez ▶️Dostęp" }
             ]
           },
           {
@@ -2384,17 +2369,17 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Ad-hoc memorials" },
-              { "Chance": 16, "Description": "Art depicting historic event" },
-              { "Chance": 24, "Description": "Artificial environment" },
-              { "Chance": 32, "Description": "Automated announcements" },
-              { "Chance": 40, "Description": "Barricaded area" },
-              { "Chance": 48, "Description": "Gaming devices or interfaces" },
-              { "Chance": 56, "Description": "Graffiti or vandalization" },
-              { "Chance": 64, "Description": "Guard post or surveillance" },
-              { "Chance": 72, "Description": "Mass grave or corpses" },
-              { "Chance": 80, "Description": "Panoramic viewport" },
-              { "Chance": 88, "Description": "Rubble or debris" },
+              { "Chance": 8, "Description": "Miejsca pamięci wykoane ad-hoc" },
+              { "Chance": 16, "Description": "Sztuka przedstawiająca wydarzenie historyczne" },
+              { "Chance": 24, "Description": "Sztuczne środowisko" },
+              { "Chance": 32, "Description": "Automatyczne ogłoszenia" },
+              { "Chance": 40, "Description": "Zabarykadowany obszar" },
+              { "Chance": 48, "Description": "Urządzenia lub interfejsy do gier" },
+              { "Chance": 56, "Description": "Graffiti lub wandalizm" },
+              { "Chance": 64, "Description": "Posterunek wartowniczy lub obserwacja" },
+              { "Chance": 72, "Description": "Masowy grób lub zwłoki" },
+              { "Chance": 80, "Description": "Panoramiczny punkt widokowy" },
+              { "Chance": 88, "Description": "Gruz" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
