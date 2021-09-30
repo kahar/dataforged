@@ -2396,24 +2396,15 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 10, "Description": "Biological infestation" },
-              { "Chance": 20, "Description": "Breached or broken structure" },
-              {
-                "Chance": 30,
-                "Description": "Distressing signs of mass violence or death"
-              },
-              { "Chance": 40, "Description": "Flooded environment" },
-              { "Chance": 50, "Description": "Foe lurks within concealment" },
-              { "Chance": 60, "Description": "Fragile structural integrity" },
-              {
-                "Chance": 70,
-                "Description": "Haunting vision of life here before the fall"
-              },
-              { "Chance": 80, "Description": "Hazardous environmental change" },
-              {
-                "Chance": 90,
-                "Description": "Heartbreaking memento of lost lives"
-              },
+              { "Chance": 10, "Description": "Inwazja biologiczna" },
+              { "Chance": 20, "Description": "Naruszona lub zniszczona struktura" },
+              { "Chance": 30, "Description": "Niepokojące oznaki masowej przemocy lub śmierci" },
+              { "Chance": 40, "Description": "Zalane środowisko" },
+              { "Chance": 50, "Description": "Wróg czai się w ukryciu" },
+              { "Chance": 60, "Description": "Delikatna integralność strukturalna" },
+              { "Chance": 70, "Description": "Nawiedzająca wizja życia tutaj przed upadkiem" },
+              { "Chance": 80, "Description": "Niebezpieczna zmiana środowiska" },
+              { "Chance": 90, "Description": "Rozdzierająca serce pamiątka po utraconych życiach" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -2435,20 +2426,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 20,
-                "Description": "Culturally significant object or artifact"
-              },
-              { "Chance": 40, "Description": "Salvageable goods or resources" },
-              {
-                "Chance": 60,
-                "Description": "Secure area offers a moment of peace"
-              },
-              {
-                "Chance": 80,
-                "Description": "Terminal with access to site details"
-              },
-              { "Chance": 100, "Description": "Valuable item" }
+              { "Chance": 20, "Description": "Obiekt lub artefakt o znaczeniu kulturowym" },
+              { "Chance": 40, "Description": "Towary lub zasoby możliwe do odzyskania" },
+              { "Chance": 60, "Description": "Bezpieczna okolica oferuje chwilę spokoju" },
+              { "Chance": 80, "Description": "Terminal z dostępem do szczegółów miejsca" },
+              { "Chance": 100, "Description": "Cenny przedmiot" }
             ]
           }
         ]
@@ -2465,18 +2447,18 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Control room" },
-              { "Chance": 16, "Description": "Engine room or power core" },
-              { "Chance": 24, "Description": "Engineering offices" },
-              { "Chance": 32, "Description": "Equipment storage" },
-              { "Chance": 40, "Description": "Fuel or coolant tanks" },
-              { "Chance": 48, "Description": "Life support" },
-              { "Chance": 56, "Description": "Maintenance tube" },
-              { "Chance": 64, "Description": "Vehicle bay or garage" },
-              { "Chance": 72, "Description": "Water processing" },
-              { "Chance": 80, "Description": "Workshop" },
-              { "Chance": 85, "Description": "New zone" },
-              { "Chance": 100, "Description": "New zone via ▶️Access" }
+              { "Chance": 8, "Description": "Sterownia" },
+              { "Chance": 16, "Description": "Maszynownia lub rdzeń zasilający" },
+              { "Chance": 24, "Description": "Biura inżynierskie" },
+              { "Chance": 32, "Description": "Przechowywanie sprzętu" },
+              { "Chance": 40, "Description": "Zbiorniki paliwa lub chłodziwa" },
+              { "Chance": 48, "Description": "Podtrzymywania życia" },
+              { "Chance": 56, "Description": "Rurka konserwacyjna" },
+              { "Chance": 64, "Description": "Wnęka na pojazd lub garaż" },
+              { "Chance": 72, "Description": "Uzdatnianie wody" },
+              { "Chance": 80, "Description": "Warsztat" },
+              { "Chance": 85, "Description": "Nowa strefa" },
+              { "Chance": 100, "Description": "Nowa strefa poprzez ▶️Dostęp" }
             ]
           },
           {
@@ -2484,17 +2466,17 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Cluttered workbench" },
-              { "Chance": 16, "Description": "Control terminal" },
-              { "Chance": 24, "Description": "Crane or lift" },
-              { "Chance": 32, "Description": "Disassembled equipment" },
-              { "Chance": 40, "Description": "Flickering status monitors" },
-              { "Chance": 48, "Description": "Jury-rigged equipment" },
-              { "Chance": 56, "Description": "Multilevel layout" },
-              { "Chance": 64, "Description": "Pipes and valves" },
-              { "Chance": 72, "Description": "Sharp ozone smell" },
-              { "Chance": 80, "Description": "Unfinished project" },
-              { "Chance": 88, "Description": "Utility bots" },
+              { "Chance": 8, "Description": "Zaśmiecony stół warsztatowy" },
+              { "Chance": 16, "Description": "Terminal kontrolny" },
+              { "Chance": 24, "Description": "Dźwig lub winda" },
+              { "Chance": 32, "Description": "Zdemontowany sprzęt" },
+              { "Chance": 40, "Description": "Migotanie monitorów stanu" },
+              { "Chance": 48, "Description": "Tymczasowy/prowizoryczny ekwipunek" },
+              { "Chance": 56, "Description": "Wielopoziomowy plan" },
+              { "Chance": 64, "Description": "Rury i zawory" },
+              { "Chance": 72, "Description": "Ostry zapach ozonu" },
+              { "Chance": 80, "Description": "Niedokończony projekt" },
+              { "Chance": 88, "Description": "Boty użytkowe" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
@@ -2511,21 +2493,15 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 10, "Description": "Corrosive leak" },
-              { "Chance": 20, "Description": "Erratic utility bots" },
-              {
-                "Chance": 30,
-                "Description": "Failing equipment requires a specific part or skill"
-              },
-              { "Chance": 40, "Description": "Fire or energy surge" },
-              { "Chance": 50, "Description": "Precarious or broken path" },
-              { "Chance": 60, "Description": "Radioactive hotspot" },
-              { "Chance": 70, "Description": "Sabotaged equipment" },
-              {
-                "Chance": 80,
-                "Description": "Shrouded atmosphere conceals a lurking foe"
-              },
-              { "Chance": 90, "Description": "Unstable or failing power core" },
+              { "Chance": 10, "Description": "żrący wyciek" },
+              { "Chance": 20, "Description": "Błędnie działające boty użytkowe" },
+              { "Chance": 30, "Description": "Wadliwy sprzęt wymaga określonej części lub umiejętności" },
+              { "Chance": 40, "Description": "Pożar lub przepięcie energetyczne" },
+              { "Chance": 50, "Description": "Niepewna lub zepsuta ścieżka" },
+              { "Chance": 60, "Description": "Radioaktywny punkt" },
+              { "Chance": 70, "Description": "Sabotowany sprzęt" },
+              { "Chance": 80, "Description": "Zasłonięta atmosfera skrywa czającego się wroga" },
+              { "Chance": 90, "Description": "Niestabilny lub uszkodzony rdzeń zasilający" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -2547,17 +2523,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 20,
-                "Description": "Advanced or experimental equipment"
-              },
-              {
-                "Chance": 40,
-                "Description": "Chance to restore power or function"
-              },
-              { "Chance": 60, "Description": "Helpful plans or schematics" },
-              { "Chance": 80, "Description": "Helpful utility bot" },
-              { "Chance": 100, "Description": "Useful tool or device" }
+              { "Chance": 20, "Description": "Zaawansowany lub eksperymentalny sprzęt" },
+              { "Chance": 40, "Description": "Szansa na przywrócenie mocy lub funkcji" },
+              { "Chance": 60, "Description": "Pomocne plany lub schematy" },
+              { "Chance": 80, "Description": "Pomocny bot narzędziowy" },
+              { "Chance": 100, "Description": "Przydatne narzędzie lub urządzenie" }
             ]
           }
         ]
@@ -2574,18 +2544,18 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Food storage" },
-              { "Chance": 16, "Description": "Galley or kitchen" },
-              { "Chance": 24, "Description": "Laundry" },
-              { "Chance": 32, "Description": "Locker room or storage" },
-              { "Chance": 40, "Description": "Mess hall or dining" },
-              { "Chance": 48, "Description": "Observation lounge" },
-              { "Chance": 56, "Description": "Quarters (individual)" },
-              { "Chance": 64, "Description": "Quarters (communal)" },
-              { "Chance": 72, "Description": "Restroom or showers" },
-              { "Chance": 80, "Description": "Sleeping pods" },
-              { "Chance": 85, "Description": "New zone" },
-              { "Chance": 100, "Description": "New zone via ▶️Access" }
+              { "Chance": 8, "Description": "Magazyn żywności" },
+              { "Chance": 16, "Description": "Kambuz lub kuchnia" },
+              { "Chance": 24, "Description": "Pralnia" },
+              { "Chance": 32, "Description": "Szatnia lub magazyn" },
+              { "Chance": 40, "Description": "Mesa lub jadalnia" },
+              { "Chance": 48, "Description": "Salon obserwacyjny" },
+              { "Chance": 56, "Description": "Kwatery (indywidualne)" },
+              { "Chance": 64, "Description": "Kwatery (komunalne)" },
+              { "Chance": 72, "Description": "Toaleta lub prysznice" },
+              { "Chance": 80, "Description": "kapsuły do spania" },
+              { "Chance": 85, "Description": "Nowa strefa" },
+              { "Chance": 100, "Description": "Nowa strefa poprzez ▶️Dostęp" }
             ]
           },
           {
@@ -2593,17 +2563,17 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Abandoned pet" },
-              { "Chance": 16, "Description": "Audible music" },
-              { "Chance": 24, "Description": "Cherished personal item" },
-              { "Chance": 32, "Description": "Failed barricade" },
-              { "Chance": 40, "Description": "Half-eaten food" },
-              { "Chance": 48, "Description": "Messages from loved ones" },
-              { "Chance": 56, "Description": "Ransacked belongings" },
-              { "Chance": 64, "Description": "Remains of the dead" },
-              { "Chance": 72, "Description": "Scuttling vermin" },
-              { "Chance": 80, "Description": "Shrine or altar" },
-              { "Chance": 88, "Description": "Unusual art" },
+              { "Chance": 8, "Description": "Porzucony zwierzak" },
+              { "Chance": 16, "Description": "słyszalna muzyka" },
+              { "Chance": 24, "Description": "Ceniony przedmiot osobisty" },
+              { "Chance": 32, "Description": "Nieudana barykada" },
+              { "Chance": 40, "Description": "Jedzenie na wpół zjedzone" },
+              { "Chance": 48, "Description": "Wiadomości od bliskich" },
+              { "Chance": 56, "Description": "Splądrowane rzeczy" },
+              { "Chance": 64, "Description": "Szczątki zmarłych" },
+              { "Chance": 72, "Description": "Uciekające robactwo" },
+              { "Chance": 80, "Description": "Sanktuarium lub ołtarz" },
+              { "Chance": 88, "Description": "Niezwykła sztuka" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
@@ -2620,24 +2590,15 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 10, "Description": "Disgusting sight / smell" },
-              {
-                "Chance": 20,
-                "Description": "Disturbing evidence of medical misconduct"
-              },
-              { "Chance": 30, "Description": "Erratic medical bots" },
-              { "Chance": 40, "Description": "Evidence of a virulent disease" },
-              {
-                "Chance": 50,
-                "Description": "Malfunctioning medical equipment"
-              },
-              {
-                "Chance": 60,
-                "Description": "Repercussions of a medical experiment"
-              },
-              { "Chance": 70, "Description": "Restless dead" },
-              { "Chance": 80, "Description": "Signs of a horrific death" },
-              { "Chance": 90, "Description": "Signs of broken quarantine" },
+              { "Chance": 10, "Description": "Prosta pułapka" },
+              { "Chance": 20, "Description": "Niepokojąca wiadomość pisemna" },
+              { "Chance": 30, "Description": "Niepokojące dowody na wyzyskujące warunki życia" },
+              { "Chance": 40, "Description": "Straszna scena śmierci lub przemocy" },
+              { "Chance": 50, "Description": "Niebezpieczeńśtwo wabiące oznakami życia" },
+              { "Chance": 60, "Description": "Nagrana wiadomość ujawnia zagrożenie lub komplikację" },
+              { "Chance": 70, "Description": "Uszczelnione drzwi lub właz blokują dostęp" },
+              { "Chance": 80, "Description": "Znaki, że niemile widziani najeźdźcy zamieszkują teraz to miejsce" },
+              { "Chance": 90, "Description": "Niepokojący dźwięk lub zakłócenia" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -2659,23 +2620,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 20,
-                "Description": "Culturally significant object or artifact"
-              },
-              {
-                "Chance": 40,
-                "Description": "Hidden stash of valuable contraband"
-              },
-              {
-                "Chance": 60,
-                "Description": "Intact barricade or protected area"
-              },
-              {
-                "Chance": 80,
-                "Description": "Recorded message reveals helpful aspects of this site"
-              },
-              { "Chance": 100, "Description": "Useful personal gear" }
+              { "Chance": 20, "Description": "Obiekt lub artefakt o znaczeniu kulturowym" },
+              { "Chance": 40, "Description": "Ukryta skrytka cennej kontrabandy" },
+              { "Chance": 60, "Description": "Nienaruszona barykada lub obszar chroniony" },
+              { "Chance": 80, "Description": "Nagrana wiadomość ujawnia pomocne aspekty tego miejsca" },
+              { "Chance": 100, "Description": "Użyteczny osobisty sprzęt" }
             ]
           }
         ]
@@ -2692,18 +2641,18 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Crematorium" },
-              { "Chance": 16, "Description": "Emergency or triage" },
-              { "Chance": 24, "Description": "Isolation or containment" },
-              { "Chance": 32, "Description": "Medical lab" },
-              { "Chance": 40, "Description": "Medical offices" },
-              { "Chance": 48, "Description": "Morgue" },
-              { "Chance": 56, "Description": "Operating room" },
-              { "Chance": 64, "Description": "Pharmacy or drug locker" },
-              { "Chance": 72, "Description": "Prosthetics workshop" },
-              { "Chance": 80, "Description": "Ward or clinic" },
-              { "Chance": 85, "Description": "New zone" },
-              { "Chance": 100, "Description": "New zone via ▶️Access" }
+              { "Chance": 8, "Description": "Krematorium" },
+              { "Chance": 16, "Description": "Pogotowie" },
+              { "Chance": 24, "Description": "Izolacja lub zamknięcie" },
+              { "Chance": 32, "Description": "Laboratorium medyczne" },
+              { "Chance": 40, "Description": "Gabinety lekarskie" },
+              { "Chance": 48, "Description": "Kostnica" },
+              { "Chance": 56, "Description": "Sala operacyjna" },
+              { "Chance": 64, "Description": "Apteka lub szafka na leki" },
+              { "Chance": 72, "Description": "Warsztaty protetyczne" },
+              { "Chance": 80, "Description": "Oddział lub klinika" },
+              { "Chance": 85, "Description": "Nowa strefa" },
+              { "Chance": 100, "Description": "Nowa strefa poprzez ▶️Dostęp" }
             ]
           },
           {
@@ -2711,17 +2660,17 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Autopsied corpse" },
-              { "Chance": 16, "Description": "Biological specimens" },
-              { "Chance": 24, "Description": "Blood spatter or pools" },
-              { "Chance": 32, "Description": "Bloody medical supplies" },
-              { "Chance": 40, "Description": "Broken prosthetics" },
-              { "Chance": 48, "Description": "Corpse of a healer" },
-              { "Chance": 56, "Description": "Dissected specimen" },
-              { "Chance": 64, "Description": "Improvised overflow beds" },
-              { "Chance": 72, "Description": "Medical monitors" },
-              { "Chance": 80, "Description": "Medical records or scans" },
-              { "Chance": 88, "Description": "Stacks of body bags" },
+              { "Chance": 8, "Description": "Zwłoki poddane autopsji" },
+              { "Chance": 16, "Description": "Próbki biologiczne" },
+              { "Chance": 24, "Description": "Rozpryski lub kałuże krwi" },
+              { "Chance": 32, "Description": "Krwawe zapasy medyczne" },
+              { "Chance": 40, "Description": "Zepsuta protetyka" },
+              { "Chance": 48, "Description": "Zwłoki uzdrowiciela" },
+              { "Chance": 56, "Description": "Spreperowany / porozcinany okaz" },
+              { "Chance": 64, "Description": "Improwizowane łóżka " },
+              { "Chance": 72, "Description": "Monitory medyczne" },
+              { "Chance": 80, "Description": "Dokumentacja medyczna lub skany" },
+              { "Chance": 88, "Description": "Stosy worków z ciałami" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
@@ -2738,24 +2687,15 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 10, "Description": "Disgusting sight / smell" },
-              {
-                "Chance": 20,
-                "Description": "Disturbing evidence of medical misconduct"
-              },
-              { "Chance": 30, "Description": "Erratic medical bots" },
-              { "Chance": 40, "Description": "Evidence of a virulent disease" },
-              {
-                "Chance": 50,
-                "Description": "Malfunctioning medical equipment"
-              },
-              {
-                "Chance": 60,
-                "Description": "Repercussions of a medical experiment"
-              },
-              { "Chance": 70, "Description": "Restless dead" },
-              { "Chance": 80, "Description": "Signs of a horrific death" },
-              { "Chance": 90, "Description": "Signs of broken quarantine" },
+              { "Chance": 10, "Description": "Obrzydliwy widok / zapach" },
+              { "Chance": 20, "Description": "Niepokojące dowody niewłaściwego postępowania medycznego" },
+              { "Chance": 30, "Description": "Błędnie działające boty medyczne" },
+              { "Chance": 40, "Description": "Dowód zjadliwej choroby" },
+              { "Chance": 50, "Description": "Wadliwy sprzęt medyczny" },
+              { "Chance": 60, "Description": "Reperkusje eksperymentu medycznego" },
+              { "Chance": 70, "Description": "Niespokojny martwy" },
+              { "Chance": 80, "Description": "Oznaki straszliwej śmierci" },
+              { "Chance": 90, "Description": "Oznaki przerwanej kwarantanny" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -2777,11 +2717,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 20, "Description": "Cache of medicine" },
-              { "Chance": 40, "Description": "Clues to a medical mystery" },
-              { "Chance": 60, "Description": "Helpful medical bot" },
-              { "Chance": 80, "Description": "Unusual or rare specimen" },
-              { "Chance": 100, "Description": "Useful medical equipment" }
+              { "Chance": 20, "Description": "Trochę leków" },
+              { "Chance": 40, "Description": "Wskazówki do tajemnicy medycznej" },
+              { "Chance": 60, "Description": "Pomocny bot medyczny" },
+              { "Chance": 80, "Description": "Niezwykły lub rzadki okaz/egzeplarz/próbka" },
+              { "Chance": 100, "Description": "Przydatny sprzęt medyczny" }
             ]
           }
         ]
@@ -2798,18 +2738,18 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Admin or command offices" },
-              { "Chance": 16, "Description": "Armory" },
-              { "Chance": 24, "Description": "Bridge or command center" },
-              { "Chance": 32, "Description": "Brig or cells" },
-              { "Chance": 40, "Description": "Comms center" },
-              { "Chance": 48, "Description": "Computer core" },
-              { "Chance": 56, "Description": "Conference or briefing room" },
-              { "Chance": 64, "Description": "Landing bay or hangar" },
-              { "Chance": 72, "Description": "Lounge" },
-              { "Chance": 80, "Description": "Security" },
-              { "Chance": 85, "Description": "New zone" },
-              { "Chance": 100, "Description": "New zone via ▶️Access" }
+              { "Chance": 8, "Description": "Biura administracyjne lub dowodzenia" },
+              { "Chance": 16, "Description": "Zbrojownia" },
+              { "Chance": 24, "Description": "Most lub centrum dowodzenia" },
+              { "Chance": 32, "Description": "Więzienie lub cele" },
+              { "Chance": 40, "Description": "Centrum komunikacji" },
+              { "Chance": 48, "Description": "Rdzeń komputera" },
+              { "Chance": 56, "Description": "Sala konferencyjna lub odpraw" },
+              { "Chance": 64, "Description": "Lądowisko lub hangar" },
+              { "Chance": 72, "Description": "hala odlotów" },
+              { "Chance": 80, "Description": "Ochrona" },
+              { "Chance": 85, "Description": "Nowa strefa" },
+              { "Chance": 100, "Description": "Nowa strefa poprzez ▶️Dostęp" }
             ]
           },
           {
@@ -2817,17 +2757,17 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Automated warning" },
-              { "Chance": 16, "Description": "Buckled blast doors" },
-              { "Chance": 24, "Description": "Control terminal" },
-              { "Chance": 32, "Description": "Emergency lighting" },
-              { "Chance": 40, "Description": "EV suit storage" },
-              { "Chance": 48, "Description": "Hissing comms channel" },
-              { "Chance": 56, "Description": "Intricate control panels" },
-              { "Chance": 64, "Description": "Map of the site" },
-              { "Chance": 72, "Description": "Recorded message" },
-              { "Chance": 80, "Description": "Video surveillance monitors" },
-              { "Chance": 88, "Description": "Written logs" },
+              { "Chance": 8, "Description": "Automatyczne ostrzeżenie" },
+              { "Chance": 16, "Description": "Zamknięte drzwi antywybuchowe" },
+              { "Chance": 24, "Description": "Terminal kontrolny" },
+              { "Chance": 32, "Description": "Oświetlenie awaryjne" },
+              { "Chance": 40, "Description": "Magazyn kombinezonów EV" },
+              { "Chance": 48, "Description": "Syczący kanał komunikacyjny" },
+              { "Chance": 56, "Description": "Skomplikowane panele sterowania" },
+              { "Chance": 64, "Description": "Mapa miejsca" },
+              { "Chance": 72, "Description": "nagrana wiadomość" },
+              { "Chance": 80, "Description": "Monitory do nadzoru wideo" },
+              { "Chance": 88, "Description": "Pisemne dzienniki" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
@@ -2844,33 +2784,15 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 10, "Description": "Automated defenses target you" },
-              {
-                "Chance": 20,
-                "Description": "Broken equipment limits control"
-              },
-              {
-                "Chance": 30,
-                "Description": "Coded message or puzzling security device"
-              },
-              {
-                "Chance": 40,
-                "Description": "Discouraging evidence of failed plans or defenses"
-              },
-              {
-                "Chance": 50,
-                "Description": "Displays reveal a new threat elsewhere in this site"
-              },
-              { "Chance": 60, "Description": "Failing power" },
-              { "Chance": 70, "Description": "Hostile AI" },
-              {
-                "Chance": 80,
-                "Description": "Sealed blast doors block access"
-              },
-              {
-                "Chance": 90,
-                "Description": "Sensors indicate the arrival of an external threat"
-              },
+              { "Chance": 10, "Description": "Zautomatyzowana obrona celuje w Ciebie" },
+              { "Chance": 20, "Description": "Popsute urządzenie do limitujące wydawanie eksipunku" },
+              { "Chance": 30, "Description": "Zakodowana wiadomość lub zagadkowe urządzenie zabezpieczające" },
+              { "Chance": 40, "Description": "Zniechęcające dowody nieudanych planów lub mechanizmów obronnych" },
+              { "Chance": 50, "Description": "Wyświetlacze ujawniają nowe zagrożenie w innym miejscu tego miejsca" },
+              { "Chance": 60, "Description": "Zanikająca moc" },
+              { "Chance": 70, "Description": "Wrogie AI" },
+              { "Chance": 80, "Description": "Zapieczętowane drzwi antywybuchowe blokują dostęp" },
+              { "Chance": 90, "Description": "Czujniki sygnalizują nadejście zagrożenia zewnętrznego" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -2892,17 +2814,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 20, "Description": "Cache of weapons or ammo" },
-              { "Chance": 40, "Description": "Helpful AI" },
-              { "Chance": 60, "Description": "Keycard or access code" },
-              {
-                "Chance": 80,
-                "Description": "Log offers insight into this site's downfall"
-              },
-              {
-                "Chance": 100,
-                "Description": "Secure area offers a moment of peace"
-              }
+              { "Chance": 20, "Description": "Skrytka broni lub amunicji" },
+              { "Chance": 40, "Description": "Pomocna sztuczna inteligencja" },
+              { "Chance": 60, "Description": "Karta dostępu lub kod dostępu" },
+              { "Chance": 80, "Description": "Log oferuje wgląd w przyczyny upadku tego miejsca" },
+              { "Chance": 100, "Description": "Bezpieczna okolica oferuje chwilę spokoju" }
             ]
           }
         ]
@@ -2919,18 +2835,18 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Airlock or staging area" },
-              { "Chance": 16, "Description": "Assembly or processing" },
-              { "Chance": 24, "Description": "Cargo bay" },
-              { "Chance": 32, "Description": "Equipment storage" },
-              { "Chance": 40, "Description": "Exosuit bay" },
-              { "Chance": 48, "Description": "Harvesting or mining platform" },
-              { "Chance": 56, "Description": "Monitoring or control room" },
-              { "Chance": 64, "Description": "Processed goods storage" },
-              { "Chance": 72, "Description": "Raw materials storage" },
-              { "Chance": 80, "Description": "Scrapyard" },
-              { "Chance": 85, "Description": "New zone" },
-              { "Chance": 100, "Description": "New zone via ▶️Access" }
+              { "Chance": 8, "Description": "Śluza powietrzna lub strefa postojowa" },
+              { "Chance": 16, "Description": "Montaż lub obróbka" },
+              { "Chance": 24, "Description": "Ładownia" },
+              { "Chance": 32, "Description": "Magazyn sprzętu" },
+              { "Chance": 40, "Description": "Magazyn i warsztat egzoszkieletów" },
+              { "Chance": 48, "Description": "Platforma do zbioru lub wydobycia" },
+              { "Chance": 56, "Description": "Monitoring lub pokój kontrolny" },
+              { "Chance": 64, "Description": "Magazyn towarów przetworzonych" },
+              { "Chance": 72, "Description": "Magazyn surowców" },
+              { "Chance": 80, "Description": "Złomowisko" },
+              { "Chance": 85, "Description": "Nowa strefa" },
+              { "Chance": 100, "Description": "Nowa strefa poprzez ▶️Dostęp" }
             ]
           },
           {
@@ -2938,17 +2854,17 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Cargo lifts" },
-              { "Chance": 16, "Description": "Control panels" },
-              { "Chance": 24, "Description": "Disassembled machinery" },
-              { "Chance": 32, "Description": "Elevated walkways" },
-              { "Chance": 40, "Description": "Environment suits" },
-              { "Chance": 48, "Description": "Ill-fated workers" },
-              { "Chance": 56, "Description": "Immense machinery" },
-              { "Chance": 64, "Description": "Sealed or locked containers" },
-              { "Chance": 72, "Description": "Tools" },
-              { "Chance": 80, "Description": "Vats of chemicals or gas" },
-              { "Chance": 88, "Description": "Written manifest" },
+              { "Chance": 8, "Description": "Windy towarowe" },
+              { "Chance": 16, "Description": "Panel kontrolny" },
+              { "Chance": 24, "Description": "Zdemontowane maszyny" },
+              { "Chance": 32, "Description": "Podwyższone chodniki" },
+              { "Chance": 40, "Description": "Kombinezony środowiskowe (EV)" },
+              { "Chance": 48, "Description": "Nieszczęśni pracownicy" },
+              { "Chance": 56, "Description": "Ogromne maszyny" },
+              { "Chance": 64, "Description": "Zapieczétowane lub zamknięte pojemniki" },
+              { "Chance": 72, "Description": "Narzędzia" },
+              { "Chance": 80, "Description": "Kadzie z chemikaliami lub gazem" },
+              { "Chance": 88, "Description": "Pisemny manifest" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
@@ -2965,24 +2881,15 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 10, "Description": "Claustrophobic spaces" },
-              { "Chance": 20, "Description": "Dangerous machinery" },
-              {
-                "Chance": 30,
-                "Description": "Disturbing evidence of exploited labor"
-              },
-              { "Chance": 40, "Description": "Extreme temperatures" },
-              { "Chance": 50, "Description": "Hazardous materials" },
-              { "Chance": 60, "Description": "Impending industrial disaster" },
-              { "Chance": 70, "Description": "Malfunctioning automation" },
-              {
-                "Chance": 80,
-                "Description": "Rivals seek to secure these resources"
-              },
-              {
-                "Chance": 90,
-                "Description": "Signs of an unearthed or manufactured threat"
-              },
+              { "Chance": 10, "Description": "Klaustrofobiczne przestrzenie" },
+              { "Chance": 20, "Description": "Niebezpieczne maszyny" },
+              { "Chance": 30, "Description": "Niepokojące dowody wyzyskiwanej pracy" },
+              { "Chance": 40, "Description": "Ekstremalne temperatury" },
+              { "Chance": 50, "Description": "Niebezpieczne materiały" },
+              { "Chance": 60, "Description": "Zbliżająca się katastrofa przemysłowa" },
+              { "Chance": 70, "Description": "Nieprawidłowo działająca automatyzacja" },
+              { "Chance": 80, "Description": "Rywale starają się zabezpieczyć te zasoby" },
+              { "Chance": 90, "Description": "Oznaki odkrytego lub wyprodukowanego zagrożenia" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -3004,11 +2911,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 20, "Description": "Helpful vehicle or transport" },
-              { "Chance": 40, "Description": "Rare or valuable resource" },
-              { "Chance": 60, "Description": "Salvageable materials" },
-              { "Chance": 80, "Description": "Useful equipment" },
-              { "Chance": 100, "Description": "Valuable cargo" }
+              { "Chance": 20, "Description": "Pomocny pojazd lub transport" },
+              { "Chance": 40, "Description": "Rzadki lub cenny zasób" },
+              { "Chance": 60, "Description": "Materiały do odzyskania" },
+              { "Chance": 80, "Description": "Przydatny sprzęt" },
+              { "Chance": 100, "Description": "Cenny ładunek" }
             ]
           }
         ]
@@ -3025,18 +2932,18 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Clean room" },
-              { "Chance": 16, "Description": "Cold storage" },
-              { "Chance": 24, "Description": "Creature or animal pens" },
-              { "Chance": 32, "Description": "Decontamination Room" },
-              { "Chance": 40, "Description": "Hazardous material storage" },
-              { "Chance": 48, "Description": "Hydroponics or agriculture" },
-              { "Chance": 56, "Description": "Isolation or containment" },
-              { "Chance": 64, "Description": "Lab" },
-              { "Chance": 72, "Description": "Library or records" },
-              { "Chance": 80, "Description": "Secure vault" },
-              { "Chance": 85, "Description": "New zone" },
-              { "Chance": 100, "Description": "New zone via ▶️Access" }
+              { "Chance": 8, "Description": "Czysty pokój" },
+              { "Chance": 16, "Description": "Chłodnia" },
+              { "Chance": 24, "Description": "Zagrody dla zwierząt lub istot" },
+              { "Chance": 32, "Description": "Pokój dekontaminacji (oczyszczenia)" },
+              { "Chance": 40, "Description": "Magazyn materiałów niebezpiecznych" },
+              { "Chance": 48, "Description": "Hydroponika lub rolnictwo" },
+              { "Chance": 56, "Description": "Izolacja lub zamknięcie" },
+              { "Chance": 64, "Description": "Laboratorium" },
+              { "Chance": 72, "Description": "Biblioteka lub akta" },
+              { "Chance": 80, "Description": "Bezpieczny skarbiec" },
+              { "Chance": 85, "Description": "Nowa strefa" },
+              { "Chance": 100, "Description": "Nowa strefa poprzez ▶️Dostęp" }
             ]
           },
           {
@@ -3044,17 +2951,17 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Aquarium or tank" },
-              { "Chance": 16, "Description": "Biological specimens" },
-              { "Chance": 24, "Description": "Bones or fossils" },
-              { "Chance": 32, "Description": "Broken equipment" },
-              { "Chance": 40, "Description": "Cryptic research notes" },
-              { "Chance": 48, "Description": "Hastily destroyed data" },
-              { "Chance": 56, "Description": "Hazmat suits" },
-              { "Chance": 64, "Description": "Inscrutable artifact" },
-              { "Chance": 72, "Description": "Invasive plant growth" },
-              { "Chance": 80, "Description": "Recorded research log" },
-              { "Chance": 88, "Description": "Spilled chemicals" },
+              { "Chance": 8, "Description": "Akwarium lub zbiornik" },
+              { "Chance": 16, "Description": "Okazy biologiczne" },
+              { "Chance": 24, "Description": "Kości lub skamieniałości" },
+              { "Chance": 32, "Description": "Zepsuty sprzęt" },
+              { "Chance": 40, "Description": "Zagadkowe notatki badawcze" },
+              { "Chance": 48, "Description": "Pospiesznie zniszczone dane" },
+              { "Chance": 56, "Description": "Kombinezony Hazmat (ochronny, całkowity)" },
+              { "Chance": 64, "Description": "Nieodgadniony artefakt" },
+              { "Chance": 72, "Description": "Inwazyjny wzrost roślin" },
+              { "Chance": 80, "Description": "Zarejestrowany dziennik badań" },
+              { "Chance": 88, "Description": "Rozlane chemikalia" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
@@ -3071,27 +2978,15 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 10,
-                "Description": "Automated containment protocols are activated"
-              },
-              { "Chance": 20, "Description": "Biological infestation" },
-              { "Chance": 30, "Description": "Dangerous specimen" },
-              {
-                "Chance": 40,
-                "Description": "Disturbing outcome of a failed experiment"
-              },
-              {
-                "Chance": 50,
-                "Description": "Evidence of sinister experiments"
-              },
-              {
-                "Chance": 60,
-                "Description": "Fragile vault holds a dire threat"
-              },
-              { "Chance": 70, "Description": "Signs of broken containment" },
-              { "Chance": 80, "Description": "Toxic environment" },
-              { "Chance": 90, "Description": "Unstable technology" },
+              { "Chance": 10, "Description": "Zautomatyzowane protokoły bezpieczeństwa zostają aktywowane" },
+              { "Chance": 20, "Description": "Inwazja biologiczna" },
+              { "Chance": 30, "Description": "Niebezpieczny okaz" },
+              { "Chance": 40, "Description": "Niepokojący wynik nieudanego eksperymentu" },
+              { "Chance": 50, "Description": "Dowody złowrogich eksperymentów" },
+              { "Chance": 60, "Description": "Delikatny skarbiec kryje w sobie straszliwe zagrożenie" },
+              { "Chance": 70, "Description": "Oznaki przerwanego zabezpieczenia" },
+              { "Chance": 80, "Description": "Toksyczne środowisko" },
+              { "Chance": 90, "Description": "Niestabilna technologia" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -3113,11 +3008,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 20, "Description": "Helpful research data" },
-              { "Chance": 40, "Description": "Records of a notable discovery" },
-              { "Chance": 60, "Description": "Specialized research tools" },
-              { "Chance": 80, "Description": "Unique prototype" },
-              { "Chance": 100, "Description": "Useful navigational data" }
+              { "Chance": 20, "Description": "Przydatne dane badawcze" },
+              { "Chance": 40, "Description": "Zapisy ważnego odkrycia" },
+              { "Chance": 60, "Description": "Specjalistyczne narzędzia badawcze" },
+              { "Chance": 80, "Description": "Unikalny prototyp" },
+              { "Chance": 100, "Description": "Przydatne dane nawigacyjne" }
             ]
           }
         ]
@@ -3186,39 +3081,18 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Alterations in the flow of time" },
-              {
-                "Chance": 16,
-                "Description": "Chaotic portal, focus, or conduit"
-              },
-              {
-                "Chance": 24,
-                "Description": "Corrupted or warped architecture or terrain"
-              },
-              {
-                "Chance": 32,
-                "Description": "Corrupted or warped environment or ecosystem"
-              },
-              { "Chance": 40, "Description": "Corrupted or warped technology" },
-              {
-                "Chance": 48,
-                "Description": "Cryptic device harnesses or powers chaos"
-              },
-              {
-                "Chance": 56,
-                "Description": "Distortions of gravity or physics"
-              },
-              { "Chance": 64, "Description": "Energy field or barrier" },
-              {
-                "Chance": 72,
-                "Description": "Glimpses of alternate realities"
-              },
-              {
-                "Chance": 80,
-                "Description": "Lifeforms mutated or altered by chaos"
-              },
-              { "Chance": 88, "Description": "Lifeforms spawned from chaos" },
-              { "Chance": 96, "Description": "Visions of your past or future" },
+              { "Chance": 8, "Description": "Zmiany w upływie czasu" },
+              { "Chance": 16, "Description": "Chaotyczny portal, centrum  lub kanał" },
+              { "Chance": 24, "Description": "Zepsuta lub wypaczona architektura lub teren" },
+              { "Chance": 32, "Description": "Zepsute lub wypaczone środowisko lub ekosystem" },
+              { "Chance": 40, "Description": "Uszkodzona lub wypaczona technologia" },
+              { "Chance": 48, "Description": "Tajemnicze urządzenie ujarzmia lub napędza chaos" },
+              { "Chance": 56, "Description": "Zakłócenia grawitacji lub fizyki" },
+              { "Chance": 64, "Description": "Pole energetyczne lub bariera" },
+              { "Chance": 72, "Description": "Przebłyski alternatywnych rzeczywistości" },
+              { "Chance": 80, "Description": "Formy życia zmutowane lub zmienione przez chaos" },
+              { "Chance": 88, "Description": "Formy życia zrodzone z chaosu" },
+              { "Chance": 96, "Description": "Wizje Twojej przeszłości lub przyszłości" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
@@ -3236,34 +3110,16 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 9, "Description": "Chaos makes its mark upon you" },
-              { "Chance": 18, "Description": "Chaos spreads or intensifies" },
-              { "Chance": 27, "Description": "Chaos tempts or lures you" },
-              {
-                "Chance": 36,
-                "Description": "Chaotic energies block the path or assail you"
-              },
-              {
-                "Chance": 45,
-                "Description": "Disorienting changes in time or location"
-              },
-              {
-                "Chance": 54,
-                "Description": "Dreadful scene of those who fell prey to chaos"
-              },
-              {
-                "Chance": 63,
-                "Description": "Equipment is made unstable or dangerous"
-              },
-              { "Chance": 72, "Description": "Foes harness or wield chaos" },
-              {
-                "Chance": 81,
-                "Description": "Hazardous environmental changes"
-              },
-              {
-                "Chance": 90,
-                "Description": "Lifeforms made hostile by chaos"
-              },
+              { "Chance": 9, "Description": "Chaos zostawia na tobie swoje piętno" },
+              { "Chance": 18, "Description": "Chaos rozprzestrzenia się lub nasila" },
+              { "Chance": 27, "Description": "Chaos kusi lub wabi" },
+              { "Chance": 36, "Description": "Chaotyczne energie blokują ścieżkę lub atakują cię" },
+              { "Chance": 45, "Description": "Dezorientujące zmiany w czasie lub miejscu" },
+              { "Chance": 54, "Description": "Straszna scena przedstawiająca tych, którzy padli ofiarą chaosu" },
+              { "Chance": 63, "Description": "Sprzęt jest niestabilny lub niebezpieczny" },
+              { "Chance": 72, "Description": "Wrogowie wykorzystują lub władają chaosem" },
+              { "Chance": 81, "Description": "Niebezpieczne zmiany środowiskowe" },
+              { "Chance": 90, "Description": "Formy życia uczynione wrogimi przez chaos" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -3286,26 +3142,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 20,
-                "Description": "Chaos ebbs or withdraws for a time"
-              },
-              {
-                "Chance": 40,
-                "Description": "Chaos empowers you with strange but useful abilities"
-              },
-              {
-                "Chance": 60,
-                "Description": "Chaos manifests as comforting or inspiring visions"
-              },
-              {
-                "Chance": 80,
-                "Description": "Chaotic changes hamper your foes"
-              },
-              {
-                "Chance": 100,
-                "Description": "Insight into the source or nature of the chaos"
-              }
+              { "Chance": 20, "Description": "Chaos odpływa lub wycofuje się na jakiś czas" },
+              { "Chance": 40, "Description": "Chaos daje ci dziwne, ale przydatne umiejętności" },
+              { "Chance": 60, "Description": "Chaos manifestuje się jako pocieszające lub inspirujące wizje" },
+              { "Chance": 80, "Description": "Chaotyczne zmiany działają przeciw twoim wrogom" },
+              { "Chance": 100, "Description": "Wgląd w źródło lub naturę chaosu" }
             ]
           }
         ]
@@ -3324,36 +3165,18 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Captives or prisoners" },
-              { "Chance": 16, "Description": "Control area or terminal" },
-              { "Chance": 24, "Description": "Empty or inactive area" },
-              {
-                "Chance": 32,
-                "Description": "Enemy forces assembled for an event"
-              },
-              {
-                "Chance": 40,
-                "Description": "Enemy forces off-duty or at leisure"
-              },
-              { "Chance": 48, "Description": "Enemy forces on guard" },
-              { "Chance": 56, "Description": "Enemy forces on patrol" },
-              {
-                "Chance": 64,
-                "Description": "Enemy forces transporting supplies or equipment"
-              },
-              {
-                "Chance": 72,
-                "Description": "Enemy leader makes an inspection"
-              },
-              {
-                "Chance": 80,
-                "Description": "Prototype technology or equipment"
-              },
-              {
-                "Chance": 88,
-                "Description": "Robotic assistant or watchful AI"
-              },
-              { "Chance": 96, "Description": "Support personnel at work" },
+              { "Chance": 8, "Description": "Więźniowie lub pojmani" },
+              { "Chance": 16, "Description": "Obszar kontrolny lub terminal" },
+              { "Chance": 24, "Description": "Pusty lub nieaktywny obszar" },
+              { "Chance": 32, "Description": "Siły wroga zebrane na wydarzenie" },
+              { "Chance": 40, "Description": "Siły wroga po służbie lub w czasie wolnym" },
+              { "Chance": 48, "Description": "Siły wroga na straży" },
+              { "Chance": 56, "Description": "Siły wroga na patrolu" },
+              { "Chance": 64, "Description": "Siły wroga transportujące zaopatrzenie lub sprzęt" },
+              { "Chance": 72, "Description": "Przywódca wroga dokonuje inspekcji" },
+              { "Chance": 80, "Description": "Prototypowa technologia lub sprzęt" },
+              { "Chance": 88, "Description": "robot asystent lub czujna sztuczna inteligencja" },
+              { "Chance": 96, "Description": "Personel pomocniczy w pracy" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
@@ -3371,37 +3194,16 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 9, "Description": "Alarm is triggered" },
-              {
-                "Chance": 18,
-                "Description": "Automated security or weapons target you"
-              },
-              {
-                "Chance": 27,
-                "Description": "Checkpoint or path with restricted access"
-              },
-              { "Chance": 36, "Description": "Enemies converge on this area" },
-              {
-                "Chance": 45,
-                "Description": "Enemies reveal new capabilities or technology"
-              },
-              {
-                "Chance": 54,
-                "Description": "Enemies trick you or lure you into a trap"
-              },
-              { "Chance": 63, "Description": "Powerful enemy appears" },
-              {
-                "Chance": 72,
-                "Description": "Problematic alliance or affiliations is revealed"
-              },
-              {
-                "Chance": 81,
-                "Description": "Revealed schemes of an enemy leader create new urgency"
-              },
-              {
-                "Chance": 90,
-                "Description": "Your plan is undone by an unexpected complication"
-              },
+              { "Chance": 9, "Description": "Alarm zostaje uruchomiony" },
+              { "Chance": 18, "Description": "Zautomatyzowane zabezpieczenia lub broń celują w Ciebie" },
+              { "Chance": 27, "Description": "Punkt kontrolny lub ścieżka z ograniczonym dostępem" },
+              { "Chance": 36, "Description": "Wrogowie zbiegają się na tym obszarze" },
+              { "Chance": 45, "Description": "Wrogowie ujawniają nowe możliwości lub technologię" },
+              { "Chance": 54, "Description": "Wrogowie oszukują cię lub zwabiają w pułapkę" },
+              { "Chance": 63, "Description": "Pojawia się potężny wróg" },
+              { "Chance": 72, "Description": "Ujawnia się problematyczny sojusz lub powiązania" },
+              { "Chance": 81, "Description": "Ujawnione plany wrogiego przywódcy tworzą nową presję / priorytety" },
+              { "Chance": 90, "Description": "Twój plan zostaje zniweczony przez nieoczekiwaną komplikację" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -3424,26 +3226,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 20,
-                "Description": "Insight into the plans or methods of the enemy force"
-              },
-              {
-                "Chance": 40,
-                "Description": "Opening to get the drop on an enemy"
-              },
-              {
-                "Chance": 60,
-                "Description": "Opening to outmaneuver or escape enemies"
-              },
-              {
-                "Chance": 80,
-                "Description": "Potential collaborator or informant reveals themselves"
-              },
-              {
-                "Chance": 100,
-                "Description": "Access to useful equipment or weapons"
-              }
+              { "Chance": 20, "Description": "Wgląd w plany lub metody sił wroga" },
+              { "Chance": 40, "Description": "Otwarcie, aby zaskoczyć wroga" },
+              { "Chance": 60, "Description": "Otwarcie na wymanewrowanie lub ucieczkę wrogów" },
+              { "Chance": 80, "Description": "Potencjalny współpracownik lub informator ujawnia się" },
+              { "Chance": 100, "Description": "Dostęp do przydatnego sprzętu lub broni" }
             ]
           }
         ]
@@ -3462,30 +3249,18 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Disembodied voices" },
-              { "Chance": 16, "Description": "Eerie cold" },
-              { "Chance": 24, "Description": "Foreboding omen or message" },
-              {
-                "Chance": 32,
-                "Description": "Ghostly visions of this place in another time"
-              },
-              { "Chance": 40, "Description": "Glimpses of shadowy movement" },
-              {
-                "Chance": 48,
-                "Description": "Objects move of their own accord"
-              },
-              { "Chance": 56, "Description": "Sensation of being watched" },
-              { "Chance": 64, "Description": "Signs of death or violence" },
-              { "Chance": 72, "Description": "Spectral sounds" },
-              {
-                "Chance": 80,
-                "Description": "Twisted or altered architecture or terrain"
-              },
-              {
-                "Chance": 88,
-                "Description": "Unnatural blight, decay, or ruin"
-              },
-              { "Chance": 96, "Description": "Unnatural mists or darkness" },
+              { "Chance": 8, "Description": "Bezcielesne głosy" },
+              { "Chance": 16, "Description": "strasznie zimno" },
+              { "Chance": 24, "Description": "Złowieszczy znak lub wiadomość" },
+              { "Chance": 32, "Description": "Upiorne wizje tego miejsca w innym czasie" },
+              { "Chance": 40, "Description": "Przebłyski ruchu w cieniu / mroku" },
+              { "Chance": 48, "Description": "Przedmioty same się poruszają" },
+              { "Chance": 56, "Description": "Wrażenie bycia obserwowanym" },
+              { "Chance": 64, "Description": "Oznaki śmierci lub przemocy" },
+              { "Chance": 72, "Description": "Widmowe dźwięki" },
+              { "Chance": 80, "Description": "Pokręcona lub zmieniona architektura lub teren" },
+              { "Chance": 88, "Description": "Nienaturalna zaraza, rozkład lub ruina" },
+              { "Chance": 96, "Description": "Nienaturalna mgła lub ciemność" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
@@ -3503,43 +3278,16 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 9,
-                "Description": "Assailed by an angry or vengeful being"
-              },
-              {
-                "Chance": 18,
-                "Description": "Beguiling illusions tempt you to linger or stay"
-              },
-              {
-                "Chance": 27,
-                "Description": "Besieged by frightening sensations"
-              },
-              {
-                "Chance": 36,
-                "Description": "Equipment is plagued by unexplainable malfunctions"
-              },
-              {
-                "Chance": 45,
-                "Description": "Plunged into disorienting darkness or illusionary surroundings"
-              },
-              {
-                "Chance": 54,
-                "Description": "Spectral manifestations of your fears"
-              },
-              {
-                "Chance": 63,
-                "Description": "Spirits or undead reveal surprising abilities or motivations"
-              },
-              {
-                "Chance": 72,
-                "Description": "Sudden, shocking reveal of a ghostly manifestation or undead form"
-              },
-              { "Chance": 81, "Description": "Trickery leads you into danger" },
-              {
-                "Chance": 90,
-                "Description": "Visions reveal a horrifying aspect of this place"
-              },
+              { "Chance": 9, "Description": "Zaatakowany przez wściekłą lub mściwą istotę" },
+              { "Chance": 18, "Description": "Urzekające iluzje kuszą, by ociągać się lub zostać" },
+              { "Chance": 27, "Description": "Oblegany przez przerażające doznania" },
+              { "Chance": 36, "Description": "Sprzęt jest nękany przez niewytłumaczalne awarie" },
+              { "Chance": 45, "Description": "Pogrążony w dezorientującej ciemności lub iluzorycznym otoczeniu" },
+              { "Chance": 54, "Description": "Widmowe przejawy twoich lęków" },
+              { "Chance": 63, "Description": "Duchy lub nieumarli ujawniają zaskakujące zdolności lub motywacje" },
+              { "Chance": 72, "Description": "Nagłe, szokujące ujawnienie upiornej manifestacji lub nieumarłej formy" },
+              { "Chance": 81, "Description": "Oszustwo prowadzi do niebezpieczeństwa" },
+              { "Chance": 90, "Description": "Wizje ujawniają przerażający aspekt tego miejsca" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -3562,23 +3310,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 20,
-                "Description": "Encounter with a benign spirit or being"
-              },
-              { "Chance": 40, "Description": "Helpful vision of past events" },
-              {
-                "Chance": 60,
-                "Description": "Message or clue leads offers insight into the nature of this haunting"
-              },
-              {
-                "Chance": 80,
-                "Description": "Secret area or path is revealed"
-              },
-              {
-                "Chance": 100,
-                "Description": "Useful or interesting artifact or device"
-              }
+              { "Chance": 20, "Description": "Spotkanie z łagodnym duchem lub istotą" },
+              { "Chance": 40, "Description": "Pomocna wizja przeszłych wydarzeń" },
+              { "Chance": 60, "Description": "Wiadomości lub wskazówki prowadzą do wglądu w naturę tego nawiedzenia" },
+              { "Chance": 80, "Description": "Ujawnia się sekretny obszar lub ścieżka" },
+              { "Chance": 100, "Description": "Przydatny lub interesujący artefakt lub urządzenie" }
             ]
           }
         ]
@@ -3597,30 +3333,18 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              { "Chance": 8, "Description": "Corpse of an unfortunate victim" },
-              { "Chance": 16, "Description": "Eggs, cocoons, or nest" },
-              {
-                "Chance": 24,
-                "Description": "Environment corrupted by the infestation"
-              },
-              { "Chance": 32, "Description": "Evidence of a lurking creature" },
-              {
-                "Chance": 40,
-                "Description": "Evidence of an ill-fated victim"
-              },
-              { "Chance": 48, "Description": "Hoarded food" },
-              { "Chance": 56, "Description": "Indistinct movement or sounds" },
-              { "Chance": 64, "Description": "Lair of lesser creatures" },
-              { "Chance": 72, "Description": "Ravaged supplies or equipment" },
-              {
-                "Chance": 80,
-                "Description": "Remains of a creature or remnants of a previous form"
-              },
-              { "Chance": 88, "Description": "Territorial markings" },
-              {
-                "Chance": 96,
-                "Description": "Trail or evidence of a creature's passage"
-              },
+              { "Chance": 8, "Description": "Zwłoki nieszczęśliwej ofiary" },
+              { "Chance": 16, "Description": "Jajka, kokony lub gniazdo" },
+              { "Chance": 24, "Description": "Środowisko zepsute przez plagę" },
+              { "Chance": 32, "Description": "Dowód czającego się stworzenia" },
+              { "Chance": 40, "Description": "Dowód niefortunnej ofiary" },
+              { "Chance": 48, "Description": "Magazynowane jedzenie" },
+              { "Chance": 56, "Description": "Niewyraźny ruch lub dźwięki" },
+              { "Chance": 64, "Description": "Legowisko pomniejszych stworzeń" },
+              { "Chance": 72, "Description": "Zniszczone zapasy lub sprzęt" },
+              { "Chance": 80, "Description": "Szczątki stworzenia lub pozostałości poprzedniej formy" },
+              { "Chance": 88, "Description": "Oznaczenia terytorialne" },
+              { "Chance": 96, "Description": "Ślad lub dowód przejścia istoty" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
@@ -3638,43 +3362,16 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 9,
-                "Description": "Creatures attack without warning"
-              },
-              {
-                "Chance": 18,
-                "Description": "Creatures guided or controlled by a greater threat"
-              },
-              {
-                "Chance": 27,
-                "Description": "Creatures reveal new aspects or abilities"
-              },
-              {
-                "Chance": 36,
-                "Description": "Creatures reveal surprising cleverness"
-              },
-              {
-                "Chance": 45,
-                "Description": "Creatures take or destroy something important"
-              },
-              {
-                "Chance": 54,
-                "Description": "Discovery of a live but threatened victim"
-              },
-              {
-                "Chance": 63,
-                "Description": "Hazardous architecture or terrain"
-              },
-              {
-                "Chance": 72,
-                "Description": "Lured or driven into a trap or dead-end"
-              },
-              {
-                "Chance": 81,
-                "Description": "Powerful or dominant creature reveals itself"
-              },
-              { "Chance": 90, "Description": "Toxic or sickening environment" },
+              { "Chance": 9, "Description": "Stworzenia atakują bez ostrzeżenia" },
+              { "Chance": 18, "Description": "Stworzenia kierowane lub kontrolowane przez większe zagrożenie" },
+              { "Chance": 27, "Description": "Stworzenia ujawniają nowe aspekty lub zdolności" },
+              { "Chance": 36, "Description": "Stworzenia ujawniają zaskakującą spryt" },
+              { "Chance": 45, "Description": "Stworzenia zabierają lub niszczą coś ważnego" },
+              { "Chance": 54, "Description": "Odkrycie żywej, ale zagrożonej ofiary" },
+              { "Chance": 63, "Description": "Niebezpieczna architektura lub teren" },
+              { "Chance": 72, "Description": "Zwabiony lub wpędzony w pułapkę lub ślepy zaułek" },
+              { "Chance": 81, "Description": "Potężne lub dominujące stworzenie ujawnia się" },
+              { "Chance": 90, "Description": "Toksyczne lub chorobotwórcze środowisko" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -3697,20 +3394,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 20,
-                "Description": "Clue to the nature or vulnerabilities of these creatures"
-              },
-              { "Chance": 40, "Description": "Creatures turn on each other" },
-              {
-                "Chance": 60,
-                "Description": "Early warning of an attack or ambush"
-              },
-              {
-                "Chance": 80,
-                "Description": "External event provides a helpful distraction"
-              },
-              { "Chance": 100, "Description": "Helpful resource or equipment" }
+              { "Chance": 20, "Description": "Wskazówki dotyczące natury lub słabych punktów tych stworzeń" },
+              { "Chance": 40, "Description": "Stworzenia zwracają się przeciwko sobie" },
+              { "Chance": 60, "Description": "Wczesne ostrzeżenie o ataku lub zasadzce" },
+              { "Chance": 80, "Description": "Wydarzenie zewnętrzne zapewnia pomocne odwrócenie uwagi" },
+              { "Chance": 100, "Description": "Pomocny zasób lub sprzęt" }
             ]
           }
         ]
@@ -3729,39 +3417,18 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 8,
-                "Description": "Conspicuous patrols or surveillance"
-              },
-              { "Chance": 16, "Description": "Crews at work" },
-              {
-                "Chance": 24,
-                "Description": "Display or monument honors a notable cultural event"
-              },
-              {
-                "Chance": 32,
-                "Description": "Emergency teams responding to an incident or crisis"
-              },
-              {
-                "Chance": 40,
-                "Description": "Families gathering or children playing"
-              },
-              {
-                "Chance": 48,
-                "Description": "Festival, celebration, or observance"
-              },
-              { "Chance": 56, "Description": "Fight breaks out" },
-              {
-                "Chance": 64,
-                "Description": "Notable figure stands out from the crowd"
-              },
-              { "Chance": 72, "Description": "Protest or strike" },
-              { "Chance": 80, "Description": "Unrepaired damage" },
-              { "Chance": 88, "Description": "Unusually empty or quiet area" },
-              {
-                "Chance": 96,
-                "Description": "Vendor or merchant hawking their wares"
-              },
+              { "Chance": 8, "Description": "Rzucające się w oczy patrole lub inwigilacja" },
+              { "Chance": 16, "Description": "Załogi w pracy" },
+              { "Chance": 24, "Description": "Wystawa lub pomnik upamiętnia ważne wydarzenie kulturalne" },
+              { "Chance": 32, "Description": "Zespoły ratunkowe reagujące na incydent lub kryzys" },
+              { "Chance": 40, "Description": "Rodziny zbierające się lub bawiące się dzieci" },
+              { "Chance": 48, "Description": "Festiwal, uroczystość lub święto" },
+              { "Chance": 56, "Description": "Wybucha walka" },
+              { "Chance": 64, "Description": "Godna uwagi postać wyróżnia się z tłumu" },
+              { "Chance": 72, "Description": "Protest lub strajk" },
+              { "Chance": 80, "Description": "Nienaprawione uszkodzenie" },
+              { "Chance": 88, "Description": "Niezwykle pusta lub cicha okolica" },
+              { "Chance": 96, "Description": "Sprzedawca lub kupiec sprzedający swoje towary" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
@@ -3779,37 +3446,16 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 9,
-                "Description": "Announcement or notification brings harrowing news"
-              },
-              { "Chance": 18, "Description": "Arrival of a foe or rival" },
-              {
-                "Chance": 27,
-                "Description": "Blockade or security cordon cuts off needed access"
-              },
-              {
-                "Chance": 36,
-                "Description": "Caught in the crossfire of a dispute"
-              },
-              {
-                "Chance": 45,
-                "Description": "Disturbing evidence of exploitive conditions"
-              },
-              { "Chance": 54, "Description": "Lured into danger" },
-              {
-                "Chance": 63,
-                "Description": "Signs of disease, infestation, or toxic environment"
-              },
-              { "Chance": 72, "Description": "Signs of unrest or rebellion" },
-              {
-                "Chance": 81,
-                "Description": "Signs that you are being watched or followed"
-              },
-              {
-                "Chance": 90,
-                "Description": "Unwanted attention from authority or enemies"
-              },
+              { "Chance": 9, "Description": "Ogłoszenie lub powiadomienie przynosi wstrząsające wiadomości" },
+              { "Chance": 18, "Description": "Przybycie wroga lub rywala" },
+              { "Chance": 27, "Description": "Blokada lub kordon zabezpieczający odcina niezbędny dostęp" },
+              { "Chance": 36, "Description": "Złapany/wiągnięty w krzyżowy ogień sporu" },
+              { "Chance": 45, "Description": "Niepokojące dowody na warunki eksploatacji" },
+              { "Chance": 54, "Description": "Zwabiony do niebezpieczeństwa" },
+              { "Chance": 63, "Description": "Oznaki choroby, infestacji lub toksycznego środowiska" },
+              { "Chance": 72, "Description": "Oznaki niepokoju lub buntu" },
+              { "Chance": 81, "Description": "Oznaki, że jesteś obserwowany lub śledzony" },
+              { "Chance": 90, "Description": "Niechciana uwaga autorytetów lub wrogów" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -3832,26 +3478,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 20,
-                "Description": "Intriguing offer from an unexpected source"
-              },
-              {
-                "Chance": 40,
-                "Description": "Lively festival or gathering place provides a chance to socialize"
-              },
-              {
-                "Chance": 60,
-                "Description": "Local gossip proves interesting or helpful"
-              },
-              {
-                "Chance": 80,
-                "Description": "Needed item, resource, or buyer is available"
-              },
-              {
-                "Chance": 100,
-                "Description": "Old friend or connection resurfaces"
-              }
+              { "Chance": 20, "Description": "Intrygująca oferta z nieoczekiwanego źródła" },
+              { "Chance": 40, "Description": "Tętniący życiem festiwal lub miejsce spotkań to okazja do spotkań towarzyskich" },
+              { "Chance": 60, "Description": "Lokalne plotki okazują się interesujące lub pomocne" },
+              { "Chance": 80, "Description": "Potrzebny przedmiot, zasób lub kupujący jest dostępny" },
+              { "Chance": 100, "Description": "Pojawia się stary przyjaciel lub połączenie" }
             ]
           }
         ]
@@ -3870,39 +3501,18 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 8,
-                "Description": "Collapsed or broken structures or terrain"
-              },
-              {
-                "Chance": 16,
-                "Description": "Device or artifact with residual power or function"
-              },
-              {
-                "Chance": 24,
-                "Description": "Focal point or nexus of the destruction"
-              },
-              { "Chance": 32, "Description": "Graves or corpses" },
-              {
-                "Chance": 40,
-                "Description": "Innermost or hidden spaces laid bare by the destruction"
-              },
-              {
-                "Chance": 48,
-                "Description": "Message or recording from before the fall"
-              },
-              { "Chance": 56, "Description": "Overgrown or entombed spaces" },
-              { "Chance": 64, "Description": "Rubble-strewn paths" },
-              { "Chance": 72, "Description": "Sad memento of a lost life" },
-              {
-                "Chance": 80,
-                "Description": "Sights or sounds of structural instability"
-              },
-              { "Chance": 88, "Description": "Signs of looting or scavenging" },
-              {
-                "Chance": 96,
-                "Description": "Survivors or guardians dwell among the ruins"
-              },
+              { "Chance": 8, "Description": "Zawalone lub zniszczone struktury lub teren" },
+              { "Chance": 16, "Description": "Urządzenie lub artefakt z resztkową mocą lub funkcją" },
+              { "Chance": 24, "Description": "Centralny punkt lub węzeł zniszczenia" },
+              { "Chance": 32, "Description": "Groby lub zwłoki" },
+              { "Chance": 40, "Description": "Najbardziej wewnętrzne lub ukryte przestrzenie obnażone przez zniszczenie" },
+              { "Chance": 48, "Description": "Wiadomość lub nagranie sprzed upadku" },
+              { "Chance": 56, "Description": "Zarośnięte lub pogrzebane przestrzenie" },
+              { "Chance": 64, "Description": "Zasypane gruzem ścieżki" },
+              { "Chance": 72, "Description": "Smutna pamiątka utraconego życia" },
+              { "Chance": 80, "Description": "Widoki lub dźwięki niestabilności strukturalnej" },
+              { "Chance": 88, "Description": "Oznaki przeszukiwania lub plądrowania" },
+              { "Chance": 96, "Description": "Wśród ruin mieszkają ocaleni lub strażnicy" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
@@ -3920,40 +3530,16 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 9,
-                "Description": "Dreadful atmosphere of loss and destruction weighs upon you"
-              },
-              {
-                "Chance": 18,
-                "Description": "Evidence of a horrible fate for others who passed this way"
-              },
-              {
-                "Chance": 27,
-                "Description": "Hazardous atmosphere or environment"
-              },
-              {
-                "Chance": 36,
-                "Description": "Hostile creature has staked out their territory"
-              },
-              {
-                "Chance": 45,
-                "Description": "Imminent collapse or destruction"
-              },
-              {
-                "Chance": 54,
-                "Description": "Lured into a trap or targeted by automated defenses"
-              },
-              {
-                "Chance": 63,
-                "Description": "Source of the destruction persists or returns anew"
-              },
-              {
-                "Chance": 72,
-                "Description": "Unearthed secrets best left buried"
-              },
-              { "Chance": 81, "Description": "Unstable or broken path" },
-              { "Chance": 90, "Description": "Volatile device or artifact" },
+              { "Chance": 9, "Description": "Ciąży na tobie straszna atmosfera straty i zniszczenia" },
+              { "Chance": 18, "Description": "Dowód strasznego losu innych, którzy tędy przeszli" },
+              { "Chance": 27, "Description": "Niebezpieczna atmosfera lub środowisko" },
+              { "Chance": 36, "Description": "Wrogie stworzenie zajęło ich terytorium" },
+              { "Chance": 45, "Description": "Nieuchronne zawalenie się lub zniszczenie" },
+              { "Chance": 54, "Description": "Zwabiony w pułapkę lub namierzony przez automatyczną obronę" },
+              { "Chance": 63, "Description": "Źródło zniszczenia trwa lub powraca na nowo" },
+              { "Chance": 72, "Description": "Odkryte tajemnice, które najlepiej zostawić zakopane" },
+              { "Chance": 81, "Description": "Niestabilna lub zepsuta ścieżka" },
+              { "Chance": 90, "Description": "Ulotne urządzenie lub artefakt" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -3976,26 +3562,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 20,
-                "Description": "Access to an untouched or preserved area"
-              },
-              {
-                "Chance": 40,
-                "Description": "Insight into what brought this place to ruin"
-              },
-              {
-                "Chance": 60,
-                "Description": "Interesting or useful device or artifact"
-              },
-              {
-                "Chance": 80,
-                "Description": "Salvageable equipment or resources"
-              },
-              {
-                "Chance": 100,
-                "Description": "Shortcut or passage through the destruction"
-              }
+              { "Chance": 20, "Description": "Dostęp do nietkniętego lub zachowanego obszaru" },
+              { "Chance": 40, "Description": "Wgląd w to, co doprowadziło to miejsce do ruiny?" },
+              { "Chance": 60, "Description": "Ciekawe lub przydatne urządzenie lub artefakt" },
+              { "Chance": 80, "Description": "Sprzęt lub zasoby możliwe do odzyskania" },
+              { "Chance": 100, "Description": "Skrót lub przejście przez zniszczenie" }
             ]
           }
         ]
@@ -4014,36 +3585,18 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 8,
-                "Description": "Adherents performing worship or enacting rituals"
-              },
-              { "Chance": 16, "Description": "Altar or temple" },
-              { "Chance": 24, "Description": "Dwellings for the faithful" },
-              { "Chance": 32, "Description": "Enigmatic symbols" },
-              {
-                "Chance": 40,
-                "Description": "Graves or remains of glorified disciples"
-              },
-              { "Chance": 48, "Description": "Holy text or archives" },
-              { "Chance": 56, "Description": "Offerings or atonements" },
-              {
-                "Chance": 64,
-                "Description": "Pilgrims arriving to pay homage"
-              },
-              {
-                "Chance": 72,
-                "Description": "Protected reliquary of an artifact or token"
-              },
-              { "Chance": 80, "Description": "Religious art or idols" },
-              {
-                "Chance": 88,
-                "Description": "Subtle manifestations of mystical power or visions"
-              },
-              {
-                "Chance": 96,
-                "Description": "Tokens or motifs representing the faith's domain"
-              },
+              { "Chance": 8, "Description": "Zwolennicy odprawiający kult lub odprawiający rytuały" },
+              { "Chance": 16, "Description": "Ołtarz lub świątynia" },
+              { "Chance": 24, "Description": "Mieszkania dla wiernych" },
+              { "Chance": 32, "Description": "Zagadkowe symbole" },
+              { "Chance": 40, "Description": "Groby lub szczątki uwielbionych uczniów" },
+              { "Chance": 48, "Description": "Święty tekst lub archiwa" },
+              { "Chance": 56, "Description": "Ofiary lub pokuty" },
+              { "Chance": 64, "Description": "Pielgrzymi przybywający, by oddać hołd" },
+              { "Chance": 72, "Description": "Chroniony relikwiarz artefaktu lub symbol" },
+              { "Chance": 80, "Description": "Sztuka religijna lub idole" },
+              { "Chance": 88, "Description": "Subtelne przejawy mistycznej mocy lub wizji" },
+              { "Chance": 96, "Description": "Symbole lub motywy reprezentujące domenę wiary" },
               {
                 "Chance": 100,
                 "Description": "▶️Opis + Skupienie",
@@ -4061,46 +3614,16 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 9,
-                "Description": "An aspect of the faith beguiles you or lures you into danger"
-              },
-              {
-                "Chance": 18,
-                "Description": "Dreadful aspects or powers of the faith are revealed"
-              },
-              {
-                "Chance": 27,
-                "Description": "Embodiment of a god or power is given corrupted form or purpose"
-              },
-              {
-                "Chance": 36,
-                "Description": "Guardians seek martyrdom in defense of this place"
-              },
-              {
-                "Chance": 45,
-                "Description": "Leaders corrupt or exploit their followers to oppose you"
-              },
-              {
-                "Chance": 54,
-                "Description": "Prophecies portend a dire threat"
-              },
-              {
-                "Chance": 63,
-                "Description": "Protective ward or enigmatic puzzle blocks the way"
-              },
-              {
-                "Chance": 72,
-                "Description": "Religious artifact evokes unnerving power"
-              },
-              {
-                "Chance": 81,
-                "Description": "Unnatural corruption or decay fouls the environment"
-              },
-              {
-                "Chance": 90,
-                "Description": "Zealots enact a ceremony to unlock forbidden powers"
-              },
+              { "Chance": 9, "Description": "Aspekt wiary zwodzi lub wabi na niebezpieczeństwo" },
+              { "Chance": 18, "Description": "Ujawniają się straszne aspekty lub moce wiary" },
+              { "Chance": 27, "Description": "Ucieleśnieniu boga lub mocy nadano zniekształconą formę lub cel" },
+              { "Chance": 36, "Description": "Strażnicy szukają męczeńskiej śmierci w obronie tego miejsca" },
+              { "Chance": 44, "Description": "Liderzy korumpują lub wykorzystują swoich zwolenników, aby ci się przeciwstawić" },
+              { "Chance": 45, "Description": "Proroctwa zwiastują straszne zagrożenie" },
+              { "Chance": 54, "Description": "Ochronny oddział lub enigmatyczna łamigłówka blokują drogę" },
+              { "Chance": 63, "Description": "Artefakt religijny wywołuje niepokojącą moc" },
+              { "Chance": 72, "Description": "Nienaturalne zepsucie lub rozkład zanieczyszczają środowisko" },
+              { "Chance": 81, "Description": "Zeloci organizują ceremonię, aby odblokować zakazane moce" },
               {
                 "Chance": 98,
                 "Description": "▶️Akcja + Motyw",
@@ -4123,26 +3646,11 @@
             "Repeatable": true,
             "Semantics": { "Part of speech": ["fragment"] },
             "Table": [
-              {
-                "Chance": 20,
-                "Description": "Access to a hidden or sealed area"
-              },
-              {
-                "Chance": 40,
-                "Description": "Encounter with a helpful adherent or heretic"
-              },
-              {
-                "Chance": 60,
-                "Description": "Insight into the nature or history of the faith"
-              },
-              {
-                "Chance": 80,
-                "Description": "Insight into the schemes or methods of religious zealots"
-              },
-              {
-                "Chance": 100,
-                "Description": "Interesting or valuable artifact or device"
-              }
+              { "Chance": 20, "Description": "Dostęp do ukrytego lub zamkniętego obszaru" },
+              { "Chance": 40, "Description": "Spotkanie z pomocnym zwolennikiem lub heretykiem" },
+              { "Chance": 60, "Description": "Wgląd w naturę lub historię wiary" },
+              { "Chance": 80, "Description": "Wgląd w schematy lub metody religijnych fanatyków" },
+              { "Chance": 100, "Description": "Ciekawy lub cenny artefakt lub urządzenie" }
             ]
           }
         ]
