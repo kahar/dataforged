@@ -2084,9 +2084,9 @@
         "Name": "Location",
         "Initial": true,
         "Table": [
-          { "Chance": 40, "Description": "Na planecie" },
-          { "Chance": 60, "Description": "Na orbicie" },
-          { "Chance": 100, "Description": "Głęboki kosmos" }
+          { "Chance": 40, "Description": "Planetside" },
+          { "Chance": 60, "Description": "Orbital" },
+          { "Chance": 100, "Description": "Deep Space" }
         ]
       },
       {
