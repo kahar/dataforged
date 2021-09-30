@@ -1,6 +1,6 @@
 /*oracles*/
 var oraclesSF = {};
-$.getJSON("https://raw.githubusercontent.com/rsek/dataforged/main/oracles.json")
+$.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/oracles.json")
     .done(function(data) {
         oraclesSF = data;
         for (var i = 0; i < data.length; i++) {
@@ -35,7 +35,7 @@ function parseSubOracle(oracle, subOracle) {
     $("#" + toId(oracle["Display name"]) + " #subelements").first().append(liToAppend);
     if (subOracle.Table != null) {
         for (var z = 0; z < subOracle.Table.length; z++) {
-            var tableElementToAppend = '<div>' + /*TODO uncomment subOracle.Table[z].Chance + ' ' +*/ subOracle.Table[z].Description + '</div>'
+            var tableElementToAppend = '<div>' + /*TODO uncomment subOracle.Table[z].Chance + ' ' +*/ subOracle.Table[z].Description + (subOracle.Table[z].Assets != null ? (" "+subOracle.Table[z].Assets) :"") + '</div>'
             $("#" + toId(oracle["Display name"]) +" #" + toId(subOracle["Display name"]) + " #subelements").append(tableElementToAppend);
         }
     }
@@ -165,7 +165,7 @@ function rollOnOracleSF(oracle) {
 }
 
 /*moves part*/
-$.getJSON("https://raw.githubusercontent.com/rsek/dataforged/main/moves.json")
+$.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json")
     .done(function(data) {
         var moves = data.Moves;
         var movesTypes = [];
@@ -193,7 +193,7 @@ $.getJSON("https://raw.githubusercontent.com/rsek/dataforged/main/moves.json")
     });
 
     /*assets part*/
-    $.getJSON("https://raw.githubusercontent.com/rsek/dataforged/main/assets.json")
+    $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/assets.json")
         .done(function(data) {
             var assets = data.Assets;
             var assetsTypes = [];
