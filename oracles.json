@@ -3671,7 +3671,7 @@
         "Table": [
           {
             "Chance": 4,
-            "Description": "Crucial equipment or device fails",
+            "Description": "Kluczowy sprzęt lub urządzenie ulega awarii",
             "Suggest": [
               {
                 "Oracles": [
@@ -3683,7 +3683,7 @@
           },
           {
             "Chance": 7,
-            "Description": "Crucial equipment or device is sabotaged",
+            "Description": "Kluczowy sprzęt lub urządzenie jest sabotowane",
             "Suggest": [
               {
                 "Oracles": [
@@ -3693,64 +3693,37 @@
               }
             ]
           },
-          { "Chance": 10, "Description": "Debt or promise comes due" },
+          { "Chance": 10, "Description": "Dług lub obietnica staje się wymagana" },
           {
             "Chance": 14,
-            "Description": "Enemy reveals unexpected powers, abilities, or influence"
+            "Description": "Wróg ujawnia nieoczekiwane moce, zdolności lub wpływy"
           },
           {
             "Chance": 17,
-            "Description": "Enemy reveals their true agenda or nature"
+            "Description": "Wróg ujawnia swój prawdziwy plan lub naturę"
           },
           {
             "Chance": 20,
-            "Description": "Enemy unexpectedly benefits from your actions"
+            "Description": "Wróg niespodziewanie czerpie korzyści z twoich działań"
           },
-          { "Chance": 23, "Description": "Key location is made inaccessible" },
-          {
-            "Chance": 26,
-            "Description": "Key location is threatened or made unsafe"
-          },
-          { "Chance": 29, "Description": "Natural disaster is imminent" },
-          {
-            "Chance": 33,
-            "Description": "Needed item or resource is unavailable"
-          },
-          {
-            "Chance": 36,
-            "Description": "Object of a quest is not what you assumed"
-          },
-          { "Chance": 39, "Description": "Old enemy resurfaces" },
-          {
-            "Chance": 42,
-            "Description": "Simultaneous problems force a hard choice"
-          },
-          {
-            "Chance": 45,
-            "Description": "Someone important betrays your trust"
-          },
-          {
-            "Chance": 48,
-            "Description": "Someone important is threatened or endangered"
-          },
-          {
-            "Chance": 51,
-            "Description": "Someone important reveals their problematic secret or history"
-          },
-          { "Chance": 54, "Description": "Something important goes missing" },
-          {
-            "Chance": 57,
-            "Description": "Technology or device is shown to have unexpected effects"
-          },
-          { "Chance": 61, "Description": "Time pressure suddenly increases" },
-          { "Chance": 65, "Description": "Trap is sprung" },
-          {
-            "Chance": 68,
-            "Description": "True agenda of a connection or patron is revealed"
-          },
+          { "Chance": 23, "Description": "Kluczowa lokalizacja jest niedostępna" },
+          { "Chance": 26, "Description": "Kluczowa lokalizacja jest zagrożona lub niebezpieczna" },
+          { "Chance": 29, "Description": "Katastrofa naturalna jest nieunikniona" },
+          { "Chance": 33, "Description": "Potrzebny przedmiot lub zasób jest niedostępny" },
+          { "Chance": 36, "Description": "Cel zadania nie jest taki, jak zakładałeś" },
+          { "Chance": 39, "Description": "Stary wróg powraca" },
+          { "Chance": 42, "Description": "Jednoczesne problemy wymuszają trudny wybór" },
+          { "Chance": 45, "Description": "Ktoś ważny zdradza Twoje zaufanie" },
+          { "Chance": 48, "Description": "Ktoś ważny jest zagrożony lub szantażowany" },
+          { "Chance": 51, "Description": "Ktoś ważny ujawnia swoją problematyczną tajemnicę lub historię" },
+          { "Chance": 54, "Description": "Brakuje czegoś ważnego" },
+          { "Chance": 57, "Description": "Wykazano, że technologia lub urządzenie przynoszą nieoczekiwane efekty" },
+          { "Chance": 61, "Description": "Presja czasu nagle wzrasta" },
+          { "Chance": 65, "Description": "Pułapka jest uruchomiona" },
+          { "Chance": 68, "Description": "Ujawnia się prawdziwa natura relacji lub patrona" },
           {
             "Chance": 72,
-            "Description": "Trusted information is shown to be false",
+            "Description": "Zaufane informacje okazały się fałszywe",
             "Suggest": [
               {
                 "Oracles": [
@@ -3762,7 +3735,7 @@
           },
           {
             "Chance": 76,
-            "Description": "Two seemingly unrelated problems are shown to be connected",
+            "Description": "Wykazano, że dwa pozornie niepowiązane ze sobą problemy są ze sobą powiązane",
             "Suggest": [
               {
                 "Oracles": [
@@ -3774,12 +3747,12 @@
           },
           {
             "Chance": 80,
-            "Description": "Undermined by self-doubt or vulnerabilities"
+            "Description": "Osłabiony przez zwątpienie w samego siebie lub słabe punkty"
           },
-          { "Chance": 84, "Description": "Unexpected enemies appear" },
+          { "Chance": 84, "Description": "Pojawiają się nieoczekiwani wrogowie" },
           {
             "Chance": 88,
-            "Description": "Urgent message distracts you from your quest",
+            "Description": "Pilna wiadomość odciąga Cię od zadania",
             "Suggest": [
               {
                 "Oracles": [
@@ -3789,10 +3762,10 @@
               }
             ]
           },
-          { "Chance": 92, "Description": "You are tracked or followed" },
+          { "Chance": 92, "Description": "Jesteś śledzony lub ktoś podąża twoim śladem" },
           {
             "Chance": 95,
-            "Description": "You were diverted from the true crisis",
+            "Description": "Zostałeś oderwany / odwrócony od prawdziwego kryzysu",
             "Suggest": [
               {
                 "Oracles": [
@@ -3815,59 +3788,38 @@
         "Semantics": { "Part of speech": ["fragment"], "Content": ["event"] },
         "Description": "Use this oracle to help inspire an action for a foe in a fight. When you’re not sure what an enemy does next, particularly when they have you in a bad spot, roll on this table and interpret the result as appropriate to the nature of the enemy and your objective.",
         "Table": [
-          {
-            "Chance": 3,
-            "Description": "Block a path or cut off an objective"
-          },
-          { "Chance": 6, "Description": "Cause reckless damage" },
-          { "Chance": 9, "Description": "Change weapons or tactics" },
-          { "Chance": 12, "Description": "Compel a surrender or concession" },
-          { "Chance": 15, "Description": "Coordinate with allies" },
-          { "Chance": 18, "Description": "Corner, trap, or entangle" },
-          { "Chance": 21, "Description": "Counter or reflect an attack" },
-          { "Chance": 24, "Description": "Create a distraction" },
-          {
-            "Chance": 27,
-            "Description": "Destroy something or render it useless"
-          },
-          { "Chance": 30, "Description": "Fall back or stand off" },
-          { "Chance": 33, "Description": "Hide or sneak" },
-          { "Chance": 36, "Description": "Intimidate, taunt, or frighten" },
-          {
-            "Chance": 39,
-            "Description": "Leverage the advantage of a weapon or ability"
-          },
-          {
-            "Chance": 42,
-            "Description": "Leverage the terrain or surroundings"
-          },
-          { "Chance": 45, "Description": "Lure into a vulnerable position" },
-          { "Chance": 48, "Description": "Make a cautious or probing attack" },
-          {
-            "Chance": 51,
-            "Description": "Make a ferocious or powerful attack"
-          },
-          { "Chance": 54, "Description": "Make a precise or careful attack" },
-          { "Chance": 57, "Description": "Make a sacrificial attack" },
-          { "Chance": 60, "Description": "Make an indirect attack" },
-          { "Chance": 63, "Description": "Move in close or grapple" },
-          {
-            "Chance": 66,
-            "Description": "Nullify a system, device, or weapon"
-          },
-          { "Chance": 69, "Description": "Overrun a position" },
-          { "Chance": 72, "Description": "Perform a feint or trick" },
-          { "Chance": 75, "Description": "Press an advantage" },
-          { "Chance": 78, "Description": "Provoke a careless response" },
-          { "Chance": 81, "Description": "Ready a decisive action" },
-          { "Chance": 84, "Description": "Shift the fight to a new area" },
-          { "Chance": 87, "Description": "Summon aid or reinforcements" },
-          { "Chance": 90, "Description": "Take cover or bolster defenses" },
-          {
-            "Chance": 93,
-            "Description": "Use an unexpected weapon or ability"
-          },
-          { "Chance": 96, "Description": "Weaken defenses" },
+          { "Chance": 3, "Description": "Zablokuj ścieżkę lub odetnij cel" },
+          { "Chance": 6, "Description": "Lekkomyślnie spowodować obrażenia" },
+          { "Chance": 9, "Description": "Zmień broń lub taktykę" },
+          { "Chance": 12, "Description": "Wymuszaj kapitulację lub ustępstwo" },
+          { "Chance": 15, "Description": "Koordynuj z sojusznikami" },
+          { "Chance": 18, "Description": "Narożnik, pułapka lub zaplątanie" },
+          { "Chance": 21, "Description": "Kontruj lub odbijaj atak" },
+          { "Chance": 24, "Description": "Stwórz odwrócenie uwagi" },
+          { "Chance": 27, "Description": "Zniszcz coś lub uczyń to bezużytecznym" },
+          { "Chance": 30, "Description": "Cofnij się lub stój" },
+          { "Chance": 33, "Description": "Ukryj się lub zakradnij" },
+          { "Chance": 36, "Description": "Zastrasz, wyszydź lub przeraź" },
+          { "Chance": 39, "Description": "Wykorzystaj przewagę broni lub umiejętności" },
+          { "Chance": 42, "Description": "Wykorzystaj teren lub otoczenie" },
+          { "Chance": 45, "Description": "Zwab na słabą pozycję" },
+          { "Chance": 48, "Description": "Wykonaj ostrożny lub sondujący atak" },
+          { "Chance": 51, "Description": "Wykonaj okrutny lub potężny atak" },
+          { "Chance": 54, "Description": "Wykonaj precyzyjny lub ostrożny atak" },
+          { "Chance": 57, "Description": "Wykonaj atak o dużym koszcie" },
+          { "Chance": 60, "Description": "Wykonaj atak pośredni" },
+          { "Chance": 63, "Description": "Zbliż się lub chwyć" },
+          { "Chance": 66, "Description": "Spraw system, urządzenie lub broń stały się niezdatne do użytku" },
+          { "Chance": 69, "Description": "Przekroczyć pozycję" },
+          { "Chance": 72, "Description": "Wykonaj zwód lub sztuczkę" },
+          { "Chance": 75, "Description": "Wywieraj presję wykorzystując przewagę" },
+          { "Chance": 78, "Description": "Prowokuj nieostrożną odpowiedź" },
+          { "Chance": 81, "Description": "Przygotuj się na zdecydowane działanie" },
+          { "Chance": 84, "Description": "Przenieś walkę na nowy obszar" },
+          { "Chance": 87, "Description": "Wezwij pomoc lub posiłki" },
+          { "Chance": 90, "Description": "Kryj się lub wzmacniaj obronę" },
+          { "Chance": 93, "Description": "Użyj nieoczekiwanej broni lub umiejętności" },
+          { "Chance": 96, "Description": "Osłabić obronę" },
           {
             "Chance": 100,
             "Description": "Rzuć dwa razy",
@@ -3882,86 +3834,38 @@
         "Semantics": { "Part of speech": ["fragment"], "Content": ["event"] },
         "Description": "Meddling with alien artifacts or forbidden magic may put you at the mercy of chaos. Use this table to resolve the effects of ancient tech, rituals, or other strange forces. Results on this table may prompt devastating implications, so use it only in rare and dramatic moments.",
         "Table": [
-          { "Chance": 3, "Description": "Alters or focuses gravity" },
-          { "Chance": 6, "Description": "Alters or reshapes nonliving matter" },
-          {
-            "Chance": 9,
-            "Description": "Alters surrounding air or atmosphere"
-          },
-          { "Chance": 12, "Description": "Alters surrounding ecosystems" },
-          { "Chance": 15, "Description": "Awakens the dead" },
-          {
-            "Chance": 18,
-            "Description": "Causes distressing visions or nightmares"
-          },
-          {
-            "Chance": 21,
-            "Description": "Causes rapid biological growth or infestation"
-          },
-          { "Chance": 24, "Description": "Causes sickness or weakness" },
-          { "Chance": 27, "Description": "Corrupts living matter" },
-          {
-            "Chance": 30,
-            "Description": "Corrupts or infects devices or computers"
-          },
-          {
-            "Chance": 33,
-            "Description": "Creates manifestations or illusions"
-          },
-          {
-            "Chance": 36,
-            "Description": "Decays or weakens surrounding terrain or structures"
-          },
-          {
-            "Chance": 39,
-            "Description": "Drains energy from equipment or devices"
-          },
-          {
-            "Chance": 42,
-            "Description": "Emits forceful or destructive energy"
-          },
-          { "Chance": 45, "Description": "Emits radiation" },
-          { "Chance": 48, "Description": "Generates a barrier or ward" },
-          {
-            "Chance": 51,
-            "Description": "Generates intense lights and sounds"
-          },
-          {
-            "Chance": 54,
-            "Description": "Generates tendrils of energy which slither or grasp"
-          },
-          { "Chance": 57, "Description": "Harvests or destroys living matter" },
-          {
-            "Chance": 60,
-            "Description": "Harvests or destroys nonliving matter"
-          },
-          {
-            "Chance": 63,
-            "Description": "Nullifies or destroys equipment or devices"
-          },
-          { "Chance": 66, "Description": "Opens a path to another location" },
-          { "Chance": 69, "Description": "Replicates living matter" },
-          { "Chance": 72, "Description": "Replicates nonliving matter" },
-          {
-            "Chance": 75,
-            "Description": "Reveals glimpses of the distant past"
-          },
-          { "Chance": 78, "Description": "Reveals glimpses of the far future" },
-          {
-            "Chance": 81,
-            "Description": "Reverses time by a few moments or minutes"
-          },
-          { "Chance": 84, "Description": "Slows or stops time" },
-          {
-            "Chance": 87,
-            "Description": "Summons or manifests an ancient being or intelligence"
-          },
-          { "Chance": 90, "Description": "Summons or manifests creatures" },
-          { "Chance": 93, "Description": "Transports to another location" },
-          {
-            "Chance": 96,
-            "Description": "Triggers an impending catastrophic explosion"
-          },
+          { "Chance": 3, "Description": "Zmienia lub skupia grawitację" },
+          { "Chance": 6, "Description": "Zmienia lub przekształca nieożywioną materię" },
+          { "Chance": 9, "Description": "Zmienia otaczające powietrze lub atmosferę" },
+          { "Chance": 12, "Description": "Zmienia otaczające ekosystemy" },
+          { "Chance": 15, "Description": "Budzi umarłych" },
+          { "Chance": 18, "Description": "Powoduje niepokojące wizje lub koszmary" },
+          { "Chance": 21, "Description": "Powoduje szybki biologiczny wzrost lub plagę" },
+          { "Chance": 24, "Description": "Powoduje chorobę lub osłabienie" },
+          { "Chance": 27, "Description": "Psuje żywą materię" },
+          { "Chance": 30, "Description": "Psuje lub infekuje urządzenia lub komputery" },
+          { "Chance": 33, "Description": "Tworzy manifestacje lub iluzje" },
+          { "Chance": 36, "Description": "Rozkłada się lub osłabia otaczający teren lub konstrukcje" },
+          { "Chance": 39, "Description": "Odprowadza energię ze sprzętu lub urządzeń" },
+          { "Chance": 42, "Description": "Emituje silną lub destrukcyjną energię" },
+          { "Chance": 45, "Description": "Emituje promieniowanie" },
+          { "Chance": 48, "Description": "Generuje barierę lub chroniony obszar" },
+          { "Chance": 51, "Description": "Generuje intensywne światła i dźwięki" },
+          { "Chance": 54, "Description": "Generuje macki energii, które ślizgają się lub chwytają" },
+          { "Chance": 57, "Description": "Zbiera lub niszczy żywą materię" },
+          { "Chance": 60, "Description": "Zbiera lub niszczy materię nieożywioną" },
+          { "Chance": 63, "Description": "Unieważnia lub niszczy sprzęt lub urządzenia" },
+          { "Chance": 66, "Description": "Otwiera ścieżkę do innej lokalizacji" },
+          { "Chance": 69, "Description": "Replikuje żywą materię" },
+          { "Chance": 72, "Description": "Replikuje nieożywioną materię" },
+          { "Chance": 75, "Description": "Ujawnia przebłyski odległej przeszłości" },
+          { "Chance": 78, "Description": "Ujawnia przebłyski dalekiej przyszłości" },
+          { "Chance": 81, "Description": "Cofa czas o kilka chwil lub minut" },
+          { "Chance": 84, "Description": "Spowalnia lub zatrzymuje czas" },
+          { "Chance": 87, "Description": "Przywołuje lub manifestuje starożytną istotę lub inteligencję" },
+          { "Chance": 90, "Description": "Przyzywa lub manifestuje stwory" },
+          { "Chance": 93, "Description": "Transporty do innej lokalizacji" },
+          { "Chance": 96, "Description": "Wywołuje zbliżającą się katastrofalną eksplozję" },
           {
             "Chance": 100,
             "Description": "Rzuć dwa razy",
@@ -3984,8 +3888,8 @@
             "Display name": "Ask the Oracle - Almost Certain",
             "Aliases": ["90"],
             "Table": [
-              { "Chance": 10, "Description": "No" },
-              { "Chance": 100, "Description": "Yes" }
+              { "Chance": 10, "Description": "Nie" },
+              { "Chance": 100, "Description": "Tak" }
             ]
           },
           {
@@ -3993,8 +3897,8 @@
             "Display name": "Ask the Oracle - Likely",
             "Aliases": ["75"],
             "Table": [
-              { "Chance": 25, "Description": "No" },
-              { "Chance": 100, "Description": "Yes" }
+              { "Chance": 25, "Description": "Nie" },
+              { "Chance": 100, "Description": "Tak" }
             ]
           },
           {
@@ -4002,8 +3906,8 @@
             "Display name": "Ask the Oracle - 50/50",
             "Aliases": ["50", "5050"],
             "Table": [
-              { "Chance": 50, "Description": "No" },
-              { "Chance": 100, "Description": "Yes" }
+              { "Chance": 50, "Description": "Nie" },
+              { "Chance": 100, "Description": "Tak" }
             ]
           },
           {
@@ -4011,8 +3915,8 @@
             "Display name": "Ask the Oracle - Unlikely",
             "Aliases": ["25"],
             "Table": [
-              { "Chance": 75, "Description": "No" },
-              { "Chance": 100, "Description": "Yes" }
+              { "Chance": 75, "Description": "Nie" },
+              { "Chance": 100, "Description": "Tak" }
             ]
           },
           {
@@ -4020,8 +3924,8 @@
             "Display name": "Ask the Oracle - Small Chance",
             "Aliases": ["10"],
             "Table": [
-              { "Chance": 90, "Description": "No" },
-              { "Chance": 100, "Description": "Yes" }
+              { "Chance": 90, "Description": "Nie" },
+              { "Chance": 100, "Description": "Tak" }
             ]
           }
         ]
@@ -4032,7 +3936,7 @@
         "Table": [
           {
             "Chance": 10,
-            "Description": "Flashback reveals an aspect of your background or nature",
+            "Description": "Retrospekcja ujawnia pewien aspekt Twojego tła lub natury",
             "Suggest": [
               {
                 "Oracles": [
@@ -4044,7 +3948,7 @@
           },
           {
             "Chance": 20,
-            "Description": "Flashback reveals an aspect of another character, place, or faction",
+            "Description": "Retrospekcja ujawnia aspekt innej postaci, miejsca lub frakcji",
             "Suggest": [
               {
                 "Oracles": [
@@ -4056,12 +3960,12 @@
           },
           {
             "Chance": 30,
-            "Description": "Influential character or faction is introduced or given new detail",
+            "Description": "Wprowadza się lub otrzymuje nowe szczegóły wpływowej postaci lub frakcji",
             "Suggest": [{ "Game object": { "Object type": "Character" } }]
           },
           {
             "Chance": 40,
-            "Description": "Seemingly unrelated situations are shown to be connected",
+            "Description": "Pozornie niepowiązane sytuacje są ze sobą powiązane",
             "Suggest": [
               {
                 "Oracles": [
@@ -4073,7 +3977,7 @@
           },
           {
             "Chance": 50,
-            "Description": "External factors create new danger, urgency, or importance for a quest",
+            "Description": "Czynniki zewnętrzne tworzą nowe niebezpieczeństwo, presje lub znaczenie dla zadania",
             "Suggest": [
               {
                 "Oracles": [
@@ -4085,7 +3989,7 @@
           },
           {
             "Chance": 60,
-            "Description": "Important character is put in danger or suffers a misadventure",
+            "Description": "Ważna postać jest narażona na niebezpieczeństwo lub przeżywa nieszczęśliwy wypadek",
             "Suggest": [
               {
                 "Oracles": [
@@ -4097,7 +4001,7 @@
           },
           {
             "Chance": 70,
-            "Description": "Key location is made unsafe or becomes mired in conflict",
+            "Description": "Kluczowa lokalizacja jest niebezpieczna lub pogrążona w konflikcie",
             "Suggest": [
               {
                 "Oracles": [
@@ -4109,7 +4013,7 @@
           },
           {
             "Chance": 80,
-            "Description": "Defeated enemy or threat makes a surprising return",
+            "Description": "Pokonany wróg lub zagrożenie przynosi zaskakujący powrót",
             "Suggest": [
               {
                 "Oracles": [
@@ -4121,7 +4025,7 @@
           },
           {
             "Chance": 90,
-            "Description": "Unexpected peril lies ahead or lurks just out of view",
+            "Description": "Niespodziewane niebezpieczeństwo jest przed nami lub czai się tuż poza zasięgiem wzroku",
             "Suggest": [
               {
                 "Oracles": [
@@ -4133,7 +4037,7 @@
           },
           {
             "Chance": 100,
-            "Description": "Unforeseen aid is on the way or within reach",
+            "Description": "Nieprzewidziana pomoc jest w drodze lub w zasięgu ręki",
             "Suggest": [
               {
                 "Oracles": [
@@ -4151,7 +4055,7 @@
         "Table": [
           {
             "Chance": 4,
-            "Description": "Advanced technology waiting to be harnessed or salvaged",
+            "Description": "Zaawansowana technologia czeka na okiełznanie lub uratowanie",
             "Suggest": [
               {
                 "Oracles": [
@@ -4163,7 +4067,7 @@
           },
           {
             "Chance": 8,
-            "Description": "Ancient archive or message",
+            "Description": "Starożytne archiwum lub wiadomość",
             "Suggest": [
               {
                 "Oracles": [
@@ -4175,11 +4079,11 @@
           },
           {
             "Chance": 10,
-            "Description": "Artificial consciousness evolved to a higher state"
+            "Description": "Sztuczna świadomość ewoluowała do wyższego stanu"
           },
           {
             "Chance": 12,
-            "Description": "Clues to a crucial resource or uncharted domain",
+            "Description": "Wskazówki dotyczące kluczowego zasobu lub niezbadanej domeny",
             "Suggest": [
               {
                 "Oracles": [
@@ -4189,16 +4093,16 @@
               }
             ]
           },
-          { "Chance": 14, "Description": "Envoy from another time or reality" },
-          { "Chance": 22, "Description": "Extraordinary natural phenomenon" },
+          { "Chance": 14, "Description": "Wysłannik z innego czasu lub rzeczywistości" },
+          { "Chance": 22, "Description": "Nadzwyczajne zjawisko naturalne" },
           {
             "Chance": 24,
-            "Description": "First contact with intelligent life",
+            "Description": "Pierwszy kontakt z inteligentnym życiem",
             "Suggest": [{ "Game object": { "Object type": "Creature" } }]
           },
           {
             "Chance": 26,
-            "Description": "Gateway to another time or alternate reality",
+            "Description": "Brama do innego czasu lub alternatywnej rzeczywistości",
             "Suggest": [
               {
                 "Oracles": [
@@ -4210,17 +4114,17 @@
           },
           {
             "Chance": 28,
-            "Description": "Key to unlocking a language or method of communication"
+            "Description": "Klucz do odblokowania języka lub metody komunikacji"
           },
-          { "Chance": 34, "Description": "Lost or hidden people" },
+          { "Chance": 34, "Description": "Zagubieni lub ukryci ludzie" },
           {
             "Chance": 42,
-            "Description": "Majestic or unusual lifeforms",
+            "Description": "Majestatyczne lub niezwykłe formy życia",
             "Suggest": [{ "Game object": { "Object type": "Creature" } }]
           },
           {
             "Chance": 46,
-            "Description": "Marvel of ancient engineering",
+            "Description": "Cud starożytnej inżynierii",
             "Suggest": [
               {
                 "Oracles": [
@@ -4232,7 +4136,7 @@
           },
           {
             "Chance": 50,
-            "Description": "Miraculously preserved artifact or specimen",
+            "Description": "Cudownie zachowany artefakt lub okaz",
             "Suggest": [
               {
                 "Oracles": [
@@ -4244,7 +4148,7 @@
           },
           {
             "Chance": 56,
-            "Description": "Monumental architecture or artistry of an ancient civilization",
+            "Description": "Monumentalna architektura lub artyzm starożytnej cywilizacji",
             "Suggest": [
               {
                 "Oracles": [
@@ -4256,7 +4160,7 @@
           },
           {
             "Chance": 62,
-            "Description": "Mysterious device or artifact of potential value",
+            "Description": "Tajemnicze urządzenie lub artefakt o potencjalnej wartości",
             "Suggest": [
               {
                 "Oracles": [
@@ -4268,7 +4172,7 @@
           },
           {
             "Chance": 66,
-            "Description": "New understanding of an enduring mystery",
+            "Description": "Nowe zrozumienie nieprzemijającej tajemnicy",
             "Suggest": [
               {
                 "Oracles": [
@@ -4280,19 +4184,19 @@
           },
           {
             "Chance": 68,
-            "Description": "Pathway or means of travel to a distant location",
+            "Description": "Ścieżka lub środki podróży do odległej lokalizacji",
             "Suggest": [
               { "Oracles": [{ "Category": "Space", "Name": "Space Sighting" }] }
             ]
           },
           {
             "Chance": 70,
-            "Description": "Person or lifeform with phenomenal abilities"
+            "Description": "Osoba lub forma życia o fenomenalnych zdolnościach"
           },
-          { "Chance": 78, "Description": "Place of awe-inspiring beauty" },
+          { "Chance": 78, "Description": "Miejsce zachwycającego piękna" },
           {
             "Chance": 86,
-            "Description": "Rare and valuable resource",
+            "Description": "Rzadki i cenny zasób",
             "Suggest": [
               {
                 "Oracles": [
@@ -4302,10 +4206,10 @@
               }
             ]
           },
-          { "Chance": 88, "Description": "Safeguarded or idyllic location" },
+          { "Chance": 88, "Description": "Miejsce bezpieczne (strzeżone) lub idylliczne" },
           {
             "Chance": 90,
-            "Description": "Visions or prophesies of the future",
+            "Description": "Wizje lub proroctwa przyszłości",
             "Suggest": [
               {
                 "Oracles": [
@@ -4328,7 +4232,7 @@
         "Table": [
           {
             "Chance": 4,
-            "Description": "Baneful weapon of mass destruction",
+            "Description": "Zgubna broń masowego rażenia",
             "Suggest": [
               {
                 "Oracles": [
@@ -4338,25 +4242,25 @@
               }
             ]
           },
-          { "Chance": 9, "Description": "Cataclysmic environmental effects" },
-          { "Chance": 12, "Description": "Dead given unnatural life" },
+          { "Chance": 9, "Description": "Kataklizmowe skutki środowiskowe" },
+          { "Chance": 12, "Description": "Umarli obdarzeni nienaturalnym życiem" },
           {
             "Chance": 17,
-            "Description": "Destructive lifeform of monstrous proportion",
+            "Description": "Niszczycielska forma życia o monstrualnych proporcjach",
             "Suggest": [{ "Game object": { "Object type": "Creature" } }]
           },
-          { "Chance": 20, "Description": "Dread hallucinations or illusions" },
-          { "Chance": 24, "Description": "Harbingers of an imminent invasion" },
-          { "Chance": 27, "Description": "Horde of insatiable hunger or fury" },
+          { "Chance": 20, "Description": "Straszne halucynacje lub iluzje" },
+          { "Chance": 24, "Description": "Zwiastun zbliżającej się inwazji" },
+          { "Chance": 27, "Description": "Horda nienasyconego głodu lub wściekłości" },
           {
             "Chance": 32,
-            "Description": "Horrific lifeforms of inscrutable purpose",
+            "Description": "Przerażające formy życia o nieodgadnionym celu",
             "Suggest": [{ "Game object": { "Object type": "Creature" } }]
           },
-          { "Chance": 36, "Description": "Impostors in human form" },
+          { "Chance": 36, "Description": "Oszuści w ludzkiej postaci" },
           {
             "Chance": 41,
-            "Description": "Machines made enemy",
+            "Description": "Maszyny stały się wrogiem",
             "Suggest": [
               {
                 "Oracles": [
@@ -4366,10 +4270,10 @@
               }
             ]
           },
-          { "Chance": 45, "Description": "Malignant contagion or parasite" },
+          { "Chance": 45, "Description": "Złośliwa infekcja lub pasożyt" },
           {
             "Chance": 50,
-            "Description": "Messenger or signal with a dire warning",
+            "Description": "Posłaniec lub sygnał z strasznym ostrzeżeniem",
             "Suggest": [
               {
                 "Oracles": [
@@ -4381,18 +4285,18 @@
           },
           {
             "Chance": 53,
-            "Description": "Passage to a grim alternate reality"
+            "Description": "Przejście do ponurej alternatywnej rzeczywistości"
           },
-          { "Chance": 58, "Description": "People corrupted by chaos" },
+          { "Chance": 58, "Description": "Ludzie zepsuci przez chaos" },
           {
             "Chance": 63,
-            "Description": "Powerful distortions of time or space"
+            "Description": "Potężne zniekształcenia czasu lub przestrzeni"
           },
-          { "Chance": 68, "Description": "Signs of an impending catastrophe" },
-          { "Chance": 72, "Description": "Site of a baffling disappearance" },
+          { "Chance": 68, "Description": "Oznaki zbliżającej się katastrofy" },
+          { "Chance": 72, "Description": "Miejsce zaskakującego zniknięcia" },
           {
             "Chance": 77,
-            "Description": "Site of a horrible disaster",
+            "Description": "Miejsce strasznej katastrofy",
             "Suggest": [
               {
                 "Oracles": [
@@ -4402,10 +4306,10 @@
               }
             ]
           },
-          { "Chance": 82, "Description": "Site of terrible carnage" },
+          { "Chance": 82, "Description": "Miejsce straszliwej rzezi" },
           {
             "Chance": 87,
-            "Description": "Technology nullified or made unstable",
+            "Description": "Technologia została zniszczona lub stała się niestabilna",
             "Suggest": [
               {
                 "Oracles": [
@@ -4415,15 +4319,15 @@
               }
             ]
           },
-          { "Chance": 92, "Description": "Technology warped for dark purpose" },
+          { "Chance": 92, "Description": "Technologia wypaczona do mrocznych celów" },
           {
             "Chance": 96,
-            "Description": "Vault of dread technology or power",
+            "Description": "Skarbiec przerażającej technologii lub mocy",
             "Suggest": [{ "Game object": { "Object type": "Precursor Vault" } }]
           },
           {
             "Chance": 100,
-            "Description": "Worshipers of great and malevolent powers"
+            "Description": "Wyznawcy wielkich i złowrogich mocy"
           }
         ]
       },
@@ -4431,174 +4335,72 @@
         "Name": "Take Decisive Action",
         "Semantics": { "Part of speech": ["sentences"] },
         "Table": [
-          {
-            "Chance": 40,
-            "Description": "It’s worse than you thought: You or an ally make a suffer move (-2)"
-          },
-          {
-            "Chance": 52,
-            "Description": "The victory is short-lived: A new peril or foe is revealed"
-          },
-          {
-            "Chance": 64,
-            "Description": "You face collateral damage: Something is lost, damaged, or broken"
-          },
-          {
-            "Chance": 76,
-            "Description": "Others pay the price: Someone else suffers the cost"
-          },
-          {
-            "Chance": 88,
-            "Description": "Others won’t forget: You are marked for vengeance"
-          },
-          {
-            "Chance": 100,
-            "Description": "It gets complicated: The true nature of a foe or objective is revealed"
-          }
+          { "Chance": 10, "Description": "Jest gorzej niż myślałeś: Ty lub sojusznik wykonujecie ruch konsekwencji (-2)" },
+          { "Chance": 20, "Description": "Zwycięstwo jest krótkotrwałe: ujawnia się nowe niebezpieczeństwo lub wróg" },
+          { "Chance": 48, "Description": "Stajesz w obliczu szkód ubocznych: coś jest zgubione, uszkodzone lub zepsute" },
+          { "Chance": 64, "Description": "Inni płacą cenę: ktoś inny ponosi koszty" },
+          { "Chance": 80, "Description": "Inni nie zapomną: zostałeś skazany na zemstę" },
+          { "Chance": 96, "Description": "Sprawa się komplikuje: ujawnia się prawdziwa natura wroga lub celu" }
         ]
       },
       {
         "Name": "Endure Harm",
         "Semantics": { "Part of speech": ["sentences"] },
         "Table": [
-          {
-            "Chance": 10,
-            "Description": "You suffer mortal harm. [Face Death](#Face-Death)."
-          },
-          {
-            "Chance": 20,
-            "Description": "You are dying. Within an hour or two, you must [Heal](#Heal) and raise your health above 0, or [Face Death](#Face-Death)."
-          },
-          {
-            "Chance": 35,
-            "Description": "You are unconscious and out of action. If left alone, you come back to your senses in an hour or two. If you are vulnerable to ongoing harm, [Face Death](#Face-Death)."
-          },
-          {
-            "Chance": 50,
-            "Description": "You are reeling and fighting to stay conscious. If you engage in any vigorous activity before taking a breather for a few minutes, roll on this table again (before resolving the other move)."
-          },
-          { "Chance": 100, "Description": "You are still standing." }
+          { "Chance": 10, "Description": "Otrzymujesz śmiertelną ranę. Staw czoła śmierci" },
+          { "Chance": 20, "Description": "Umierasz. W ciągu godziny lub dwóch musisz zostać Uleczony (ruch) i podnieść swoje zdrowie powyżej 0 lub Staw czoła śmierci." },
+          { "Chance": 35, "Description": "Jesteś nieprzytomny i nie działasz. Pozostawiony sam sobie, wracasz do zmysłów za godzinę lub dwie. Jeśli jesteś podatny na ciągłe krzywdy, Staw czoła śmierci." },
+          { "Chance": 50, "Description": "Zataczasz się i walczysz o zachowanie świadomości. Jeśli podejmiesz jakąś energiczną aktywność, zanim zrobisz sobie przerwę na kilka minut, ponownie rzuć na tą tabelę jeszcze raz (przed wykonaniem drugiego ruchu)." },
+          { "Chance": 100, "Description": "Nadal stoisz." }
         ]
       },
       {
         "Name": "Endure Stress",
         "Semantics": { "Part of speech": ["sentences"] },
         "Table": [
-          {
-            "Chance": 10,
-            "Description": "You are overwhelmed. [Face Desolation](#Face-Desolation)."
-          },
-          {
-            "Chance": 25,
-            "Description": "You give up. [Forsake Your Vow](#Forsake-Your-Vow)."
-          },
-          {
-            "Chance": 50,
-            "Description": "You give in to fear or compulsion, and act against your better instincts."
-          },
-          { "Chance": 100, "Description": "You persevere." }
+          { "Chance": 10, "Description": "Jesteś przytłoczony. Staw czoła pustce" },
+          { "Chance": 25, "Description": "Poddajesz się. Zapomnij swoją przysięgę" },
+          { "Chance": 50, "Description": "Poddajesz się strachowi lub przymusowi i działasz wbrew swoim lepszym instynktom." },
+          { "Chance": 100, "Description": "Wytrwałeś." }
         ]
       },
       {
         "Name": "Withstand Damage",
         "Semantics": { "Part of speech": ["sentences"] },
         "Table": [
-          {
-            "Chance": 10,
-            "Description": "Immediate catastrophic destruction. All aboard must [Endure Harm](#Endure-Harm) or [Face Death](#Face-Death), as appropriate."
-          },
-          {
-            "Chance": 25,
-            "Description": "Destruction is imminent and unavoidable. If you do not have the means or intention to get clear, [Endure Harm](#Endure-Harm) or [Face Death](#Face-Death) as appropriate."
-          },
-          {
-            "Chance": 40,
-            "Description": "Destruction is imminent, but can be averted if you [Repair](#Repair) your vehicle and raise its integrity above 0. If you fail, see 11-25."
-          },
-          {
-            "Chance": 55,
-            "Description": "You cannot [Repair](#Repair) this vehicle until you [Resupply](#Resupply) and obtain a crucial replacement part. If you roll this result again prior to that, see 11-25."
-          },
-          {
-            "Chance": 70,
-            "Description": "The vehicle is crippled or out of your control. To get it back in action, you must [Repair](#Repair) and raise its integrity above 0."
-          },
-          {
-            "Chance": 85,
-            "Description": "It’s a rough ride. All aboard suffer must make the [Endure Harm](#Endure-Harm), [Endure Stress](#Endure-Stress), or [Companion Takes a Hit](#Companion-Takes-a-Hit) move, suffering a serious (-2) cost."
-          },
-          {
-            "Chance": 95,
-            "Description": "You’ve lost fuel, energy, or cargo. [Sacrifice Resources](#Sacrifice-Resources) (-2)."
-          },
-          {
-            "Chance": 100,
-            "Description": "Against all odds, the vehicle holds together."
-          }
+          { "Chance": 10, "Description": "Natychmiastowe katastrofalne zniszczenie. Wszyscy na pokładzie muszą odpowiednio: Stawić czoła ranom lub śmierci." },
+          { "Chance": 25, "Description": "Zniszczenie jest nieuchronne i nieuniknione. Jeśli nie masz środków lub zamiaru, aby się wydostać, odpowiednio  Staw czoła ranom lub śmierci.." },
+          { "Chance": 40, "Description": "Zniszczenie jest nieuchronne, ale można go uniknąć, jeśli Naprawisz (ruch) pojazd i podniesiesz jego integralność powyżej 0. Jeśli ci się nie uda, zniszczenie jest nieuchronne i nieuniknione. Jeśli nie masz środków lub zamiaru, aby się wydostać, odpowiednio  Staw czoła ranom lub śmierci." },
+          { "Chance": 55, "Description": "Nie możesz Naprawić (Ruch) tego pojazdu, dopóki nie Uzupełnisz zasobów(ruch) i nie uzyskasz kluczowej części zamiennej. Jeśli ponownie wyrzucisz ten wynik, wówczas zniszczenie jest nieuchronne i nieuniknione. Jeśli nie masz środków lub zamiaru, aby się wydostać, odpowiednio  Staw czoła ranom lub śmierci." },
+          { "Chance": 70, "Description": "Pojazd jest uszkodzony lub poza Twoją kontrolą. Aby przywrócić go do działania, musisz go naprawić (ruch) i podnieść jego integralność powyżej 0." },
+          { "Chance": 85, "Description": "To ciężka jazda. Wszyscy cierpiący na pokładzie muszą wykonać ruch Stawić czoła ranom lub stresowi lub towarszysz otrzymuje obrażenia, cierpiąc (-2) konsekwencji." },
+          { "Chance": 95, "Description": "Straciłeś paliwo, energię lub ładunek. Poświęcasz zasoby(ruch) (-2)." },
+          { "Chance": 100, "Description": "Wbrew wszelkim przeciwnościom pojazd trzyma się razem." }
         ]
       },
       {
         "Name": "Pay the Price",
         "Semantics": { "Part of speech": ["fragment"] },
         "Table": [
-          {
-            "Chance": 2,
-            "Description": "A trusted individual or community acts against you"
-          },
-          {
-            "Chance": 4,
-            "Description": "An individual or community you care about is exposed to danger"
-          },
-          {
-            "Chance": 7,
-            "Description": "You encounter signs of a looming threat"
-          },
-          {
-            "Chance": 10,
-            "Description": "You create an opportunity for an enemy"
-          },
-          { "Chance": 14, "Description": "You face a tough choice" },
-          {
-            "Chance": 18,
-            "Description": "You face the consequences of an earlier choice"
-          },
-          {
-            "Chance": 22,
-            "Description": "A surprising development complicates your quest"
-          },
-          {
-            "Chance": 26,
-            "Description": "You are separated from something or someone"
-          },
-          {
-            "Chance": 32,
-            "Description": "Your action causes collateral damage or has an unintended effect"
-          },
-          {
-            "Chance": 38,
-            "Description": "Something of value is lost or destroyed"
-          },
-          {
-            "Chance": 44,
-            "Description": "The environment or terrain introduces a new hazard"
-          },
-          { "Chance": 50, "Description": "A new enemy is revealed" },
-          {
-            "Chance": 56,
-            "Description": "A friend, companion, or ally is in harm’s way (or you are, if alone)"
-          },
-          {
-            "Chance": 62,
-            "Description": "Your equipment or vehicle malfunctions"
-          },
-          { "Chance": 68, "Description": "Your vehicle suffers damage" },
-          { "Chance": 74, "Description": "You waste resources" },
-          { "Chance": 81, "Description": "You are harmed" },
-          { "Chance": 88, "Description": "You are stressed" },
-          {
-            "Chance": 95,
-            "Description": "You are delayed or put at a disadvantage"
-          },
+          { "Chance": 2, "Description": "Zaufana osoba lub społeczność działa przeciwko Tobie" },
+          { "Chance": 4, "Description": "Osoba lub społeczność, na której Ci zależy, jest narażona na niebezpieczeństwo" },
+          { "Chance": 7, "Description": "Natrafiasz na oznaki zbliżającego się zagrożenia" },
+          { "Chance": 10, "Description": "Stwarzasz okazję dla wroga" },
+          { "Chance": 14, "Description": "Stoisz przed trudnym wyborem" },
+          { "Chance": 18, "Description": "Stajesz przed konsekwencjami wcześniejszego wyboru" },
+          { "Chance": 22, "Description": "Zaskakujący rozwój komplikuje Twoje zadanie" },
+          { "Chance": 26, "Description": "Jesteś oddzielony od czegoś lub kogoś" },
+          { "Chance": 32, "Description": "Twoje działanie powoduje szkody uboczne lub ma niezamierzony skutek" },
+          { "Chance": 38, "Description": "Coś wartościowego zostało utracone lub zniszczone" },
+          { "Chance": 44, "Description": "Środowisko lub teren wprowadza nowe zagrożenie" },
+          { "Chance": 50, "Description": "Ujawnia się nowy wróg" },
+          { "Chance": 56, "Description": "Przyjaciel, towarzysz lub sojusznik jest w niebezpieczeństwie (lub jesteś, jeśli jesteś sam)" },
+          { "Chance": 62, "Description": "Awaria twojego sprzętu lub pojazdu" },
+          { "Chance": 68, "Description": "Twój pojazd doznał uszkodzenia" },
+          { "Chance": 74, "Description": "Marnujesz zasoby" },
+          { "Chance": 81, "Description": "Jesteś skrzywdzony" },
+          { "Chance": 88, "Description": "Jesteś zestresowany" },
+          { "Chance": 95, "Description": "Jesteś opóźniony lub postawiony w niekorzystnej sytuacji" },
           {
             "Chance": 100,
             "Description": "Rzuć dwa razy",
