@@ -9,46 +9,48 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/oracles.js
             if (oracle["Display name"] == null) {
                 oracle["Display name"] = oracle.Name;
             }
-            var divToAppend = '<div id="' + toId(oracle["Display name"]) + '" ><div onclick="hideSubElements(this)">' + converter.makeHtml('##' + oracle["Display name"]) + '</div><div id="subelements"></div></div>'
+            var id = toId(oracle["Display name"]);
+            var divToAppend = '<div id="' + id + '" ><div onclick="hideSubElements(this)">' + converter.makeHtml('##' + oracle["Display name"]) + '</div><div id="subelements"></div></div>'
             $("#oracles_SF_list").append(divToAppend);
             for (var j = 0; j < oracle.Oracles.length; j++) {
                 var subOracle = oracle.Oracles[j];
-                parseSubOracle(oracle, subOracle);
+                parseSubOracle(oracle, subOracle, id);
             }
             if (oracle.Subcategories != null) {
                 for (var z = 0; z < oracle.Subcategories.length; z++) {
                     var subOracle = oracle.Subcategories[z];
-                    parseSubOracle(oracle, subOracle);
+                    parseSubOracle(oracle, subOracle, id);
                 }
             }
         }
     });
 
-function parseSubOracle(oracle, subOracle) {
+function parseSubOracle(oracle, subOracle, oracleId) {
     oracle[spaceToUnderscore(getNameOrDisplayName(subOracle))] = subOracle;
     if (subOracle["Display name"] == null) {
         subOracle["Display name"] = subOracle.Name;
     }
-    var liToAppend = '<div id="' + toId(subOracle["Display name"]) + '"><div onclick="hideSubElements(this)">' + converter.makeHtml('###' + subOracle["Display name"]) +
+    var id = toId(oracle["Display name"] + subOracle["Display name"]);
+    var liToAppend = '<div id="' + id + '"><div onclick="hideSubElements(this)">' + converter.makeHtml('###' + subOracle["Display name"]) +
         '</div>' + '<div id="subelements"></div>' +
         '</div>';
-    $("#" + toId(oracle["Display name"]) + " #subelements").first().append(liToAppend);
+    $("#" + toId(oracleId) + " #subelements").first().append(liToAppend);
     if (subOracle.Table != null) {
         for (var z = 0; z < subOracle.Table.length; z++) {
             var tableElementToAppend = '<div>' + /*TODO uncomment subOracle.Table[z].Chance + ' ' +*/ subOracle.Table[z].Description + (subOracle.Table[z].Assets != null ? (" "+subOracle.Table[z].Assets) :"") + '</div>'
-            $("#" + toId(oracle["Display name"]) +" #" + toId(subOracle["Display name"]) + " #subelements").append(tableElementToAppend);
+            $("#" + id + " #subelements").append(tableElementToAppend);
         }
     }
     if (subOracle.Tables != null) {
         for (var z = 0; z < subOracle.Tables.length; z++) {
             var subSubOracle = subOracle.Tables[z];
-            parseSubOracle(subOracle, subSubOracle);
+            parseSubOracle(subOracle, subSubOracle, id);
         }
     }
     if (subOracle.Oracles != null) {
         for (var z = 0; z < subOracle.Oracles.length; z++) {
             var subSubOracle = subOracle.Oracles[z];
-            parseSubOracle(subOracle, subSubOracle);
+            parseSubOracle(subOracle, subSubOracle, id);
         }
     }
 }
