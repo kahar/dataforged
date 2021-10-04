@@ -37,7 +37,7 @@ function parseSubOracle(oracle, subOracle, oracleId) {
     $("#" + toId(oracleId) + " #subelements").first().append(liToAppend);
     if (subOracle.Table != null) {
         for (var z = 0; z < subOracle.Table.length; z++) {
-            var tableElementToAppend = '<div>' + /*TODO uncomment subOracle.Table[z].Chance + ' ' +*/ subOracle.Table[z].Description + (subOracle.Table[z].Assets != null ? (" "+subOracle.Table[z].Assets) :"") + '</div>'
+            var tableElementToAppend = '<div>' + subOracle.Table[z].Chance + ' ' + subOracle.Table[z].Description + (subOracle.Table[z].Assets != null ? (" "+subOracle.Table[z].Assets) :"") + '</div>'
             $("#" + id + " #subelements").append(tableElementToAppend);
         }
     }
@@ -68,13 +68,13 @@ function rollOnTableSF(table) {
         if (randResult <= row.Chance) {
             var result = row.Description;
             if (row.Details != null) {
-                result = result + " Details: " + row.Details;
+                result = result + " Szczegóły: " + row.Details;
             }
             if (row.Thumbnail != null) {
                 result = result + "<br><img src='" + row.Thumbnail + ".jpg'><br>"
             }
             if (row.Suggest != null && row.Suggest[0] != null && row.Suggest[0].Oracles != null) {
-                result = result + "<div style='background-color: " + BACKGROUND_COLOR_SUGGESTIONS + "; margin: 10px;'> Suggestions:";
+                result = result + "<div style='background-color: " + BACKGROUND_COLOR_SUGGESTIONS + "; margin: 10px;'> Sugestie:";
                 var suggestions = row.Suggest[0].Oracles;
                 for (var j = 0; j < suggestions.length; j++) {
                     var suggestion = suggestions[j];
@@ -87,7 +87,7 @@ function rollOnTableSF(table) {
                 result = result + "</div>"
             }
             if (row.Oracles != null) {
-                result = result + "<div style='background-color: " + BACKGROUND_COLOR_ORACLES + "; margin: 10px;'> Oracles:";
+                result = result + "<div style='background-color: " + BACKGROUND_COLOR_ORACLES + "; margin: 10px;'> Wyroczna:";
                 var suggestions = row.Oracles;
                 for (var j = 0; j < suggestions.length; j++) {
                     var suggestion = suggestions[j];
@@ -101,7 +101,7 @@ function rollOnTableSF(table) {
             }
             if (row["Multiple rolls"] != null) {
                 var multipleRolls = row["Multiple rolls"];
-                result = result + "<div style='background-color: " + BACKGROUND_COLOR_MULTIPLE_ROLLS + "; margin: 10px;'> Multiple rolls result:";
+                result = result + "<div style='background-color: " + BACKGROUND_COLOR_MULTIPLE_ROLLS + "; margin: 10px;'> Wiele rzutów:";
                 for (var j = 0; j < multipleRolls.Amount; j++) {
                     if (j == 0) {
                         result = result + " " + rollOnTableSF(table);
@@ -115,27 +115,27 @@ function rollOnTableSF(table) {
                 result = result + " Assets:" + row.Assets;
             }
             if (row["Game object"] != null) { //TODO add amount
-                result = result + "<div style='background-color: " + BACKGROUND_COLOR_GAME_OBJECT + "; margin: 10px;'> Game object:";
+                result = result + "<div style='background-color: " + BACKGROUND_COLOR_GAME_OBJECT + "; margin: 10px;'> Obiekt w grze:";
                 var gameObject = row["Game object"];
                 if (gameObject["Object type"] != null) {
                     var gameObjectType = gameObject["Object type"];
                     if (gameObjectType == "Starship") {
-                        result = result + " Starship: [ <br> " + createStarshipSF(false) + "<br>]"
+                        result = result + " Statek: [ <br> " + createStarshipSF(false) + "<br>]"
                     }
                     if (gameObjectType == "Character") {
-                        result = result + " Character: [ <br> " + createCharacterSF(false) + "<br>]"
+                        result = result + " Posta©: [ <br> " + createCharacterSF(false) + "<br>]"
                     }
                     if (gameObjectType == "Settlement") {
-                        result = result + " Settlement: [ <br> " + createSettlementSF(false) + "<br>]"
+                        result = result + " Osada: [ <br> " + createSettlementSF(false) + "<br>]"
                     }
                     if (gameObjectType == "Planet") {
-                        result = result + " Planet: [ <br> " + createPlanetSF(false) + "<br>]"
+                        result = result + " Planeta: [ <br> " + createPlanetSF(false) + "<br>]"
                     }
                     if (gameObjectType == "Precursor Vault") {
-                        result = result + " Precursor Vault: [ <br> " + createPrecursorVaultSF(false) + "<br>]"
+                        result = result + " Krypta prekursorów: [ <br> " + createPrecursorVaultSF(false) + "<br>]"
                     }
                     if (gameObjectType == "Creature") {
-                        result = result + " Creature    : [ <br> " + createCreatureSF(false) + "<br>]"
+                        result = result + " Istota    : [ <br> " + createCreatureSF(false) + "<br>]"
                     }
 
                     result = result + "</div>"
@@ -231,16 +231,16 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
         });
 
         function createLocationFeaturesByThemeSF(theme) {
-            return "Feature:" + rollOnOracleSF(oraclesSF.Location_Theme[theme].Feature) + "<br>" +
-                "Peril:" + rollOnOracleSF(oraclesSF.Location_Theme[theme].Peril) + "<br>" +
-                "Opportunity:" + rollOnOracleSF(oraclesSF.Location_Theme[theme].Opportunity) + "<br>";
+            return "Cecha:" + rollOnOracleSF(oraclesSF.Location_Theme[theme].Feature) + "<br>" +
+                "Zagrożenie:" + rollOnOracleSF(oraclesSF.Location_Theme[theme].Peril) + "<br>" +
+                "Okazja:" + rollOnOracleSF(oraclesSF.Location_Theme[theme].Opportunity) + "<br>";
         }
 
         function createLocationSF(display) {
             var themeText = rollOnOracleSF(oraclesSF.Location_Theme.Theme_Type);
             var theme = themeText.replace(/ .*/, '');
 
-            var txt = "Theme " + themeText + "<br>" +
+            var txt = "Motyw " + themeText + "<br>" +
                 createLocationFeaturesByThemeSF(theme);
             ""
             if (display == null || display) {
@@ -256,15 +256,15 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
                 "\" " +
                 rollOnOracleSF(oraclesSF.Character.Family_Name) +
                 "<br>" +
-                "First look: " + rollOnOracleSF(oraclesSF.Character.First_Look) +
+                "Pierwsze spojrzenie: " + rollOnOracleSF(oraclesSF.Character.First_Look) +
                 "<br>" +
-                "Disposition: " + rollOnOracleSF(oraclesSF.Character.Disposition) +
+                "Nastawienie: " + rollOnOracleSF(oraclesSF.Character.Disposition) +
                 "<br>" +
-                "Role: " + rollOnOracleSF(oraclesSF.Character.Role) +
+                "Rola: " + rollOnOracleSF(oraclesSF.Character.Role) +
                 "<br>" +
-                "Goal: " + rollOnOracleSF(oraclesSF.Character.Goal) +
+                "Cel: " + rollOnOracleSF(oraclesSF.Character.Goal) +
                 "<br>" +
-                "Revealed aspect:" + rollOnOracleSF(oraclesSF.Character.Revealed_Aspect)
+                "Ujawniony aspekt:" + rollOnOracleSF(oraclesSF.Character.Revealed_Aspect)
 
             if (display == null || display) {
                 displayInModal(txt);
@@ -295,9 +295,9 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
         }
 
         function createSectorNameSF(display) {
-            var txt = "Sector name prefix: " + rollOnOracleSF(oraclesSF.Space["Sector_Name_-_Prefix"]) +
+            var txt = "Nazwa sektora, prefix: " + rollOnOracleSF(oraclesSF.Space["Sector_Name_-_Prefix"]) +
                 "<br>" +
-                "Sector name suffix: " + rollOnOracleSF(oraclesSF.Space["Sector_Name_-_Suffix"])
+                "Nazwa sektora, suffix: " + rollOnOracleSF(oraclesSF.Space["Sector_Name_-_Suffix"])
             if (display == null || display) {
                 displayInModal(txt);
             }
@@ -309,15 +309,15 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
         function createEnvironmentCreatureSF(environment) {
             return "Environment: " + environment +
                 "<br>" +
-                "Scale: " + rollOnOracleSF(oraclesSF.Creature.Scale) +
+                "Skala: " + rollOnOracleSF(oraclesSF.Creature.Scale) +
                 "<br>" +
-                "Basic Form: " + rollOnOracleSF(oraclesSF.Creature.Basic_Form[environment]) +
+                "Bazowa forma: " + rollOnOracleSF(oraclesSF.Creature.Basic_Form[environment]) +
                 "<br>" +
-                "First Look: " + rollOnOracleSF(oraclesSF.Creature.First_Look) +
+                "Pierwsze spojrzenie: " + rollOnOracleSF(oraclesSF.Creature.First_Look) +
                 "<br>" +
-                "Encountered Behavior: " + rollOnOracleSF(oraclesSF.Creature.Encountered_Behavior) +
+                "Napotkane zachowanie: " + rollOnOracleSF(oraclesSF.Creature.Encountered_Behavior) +
                 "<br>" +
-                "Revealed Aspect: " + rollOnOracleSF(oraclesSF.Creature.Revealed_Aspect)
+                "Ujawniony aspekt: " + rollOnOracleSF(oraclesSF.Creature.Revealed_Aspect)
         }
 
         function createSpaceCreatureSF(display) {
@@ -364,25 +364,52 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
             }
             return txt;
         }
+        function createBiomes(planetaryClassKey) {
+            var txt = "";
+
+            var diversity = rollOnOracleSF(oraclesSF.Planet[planetaryClassKey].Diversity);
+            txt = txt + "Różnorodność:" + diversity + "<br>"
+            var value = 2;
+            if(diversity.includes("trzy")){
+                value = 3;
+            } else if(diversity.includes("cztery")){
+                value = 4;
+            }else if(diversity.includes("pięć")){
+                            value = 5;
+            }
+            for(var i = 0; i < value;i++){
+            var prevoiusBiom;
+            var currentBiom = rollOnOracleSF(oraclesSF.Planet[planetaryClassKey].Biomes);
+            if(prevoiusBiom != null && currentBiom == prevoiusBiom){
+                while(currentBiom == prevoiusBiom){
+                currentBiom = rollOnOracleSF(oraclesSF.Planet[planetaryClassKey].Biomes);
+                }
+            }
+            txt = txt + "Biom " +(i+1) +": " + currentBiom  + "<br>";
+            prevoiusBiom = currentBiom;
+            }
+
+            return txt;
+        }
 
         function createPlanetFeaturesByClassSF(planetaryClass) {
             var planetaryClassKey = spaceToUnderscore(planetaryClass);
             return "" +
-                "Name: " + pickRandomFromJsArray(oraclesSF.Planet[planetaryClassKey]["Sample Names"]) + "<br>" +
-                "Class: " + planetaryClass + "<br>" +
-                "Description: " + oraclesSF.Planet[planetaryClassKey].Description + "<br>" +
-                "Atmosphere: " + rollOnOracleSF(oraclesSF.Planet[planetaryClassKey].Atmosphere) + "<br>" +
-                "Settlements: " + rollOnOracleSF(oraclesSF.Planet[planetaryClassKey].Settlements) + "<br>" +
-                "Observed From Space: " + rollOnOracleSF(oraclesSF.Planet[planetaryClassKey].Observed_From_Space) + "<br>" +
-                "Planetside Feature: " + rollOnOracleSF(oraclesSF.Planet[planetaryClassKey].Planetside_Feature) + "<br>" +
-                "Life: " + rollOnOracleSF(oraclesSF.Planet[planetaryClassKey].Life) + "<br>" +
-
+                "Nazwa: " + pickRandomFromJsArray(oraclesSF.Planet[planetaryClassKey]["Sample Names"]) + "<br>" +
+                "Klasa: " + planetaryClass + "<br>" +
+                "Opis: " + oraclesSF.Planet[planetaryClassKey].Description + "<br>" +
+                "Atmosfera: " + rollOnOracleSF(oraclesSF.Planet[planetaryClassKey].Atmosphere) + "<br>" +
+                "Osada: " + rollOnOracleSF(oraclesSF.Planet[planetaryClassKey].Settlements) + "<br>" +
+                "Widoczne z kosmosu: " + rollOnOracleSF(oraclesSF.Planet[planetaryClassKey].Observed_From_Space) + "<br>" +
+                "Cecha powierzchni planety: " + rollOnOracleSF(oraclesSF.Planet[planetaryClassKey].Planetside_Feature) + "<br>" +
+                "Życie: " + rollOnOracleSF(oraclesSF.Planet[planetaryClassKey].Life) + "<br>" +
+                (oraclesSF.Planet[planetaryClassKey].Diversity != null ? createBiomes(planetaryClassKey):"")+
                 "";
         }
 
         function createPlanetSF(display) {
             var planetaryClassText = cleanText(rollOnOracleSF(oraclesSF.Planet.Planetary_Class));
-            var planetaryClass = planetaryClassText.split(' ').slice(0, 2).join(' ');
+            var planetaryClass = 'Vital World';//planetaryClassText.split(' ').slice(0, 2).join(' ');
             var txt = "<div style='background-color: " + BACKGROUND_COLOR_PLANET + "; margin: 10px;'>" +
                 createPlanetFeaturesByClassSF(planetaryClass) +
                 "</div>";
@@ -394,10 +421,10 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
 
         function createInteriorPrecursorVaultSF(display) {
             var txt = "<div style='background-color: " + BACKGROUND_COLOR_PRECURSOR_VAULT_INTERNAL + "; margin: 10px;'>Vault Interior" + "<br>" +
-                "First look: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Interior.First_Look) + "<br>" +
-                "Feature: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Interior.Feature) + "<br>" +
-                "Peril: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Interior.Peril) + "<br>" +
-                "Opportunity: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Interior.Opportunity) + "<br>" +
+                "Pierwsze spojrzenie z wewnątrz: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Interior.First_Look) + "<br>" +
+                "Cecha: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Interior.Feature) + "<br>" +
+                "Zagrożenie: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Interior.Peril) + "<br>" +
+                "Okazja: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Interior.Opportunity) + "<br>" +
                 "</div>";
             if (display == null || display) {
                 displayInModal(txt);
@@ -407,10 +434,10 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
 
         function createSanctumPrecursorVaultSF(display) {
             var txt = "<div style='background-color: " + BACKGROUND_COLOR_PRECURSOR_VAULT_INTERNAL + "; margin: 10px;'>Vault Sanctum" + "<br>" +
-                "Purpose: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Sanctum.Purpose) + "<br>" +
-                "Feature: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Sanctum.Feature) + "<br>" +
-                "Peril: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Sanctum.Peril) + "<br>" +
-                "Opportunity: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Sanctum.Opportunity) + "<br>" +
+                "Cel: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Sanctum.Purpose) + "<br>" +
+                "Cecha: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Sanctum.Feature) + "<br>" +
+                "Zagrożenie: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Sanctum.Peril) + "<br>" +
+                "Okazja: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Vault_Sanctum.Opportunity) + "<br>" +
                 "</div>";
             if (display == null || display) {
                 displayInModal(txt);
@@ -420,12 +447,12 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
 
         function createPrecursorVaultSF(display) {
             var txt = "<div style='background-color: " + BACKGROUND_COLOR_PRECURSOR + "; margin: 10px;'> Precursor Vault:" + "<br>" +
-                "Location: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Location) + "<br>" +
-                "Scale: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Scale) + "<br>" +
-                "Form: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Form) + "<br>" +
-                "Shape: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Shape) + "<br>" +
-                "Material: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Material) + "<br>" +
-                "Outer First Look: " + rollOnOracleSF(oraclesSF.Precursor_Vault.First_Look) + "<br>" +
+                "Lokacja: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Location) + "<br>" +
+                "Skala: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Scale) + "<br>" +
+                "Forma: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Form) + "<br>" +
+                "Krztałt: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Shape) + "<br>" +
+                "Materiał: " + rollOnOracleSF(oraclesSF.Precursor_Vault.Material) + "<br>" +
+                "Pierwsze spojrzenie z zenwątrz: " + rollOnOracleSF(oraclesSF.Precursor_Vault.First_Look) + "<br>" +
                 createInteriorPrecursorVaultSF(false) + "<br>" +
                 createSanctumPrecursorVaultSF(false) + "<br>" +
                 "</div>";
@@ -438,14 +465,14 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
 
         function createSettlementSF(display) {
             var txt = "<div style='background-color: " + BACKGROUND_COLOR_SETTLEMENT + "; margin: 10px;'> Settlement:" + "<br>" +
-                "Name: " + rollOnOracleSF(oraclesSF.Settlement.Name) + "<br>" +
-                "Location: " + rollOnOracleSF(oraclesSF.Settlement.Location) + "<br>" +
-                "Population: " + rollOnOracleSF(oraclesSF.Settlement.Population) + "<br>" +
-                "First Look: " + rollOnOracleSF(oraclesSF.Settlement.First_Look) + "<br>" +
-                "Authority: " + rollOnOracleSF(oraclesSF.Settlement.Authority) + "<br>" +
-                "Initial Contact: " + rollOnOracleSF(oraclesSF.Settlement.Initial_Contact) + "<br>" +
-                "Projects: " + rollOnOracleSF(oraclesSF.Settlement.Projects) + "<br>" +
-                "Trouble: " + rollOnOracleSF(oraclesSF.Settlement.Trouble) + "<br>" +
+                "Nazwa: " + rollOnOracleSF(oraclesSF.Settlement.Name) + "<br>" +
+                "Lokacja: " + rollOnOracleSF(oraclesSF.Settlement.Location) + "<br>" +
+                "Populacja: " + rollOnOracleSF(oraclesSF.Settlement.Population) + "<br>" +
+                "Pierwsze spojrzenie: " + rollOnOracleSF(oraclesSF.Settlement.First_Look) + "<br>" +
+                "Władza: " + rollOnOracleSF(oraclesSF.Settlement.Authority) + "<br>" +
+                "Pierwszy kontakt: " + rollOnOracleSF(oraclesSF.Settlement.Initial_Contact) + "<br>" +
+                "Projekt: " + rollOnOracleSF(oraclesSF.Settlement.Projects) + "<br>" +
+                "Problem: " + rollOnOracleSF(oraclesSF.Settlement.Trouble) + "<br>" +
                 "</div>";
             if (display == null || display) {
                 displayInModal(txt);
@@ -470,11 +497,11 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
                 var access = "Access:" + "<br>" +
                     createDerelictFeaturesByZoneSF("Access");
             }
-            var result = "Zone:" + zone + "<br>" +
-                "Area:" + rollOnOracleSF(oraclesSF.Derelict[zone].Area) + "<br>" +
-                "Feature:" + rollOnOracleSF(oraclesSF.Derelict[zone].Feature) + "<br>" +
-                "Peril:" + rollOnOracleSF(oraclesSF.Derelict[zone].Peril) + "<br>" +
-                "Opportunity:" + rollOnOracleSF(oraclesSF.Derelict[zone].Opportunity) + "<br>" +
+            var result = "Strefa:" + zone + "<br>" +
+                "Obszar:" + rollOnOracleSF(oraclesSF.Derelict[zone].Area) + "<br>" +
+                "Cecha:" + rollOnOracleSF(oraclesSF.Derelict[zone].Feature) + "<br>" +
+                "Zagrożenie:" + rollOnOracleSF(oraclesSF.Derelict[zone].Peril) + "<br>" +
+                "Okazja:" + rollOnOracleSF(oraclesSF.Derelict[zone].Opportunity) + "<br>" +
                 access;
 
             return result;
@@ -501,20 +528,20 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
         }
 
         function createDerelictByLocationAndTypeSF(location, derelictType) {
-            var access = "<div style='background-color: " + BACKGROUND_COLOR_DERELICT_LOCATION + "; margin: 10px;'> Access:" + "<br>" +
+            var access = "<div style='background-color: " + BACKGROUND_COLOR_DERELICT_LOCATION + "; margin: 10px;'> Dostęp:" + "<br>" +
                 createDerelictFeaturesByZoneSF("Access") +
                 "</div>";
-            var firstZone = "<div style='background-color: " + BACKGROUND_COLOR_DERELICT_LOCATION + "; margin: 10px;'> First zone:" + "<br>" + createDerelictFeaturesByZoneSF(createDerelictZoneByTypeSF(derelictType)) +
+            var firstZone = "<div style='background-color: " + BACKGROUND_COLOR_DERELICT_LOCATION + "; margin: 10px;'> Pierwsza strefa:" + "<br>" + createDerelictFeaturesByZoneSF(createDerelictZoneByTypeSF(derelictType)) +
                 "</div>"
-            var secondZone = "<div style='background-color: " + BACKGROUND_COLOR_DERELICT_LOCATION + "; margin: 10px;'> Second zone:" + "<br>" + createDerelictFeaturesByZoneSF(createDerelictZoneByTypeSF(derelictType)) +
+            var secondZone = "<div style='background-color: " + BACKGROUND_COLOR_DERELICT_LOCATION + "; margin: 10px;'> Druga strefa:" + "<br>" + createDerelictFeaturesByZoneSF(createDerelictZoneByTypeSF(derelictType)) +
                 "</div>"
-            var thirdZone = "<div style='background-color: " + BACKGROUND_COLOR_DERELICT_LOCATION + "; margin: 10px;'> Third zone:" + "<br>" + createDerelictFeaturesByZoneSF(createDerelictZoneByTypeSF(derelictType)) +
+            var thirdZone = "<div style='background-color: " + BACKGROUND_COLOR_DERELICT_LOCATION + "; margin: 10px;'> Trzecia strefa:" + "<br>" + createDerelictFeaturesByZoneSF(createDerelictZoneByTypeSF(derelictType)) +
                 "</div>"
-            return "Location: " + location + "<br>" +
-                "Type: " + derelictType + "<br>" +
-                "Condition: " + rollOnOracleSF(oraclesSF.Derelict.Condition) + "<br>" +
-                "Outer First Look: " + rollOnOracleSF(oraclesSF.Derelict.Outer_First_Look) + "<br>" +
-                "Inner First Look: " + rollOnOracleSF(oraclesSF.Derelict.Inner_First_Look) + "<br>" +
+            return "Lokacja: " + location + "<br>" +
+                "Typ: " + derelictType + "<br>" +
+                "Stan: " + rollOnOracleSF(oraclesSF.Derelict.Condition) + "<br>" +
+                "Pierwszy rzut oka z zewnątrz: " + rollOnOracleSF(oraclesSF.Derelict.Outer_First_Look) + "<br>" +
+                "Pierwszy rzut oka z wewnątrz: " + rollOnOracleSF(oraclesSF.Derelict.Inner_First_Look) + "<br>" +
                 access + "<br>" +
                 firstZone + "<br>" +
                 secondZone + "<br>" +
@@ -537,7 +564,7 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
 
         function rollActionAndThemeSF(display) {
             var txt =
-                "Action and Theme: " +
+                "Akcja i Motyw: " +
                 rollOnOracleSF(oraclesSF.Core.Action) +
                 " " +
                 rollOnOracleSF(oraclesSF.Core.Theme)
@@ -549,7 +576,7 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
 
         function rollDescriptorAndFocusSF(display) {
             var txt =
-                "Descriptor and Focus: " +
+                "Opis i Skupienie: " +
                 rollOnOracleSF(oraclesSF.Core.Descriptor) +
                 " " +
                 rollOnOracleSF(oraclesSF.Core.Focus)
@@ -562,13 +589,13 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
         function createStarshipSF(display) {
             var txt = rollOnOracleSF(oraclesSF.Starship.Name) +
                 "<br>" +
-                "Starship Type: " + rollOnOracleSF(oraclesSF.Starship.Starship_Type) +
+                "Typ statku: " + rollOnOracleSF(oraclesSF.Starship.Starship_Type) +
                 "<br>" +
-                "Fleet: " + rollOnOracleSF(oraclesSF.Starship.Fleet) +
+                "Flota (opcjonalnie): " + rollOnOracleSF(oraclesSF.Starship.Fleet) +
                 "<br>" +
-                "Initial Contact: " + rollOnOracleSF(oraclesSF.Starship.Initial_Contact) +
+                "Pierwszy kontakt: " + rollOnOracleSF(oraclesSF.Starship.Initial_Contact) +
                 "<br>" +
-                "First Look: " + rollOnOracleSF(oraclesSF.Starship.First_Look)
+                "Pierwszy rzut oka: " + rollOnOracleSF(oraclesSF.Starship.First_Look)
             if (display == null || display) {
                 displayInModal(txt);
             }
