@@ -409,7 +409,7 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
 
         function createPlanetSF(display) {
             var planetaryClassText = cleanText(rollOnOracleSF(oraclesSF.Planet.Planetary_Class));
-            var planetaryClass = 'Vital World';//planetaryClassText.split(' ').slice(0, 2).join(' ');
+            var planetaryClass = planetaryClassText.split(' ').slice(0, 2).join(' ');
             var txt = "<div style='background-color: " + BACKGROUND_COLOR_PLANET + "; margin: 10px;'>" +
                 createPlanetFeaturesByClassSF(planetaryClass) +
                 "</div>";
