@@ -492,19 +492,21 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
 
         function createDerelictFeaturesByZoneSF(zone) {
             var zoneToRoll = zone;
-            if (zoneToRoll == "Społeczność") {
+            if (zoneToRoll == cleanText("Dostęp")) {
+                zoneToRoll = 'Access';
+            } else if (zoneToRoll == cleanText("Społeczność")) {
                 zoneToRoll = 'Community';
-            } else if (zoneToRoll == "Inżynieria") {
+            } else if (zoneToRoll == cleanText("Inżynieria")) {
                 zoneToRoll = 'Engineering';
-            } else if (zoneToRoll == "Niezbędne do życia") {
+            } else if (zoneToRoll == cleanText("Niezbędne do życia")) {
                 zoneToRoll = 'Living';
-            } else if (zoneToRoll == "Medycyna") {
+            } else if (zoneToRoll == cleanText("Medycyna")) {
                 zoneToRoll = 'Medical';
-            } else if (zoneToRoll == "Operacyjne") {
+            } else if (zoneToRoll == cleanText("Operacyjne")) {
                 zoneToRoll = 'Operations';
-            } else if (zoneToRoll == "Produkcja") {
+            } else if (zoneToRoll == cleanText("Produkcja")) {
                 zoneToRoll = 'Production';
-            } else if (zoneToRoll == "Badania") {
+            } else if (zoneToRoll == cleanText("Badania")) {
                 zoneToRoll = 'Research';
             }
 
