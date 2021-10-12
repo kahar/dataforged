@@ -513,6 +513,9 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
                 var access = "Dostęp:" + "<br>" +
                     createDerelictFeaturesByZoneSF("Access");
             }
+            if(zone == zoneToRoll){
+                console.log("Error" + zone + " " + zoneToRoll)
+            }
             var result = "Strefa:" + zone + "<br>" +
                 "Obszar:" + rollOnOracleSF(oraclesSF.Derelict[zoneToRoll].Area) + "<br>" +
                 "Cecha:" + rollOnOracleSF(oraclesSF.Derelict[zoneToRoll].Feature) + "<br>" +
