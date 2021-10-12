@@ -491,17 +491,33 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
 
 
         function createDerelictFeaturesByZoneSF(zone) {
+            var zoneToRoll = zone;
+            if (zoneToRoll == "Społeczność") {
+                zoneToRoll = 'Community';
+            } else if (zoneToRoll == "Inżynieria") {
+                zoneToRoll = 'Engineering';
+            } else if (zoneToRoll == "Niezbędne do życia") {
+                zoneToRoll = 'Living';
+            } else if (zoneToRoll == "Medycyna") {
+                zoneToRoll = 'Medical';
+            } else if (zoneToRoll == "Operacyjne") {
+                zoneToRoll = 'Operations';
+            } else if (zoneToRoll == "Produkcja") {
+                zoneToRoll = 'Production';
+            } else if (zoneToRoll == "Badania") {
+                zoneToRoll = 'Research';
+            }
 
             var access = "";
-            if (zone != 'Access') {
-                var access = "Access:" + "<br>" +
+            if (zoneToRoll != 'Access') {
+                var access = "Dostęp:" + "<br>" +
                     createDerelictFeaturesByZoneSF("Access");
             }
             var result = "Strefa:" + zone + "<br>" +
-                "Obszar:" + rollOnOracleSF(oraclesSF.Derelict[zone].Area) + "<br>" +
-                "Cecha:" + rollOnOracleSF(oraclesSF.Derelict[zone].Feature) + "<br>" +
-                "Zagrożenie:" + rollOnOracleSF(oraclesSF.Derelict[zone].Peril) + "<br>" +
-                "Okazja:" + rollOnOracleSF(oraclesSF.Derelict[zone].Opportunity) + "<br>" +
+                "Obszar:" + rollOnOracleSF(oraclesSF.Derelict[zoneToRoll].Area) + "<br>" +
+                "Cecha:" + rollOnOracleSF(oraclesSF.Derelict[zoneToRoll].Feature) + "<br>" +
+                "Zagrożenie:" + rollOnOracleSF(oraclesSF.Derelict[zoneToRoll].Peril) + "<br>" +
+                "Okazja:" + rollOnOracleSF(oraclesSF.Derelict[zoneToRoll].Opportunity) + "<br>" +
                 access;
 
             return result;
@@ -517,10 +533,10 @@ $.getJSON("https://raw.githubusercontent.com/kahar/dataforged/display/moves.json
 
         function createDerelictZoneByTypeSF(derelictType) {
             var result = "";
-            if (derelictType == "Starship") {
+            if (derelictType == "Statek kosmiczny") {
                 result = rollOnOracleSF(oraclesSF.Derelict.Zone["Derelict_Zone_-_Starship"])
             }
-            if (derelictType == "Settlement") {
+            if (derelictType == "Osada") {
                 result = rollOnOracleSF(oraclesSF.Derelict.Zone["Derelict_Zone_-_Settlement"])
             }
 
