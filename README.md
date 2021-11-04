@@ -1,3 +1,8 @@
+# From the fork's author
+The purpose of this repository is to translate some of the contents of the original repository into Polish. This is a completely fan translation.  
+Celem tego repozytorium jest tłumaczenie części zawartości oryginalnego repozytorium na język polski. Jest to całkowicie fanowskie tłumaczenie.
+
+
 # Dataforged
 
 Official *Ironsworn: Starforged* rules data in JSON, for use in community tools.
