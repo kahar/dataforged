@@ -1,10 +1,20 @@
+# From the fork's author
+
+The purpose of this repository is to translate some of the contents of the original repository into Polish. This is a
+completely fan translation.  
+Celem tego repozytorium jest tłumaczenie części zawartości oryginalnego repozytorium na język polski. Jest to całkowicie
+fanowskie tłumaczenie.
+
 # Dataforged
 
 Official *Ironsworn: Starforged* rules data in JSON, for use in community tools.
 
 ## Intent
 
-This repository is intended to give [*Starforged*'s kickstarter](https://www.kickstarter.com/projects/shawntomkin/ironsworn-starforged) backers access to game data to incorporate into their own *Starforged* tools; it has been left public in the interest of keeping it easily accessible (and, frankly, will be of limited use without the complete text of the Backer Preview).
+This repository is intended to give [*
+Starforged*'s kickstarter](https://www.kickstarter.com/projects/shawntomkin/ironsworn-starforged) backers access to game
+data to incorporate into their own *Starforged* tools; it has been left public in the interest of keeping it easily
+accessible (and, frankly, will be of limited use without the complete text of the Backer Preview).
 
 ## Licensing
 
@@ -18,26 +28,26 @@ Due to this being preview content, this repo is fairly unstable! As the game gro
 
 ## Current Version/Sources
 
-  * **Rulebook Backer Preview - 081921**
+* **Rulebook Backer Preview - 081921**
     * oracles (except move oracles)
     * encounters/NPCs
-  * **Moves Backer Preview (Discord) - 081921**
+* **Moves Backer Preview (Discord) - 081921**
     * moves
     * move oracles
-  * **Asset Backer Preview - 081921**
+* **Asset Backer Preview - 081921**
     * assets
 
 ## TODO
-  * [x] ~~implement standardized keys for references to other game objects, oracle tables, and multiple rolls~~
-  * [x] ~~normalize case of table strings (leaving only initialisms, proper nouns, and full sentences capitalized)~~
-  * [x] ~~all-in-one oracle file~~
-  * [x] ~~NPC entries from backer preview~~
-  * [ ] make moves more programmatically accessible
-  * [ ] make assets more programmatically accessible
-  * [ ] data for move glossary entries from backer preview
-  * [ ] do proper schemas for everything
-  * [ ] documentation of json keys and oracle meta-information
 
+* [x] ~~implement standardized keys for references to other game objects, oracle tables, and multiple rolls~~
+* [x] ~~normalize case of table strings (leaving only initialisms, proper nouns, and full sentences capitalized)~~
+* [x] ~~all-in-one oracle file~~
+* [x] ~~NPC entries from backer preview~~
+* [ ] make moves more programmatically accessible
+* [ ] make assets more programmatically accessible
+* [ ] data for move glossary entries from backer preview
+* [ ] do proper schemas for everything
+* [ ] documentation of json keys and oracle meta-information
 
 ## Credits
 
